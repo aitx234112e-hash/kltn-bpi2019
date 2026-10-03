@@ -1,0 +1,11 @@
+﻿Bước lọc,Số case,Số sự kiện,% case còn lại
+0. Toàn bộ log,251734,1595923,100.0%
+"1. Item Category = 3-way match, hóa đơn trước nhận hàng",221010,1234708,87.8%
+2. Document Type = Standard PO,220180,1224536,87.5%
+3. Item Type = Standard,211012,1176241,83.8%
+4. Company = companyID_0000,211010,1176235,83.8%
+5. Create Purchase Order Item trong năm 2018,210949,1176117,83.8%
+6. Loại case có timestamp lỗi (trước 2017 hoặc sau thời điểm trích xuất),210887,1175650,83.8%
+   Trong đó: Hoàn tất,164124,968833,77.8% (trên bước 6)
+   Trong đó: Còn mở,39496,188598,18.7% (trên bước 6)
+   Trong đó: Bị xóa,7267,18219,3.4% (trên bước 6)
