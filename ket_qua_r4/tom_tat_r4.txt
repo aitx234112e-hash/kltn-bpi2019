@@ -1,0 +1,17 @@
+R4 v2: 1,566 dòng hàng, 2,019 lần Clear bị bắt
+
+Phân loại theo lần Clear bị R4 bắt đầu tiên:
+                                                                 so_case   ty_le
+loai_r4                                                                         
+A2: chỉ còn debit memo, chưa trả hết                                 979  0.6252
+A1: còn hóa đơn chưa hủy, chưa trả hết                               399  0.2548
+A3: còn chứng từ nhưng đã trả đủ trước đó (lần này là trả thêm)      173  0.1105
+B: không còn chứng từ nào                                             15  0.0096
+
+Khoảng cách từ lần hủy đến Clear (ngày), theo loại: P25 / P50 / P75
+  A1: còn hóa đơn chưa hủy, chưa trả hết: 3.0 / 10.0 / 22.9; người làm Clear nhiều nhất: user_002 288, user_005 44, user_015 18
+  A2: chỉ còn debit memo, chưa trả hết: 3.1 / 20.8 / 31.0; người làm Clear nhiều nhất: user_002 721, user_027 74, user_005 62
+  A3: còn chứng từ nhưng đã trả đủ trước đó (lần này là trả thêm): 6.1 / 10.3 / 27.9; người làm Clear nhiều nhất: user_002 134, user_005 16, user_111 10
+  B: không còn chứng từ nào: 1.5 / 6.6 / 7.5; người làm Clear nhiều nhất: user_002 13, user_005 2
+
+Mẫu R4 v2: lấy 20 case

@@ -1,0 +1,120 @@
+case,act,ts,user,item_category,item_type,doc_type,company
+2000000005_00002,SRM: Created,2018-01-08 09:08:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000005_00002,SRM: Complete,2018-01-08 10:08:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000005_00002,SRM: Awaiting Approval,2018-01-08 10:08:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000005_00002,SRM: Document Completed,2018-01-08 10:08:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000005_00002,SRM: In Transfer to Execution Syst.,2018-01-08 10:09:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000005_00002,SRM: Ordered,2018-01-08 10:09:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000005_00002,Create Purchase Order Item,2018-01-08 10:09:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000005_00002,SRM: Change was Transmitted,2018-01-08 10:09:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,SRM: Created,2018-01-17 06:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,SRM: Complete,2018-01-17 07:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,SRM: Awaiting Approval,2018-01-17 07:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,SRM: Document Completed,2018-01-17 07:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,SRM: In Transfer to Execution Syst.,2018-01-17 07:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,SRM: Ordered,2018-01-17 07:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,SRM: Change was Transmitted,2018-01-17 07:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000043_00001,Create Purchase Order Item,2018-01-17 07:12:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: Created,2018-01-19 18:15:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: Complete,2018-01-19 19:15:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: Awaiting Approval,2018-01-19 19:15:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: Document Completed,2018-01-19 19:15:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: Ordered,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: In Transfer to Execution Syst.,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,Create Purchase Order Item,2018-01-19 19:16:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: Change was Transmitted,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000062_00001,SRM: In Transfer to Execution Syst.,2018-07-06 12:10:00,user_025,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: Created,2018-01-19 18:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: Complete,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: Awaiting Approval,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: Document Completed,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: Ordered,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: In Transfer to Execution Syst.,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,Create Purchase Order Item,2018-01-19 19:16:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: Change was Transmitted,2018-01-19 19:16:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000063_00001,SRM: In Transfer to Execution Syst.,2018-07-06 12:10:00,user_025,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,SRM: Created,2018-01-22 09:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,SRM: Complete,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,SRM: Awaiting Approval,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,SRM: Document Completed,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,SRM: In Transfer to Execution Syst.,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,SRM: Ordered,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,SRM: Change was Transmitted,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000076_00003,Create Purchase Order Item,2018-01-22 10:14:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,SRM: Created,2018-01-22 09:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,SRM: Complete,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,SRM: Awaiting Approval,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,SRM: Document Completed,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,SRM: In Transfer to Execution Syst.,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,SRM: Ordered,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,Create Purchase Order Item,2018-01-22 10:14:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000077_00002,SRM: Change was Transmitted,2018-01-22 10:14:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,SRM: Created,2018-01-23 13:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,SRM: Complete,2018-01-23 14:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,SRM: Awaiting Approval,2018-01-23 14:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,SRM: Document Completed,2018-01-23 14:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,SRM: In Transfer to Execution Syst.,2018-01-23 14:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,SRM: Ordered,2018-01-23 14:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,SRM: Change was Transmitted,2018-01-23 14:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000080_00002,Create Purchase Order Item,2018-01-23 14:24:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,SRM: Created,2018-01-29 13:27:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,SRM: Complete,2018-01-29 14:27:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,SRM: Awaiting Approval,2018-01-29 14:27:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,SRM: Document Completed,2018-01-29 14:27:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,SRM: In Transfer to Execution Syst.,2018-01-29 14:27:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,SRM: Ordered,2018-01-29 14:27:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,SRM: Change was Transmitted,2018-01-29 14:27:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000105_00001,Create Purchase Order Item,2018-01-29 14:27:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,SRM: Created,2018-01-31 12:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,SRM: Complete,2018-01-31 13:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,SRM: Awaiting Approval,2018-01-31 13:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,SRM: Document Completed,2018-01-31 13:12:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,SRM: In Transfer to Execution Syst.,2018-01-31 13:13:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,SRM: Ordered,2018-01-31 13:13:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,SRM: Change was Transmitted,2018-01-31 13:13:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000119_00001,Create Purchase Order Item,2018-01-31 13:13:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000136_00001,SRM: Created,2018-02-07 08:36:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,SRM: Complete,2018-02-07 09:36:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,SRM: Awaiting Approval,2018-02-07 09:36:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,SRM: Document Completed,2018-02-07 09:36:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,SRM: Ordered,2018-02-07 09:36:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,SRM: Change was Transmitted,2018-02-07 09:36:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,SRM: In Transfer to Execution Syst.,2018-02-07 09:36:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,Create Purchase Order Item,2018-02-07 09:36:00,user_000,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000136_00001,Record Goods Receipt,2018-09-26 12:50:00,user_000,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000183_00001,SRM: Created,2018-02-20 09:06:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,SRM: Complete,2018-02-20 10:06:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,SRM: Awaiting Approval,2018-02-20 10:06:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,SRM: Document Completed,2018-02-20 10:06:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,SRM: In Transfer to Execution Syst.,2018-02-20 10:06:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,SRM: Ordered,2018-02-20 10:06:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,SRM: Change was Transmitted,2018-02-20 10:06:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,Create Purchase Order Item,2018-02-20 10:06:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000183_00001,SRM: Transaction Completed,2018-03-14 10:18:00,user_022,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+4507000256_00010,Create Purchase Order Item,2018-01-02 07:51:00,user_043,Consignment,Consignment,Standard PO,companyID_0000
+4507000256_00010,Record Goods Receipt,2018-01-10 11:39:00,user_044,Consignment,Consignment,Standard PO,companyID_0000
+4507000256_00010,Change Quantity,2018-02-09 15:55:00,user_043,Consignment,Consignment,Standard PO,companyID_0000
+4507000265_00010,Create Purchase Order Item,2018-01-02 08:51:00,user_052,Consignment,Consignment,Standard PO,companyID_0000
+4507000265_00010,Record Goods Receipt,2018-01-18 10:02:00,user_053,Consignment,Consignment,Standard PO,companyID_0000
+4507000265_00020,Create Purchase Order Item,2018-01-02 08:51:00,user_052,Consignment,Consignment,Standard PO,companyID_0000
+4507000265_00020,Record Goods Receipt,2018-01-18 10:02:00,user_053,Consignment,Consignment,Standard PO,companyID_0000
+4507000283_00010,Create Purchase Order Item,2018-01-02 10:08:00,user_059,Consignment,Consignment,Standard PO,companyID_0000
+4507000283_00010,Record Goods Receipt,2018-03-12 17:33:00,user_031,Consignment,Consignment,Standard PO,companyID_0000
+4507000284_00010,Create Purchase Order Item,2018-01-02 10:10:00,user_059,Consignment,Consignment,Standard PO,companyID_0000
+4507000284_00010,Record Goods Receipt,2018-03-13 14:26:00,user_031,Consignment,Consignment,Standard PO,companyID_0000
+4507000288_00010,Create Purchase Order Item,2018-01-02 10:18:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000288_00010,Record Goods Receipt,2018-01-17 06:27:00,user_030,Consignment,Consignment,Standard PO,companyID_0000
+4507000288_00010,Change Quantity,2018-01-26 11:53:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000288_00010,Change Delivery Indicator,2018-01-26 11:53:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000288_00010,Record Goods Receipt,2018-01-26 12:43:00,user_030,Consignment,Consignment,Standard PO,companyID_0000
+4507000289_00010,Create Purchase Order Item,2018-01-02 10:19:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000289_00010,Record Goods Receipt,2018-01-18 06:48:00,user_030,Consignment,Consignment,Standard PO,companyID_0000
+4507000289_00010,Change Quantity,2018-01-18 10:09:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000289_00010,Change Delivery Indicator,2018-01-18 10:09:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000289_00010,Record Goods Receipt,2018-01-18 11:19:00,user_030,Consignment,Consignment,Standard PO,companyID_0000
+4507000290_00010,Create Purchase Order Item,2018-01-02 10:19:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000290_00010,Change Quantity,2018-01-18 14:36:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000290_00010,Record Goods Receipt,2018-01-19 06:40:00,user_030,Consignment,Consignment,Standard PO,companyID_0000
+4507000291_00010,Create Purchase Order Item,2018-01-02 10:19:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000291_00010,Change Quantity,2018-01-19 15:50:00,user_064,Consignment,Consignment,Standard PO,companyID_0000
+4507000291_00010,Record Goods Receipt,2018-01-22 06:35:00,user_065,Consignment,Consignment,Standard PO,companyID_0000

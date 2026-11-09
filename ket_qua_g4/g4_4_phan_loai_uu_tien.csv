@@ -1,0 +1,8 @@
+﻿loai,so_case,ty_le
+1. chỉ vượt do đếm Clear cùng timestamp,135,0.1536
+2. trả trước khi ghi nhận hóa đơn,63,0.0717
+3. có hủy và debit memo,467,0.5313
+"4. không hủy, không debit memo",150,0.1706
+"5. có debit memo, không hủy",44,0.0501
+"6. có hủy, không debit memo",20,0.0228
+Tổng (= R5 v2.1),879,1.0

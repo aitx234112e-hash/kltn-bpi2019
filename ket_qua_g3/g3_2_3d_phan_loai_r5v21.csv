@@ -1,0 +1,7 @@
+﻿loai_mau_vet,so_case,ty_le
+có hủy và debit memo,479,0.5449
+"không hủy, không memo",150,0.1706
+chỉ vượt ở Clear cùng timestamp,112,0.1274
+trả trước khi ghi nhận hóa đơn (chỉ v2.1),62,0.0705
+"có debit memo, không hủy",56,0.0637
+"có hủy, không memo",20,0.0228

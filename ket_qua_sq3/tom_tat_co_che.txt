@@ -1,0 +1,28 @@
+Đọc log xong sau 69 giây.
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Số dòng hàng theo luật khớp kiểm chứng (R2a 508, R3 2.008, R6 650, R7b 2.430, làm lại 2.982).
+Mọi dòng hàng bị đánh dấu đều có thời điểm dấu hiệu.
+
+=== 1. Từ dấu hiệu đến lần thanh toán cuối cùng (dòng hoàn tất, dấu hiệu trước thanh toán) ===
+R2a: 464 dòng; ngày từ dấu hiệu đến thanh toán 41,6 [19,5–99,9]; trong 7 ngày 48 (10,3%), trong 14 ngày 84 (18,1%); dấu hiệu ở ngày 23,1 [14,8–43,4] kể từ khi tạo
+R3: 1.848 dòng; ngày từ dấu hiệu đến thanh toán 36,6 [14,0–59,1]; trong 7 ngày 268 (14,5%), trong 14 ngày 453 (24,5%); dấu hiệu ở ngày 45,9 [28,1–71,3] kể từ khi tạo
+Làm lại: 2.434 dòng; ngày từ dấu hiệu đến thanh toán 12,3 [4,1–29,7]; trong 7 ngày 805 (33,1%), trong 14 ngày 1.303 (53,5%); dấu hiệu ở ngày 71,1 [48,5–133,1] kể từ khi tạo
+R6 (nhận hàng do người tạo đơn): 487 dòng; ngày từ dấu hiệu đến thanh toán 62,8 [37,2–85,1]; trong 7 ngày 21 (4,3%), trong 14 ngày 30 (6,2%); dấu hiệu ở ngày 20,1 [6,1–55,8] kể từ khi tạo
+So sánh: toàn bộ dòng hoàn tất, ngày từ ghi nhận hóa đơn cuối cùng đến thanh toán 43,0 [22,7–71,7]
+
+=== 2. Làm lại và định nghĩa trạng thái ===
+Dòng làm lại, hàng = định nghĩa chính, cột = định nghĩa có debit memo:
+  tt_cu     Còn mở  Hoàn tất
+  tt_moi                    
+  Còn mở       544         0
+  Hoàn tất    1368      1070
+Dòng đổi trạng thái giữa hai định nghĩa: 1.816; trong đó là dòng làm lại 1.368 (75,3%)
+Dòng làm lại có debit memo: 2.982 (100,0%); dòng không làm lại có debit memo: 2.074 (1,00%)
+
+=== 3. Biến thể phụ của R7: mốc thời gian ===
+Ngày hóa đơn của nhà cung cấp sớm hơn ngày tạo dòng đơn hàng (R7b): 15,0 [7,0–30,0] ngày
+  Tính từ tạo dòng đơn hàng: dòng hoàn tất R7b 36,2 [22,2–51,2], không R7b 78,0 [56,1–106,4]; trung vị KM 38 so với 86 ngày
+  Tính từ ngày hóa đơn nhà cung cấp: dòng hoàn tất R7b 55,7 [45,6–72,5], không R7b 65,4 [49,5–88,4]; trung vị KM 57 so với 71 ngày
+  Dòng không có ngày hóa đơn nhà cung cấp: 12.604

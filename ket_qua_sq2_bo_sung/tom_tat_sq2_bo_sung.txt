@@ -1,0 +1,23 @@
+Phạm vi 210.887 dòng hàng. Thời điểm trích xuất: 2019-01-18 13:34:00
+
+=== 1. R6 tách hai nhóm mô tả (650 dòng hàng) ===
+  cùng phút: 24 (3,69%) dòng R6; nhận hàng nằm trong 2 sự kiện đầu của vết: 20; trung vị khoảng cách 0,00 ngày
+  khác thời điểm: 626 (96,31%) dòng R6; nhận hàng nằm trong 2 sự kiện đầu của vết: 176; trung vị khoảng cách 23,07 ngày
+  cùng phút, 3 nhà cung cấp nhiều nhất: vendorID_0581 5; vendorID_0897 5; vendorID_0184 2
+  khác thời điểm, 3 nhà cung cấp nhiều nhất: vendorID_0741 128; vendorID_0572 65; vendorID_0269 44
+
+=== 2. R7 dạng khoảng ===
+  Hóa đơn nhà cung cấp trước ngày tạo dòng đơn hàng (biến thể phụ): 2.430 (1,15%)
+  Cùng ngày: 11.671 (5,53%)
+  Trước hoặc cùng ngày: 14.101 (6,69%)
+
+=== 3. Nhiều lần nhận hàng hoặc ghi nhận hóa đơn ===
+  Có từ 2 lần nhận hàng: 6.936 (3,29%) (trên dòng có nhận hàng: 6.936 (3,51%))
+  Có từ 2 lần ghi nhận hóa đơn: 7.827 (3,71%) (trên dòng có hóa đơn: 7.827 (4,09%))
+  Có ít nhất một trong hai: 11.216 (5,32%)
+  Đúng 1 lần nhận hàng và 1 lần ghi nhận hóa đơn: 180.222 (85,46%)
+
+=== 4. R1 trên dòng hàng không có lần hủy nào (khám phá sau đóng băng, không vào nhãn) ===
+  Dòng hàng có hủy (Cancel Invoice Receipt hoặc Cancel Goods Receipt): 6.369 (3,02%)
+  R1 trên toàn phạm vi: 654 (0,31%); trong đó trên dòng không hủy: 69 (10,6% số dòng R1; 0,034% số dòng không hủy)
+  Mẫu đọc tay: 63 case chưa đọc, lấy 20 (mau_r1_khong_huy.csv)

@@ -1,0 +1,221 @@
+﻿luat,nhom,case,ket_qua,ghi_chu
+R1,bi_danh_dau,4507004049_00030,báo nhầm do dữ liệu,"Clear sau hủy là bù trừ trễ, không phải trả tiền"
+R1,bi_danh_dau,4507009149_00030,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507012059_00020,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507014355_00060,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507014514_00010,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507019327_00250,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507021944_00120,báo nhầm do dữ liệu,"Clear sau hủy là bù trừ trễ, không phải trả tiền"
+R1,bi_danh_dau,4507022550_00020,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507022550_00060,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507025473_00140,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4507040501_00020,đúng,"IR, gỡ khóa rồi trả; không có nhận hàng nào"
+R1,bi_danh_dau,4507041706_00020,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4508042337_00020,đúng,"IR, gỡ khóa rồi trả; không có nhận hàng nào"
+R1,bi_danh_dau,4508047524_00030,báo nhầm do dữ liệu,"Clear sau hủy là bù trừ trễ, không phải trả tiền"
+R1,bi_danh_dau,4508048991_00040,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4508051516_00020,đúng,"IR, gỡ khóa rồi trả; không có nhận hàng nào"
+R1,bi_danh_dau,4508056956_00080,báo nhầm do dữ liệu,"Clear sau hủy là bù trừ trễ, không phải trả tiền"
+R1,bi_danh_dau,4508057520_00030,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4508057520_00210,báo nhầm do dữ liệu,"Dòng chỉ có hủy (Cancel GR, Cancel IR), không có GR/IR; Clear là bù trừ các lần hủy, ghép không được trong Δ"
+R1,bi_danh_dau,4508064093_00010,đúng,"IR, gỡ khóa rồi trả; không có nhận hàng nào"
+R2a,bi_danh_dau,4507000611_00010,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507006177_00010,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507008506_00020,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507011952_00030,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507015397_00030,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507015785_00120,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507015961_00250,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507017560_00010,đúng,Gỡ khóa và trả khoảng 5 tháng trước khi nhận hàng
+R2a,bi_danh_dau,4507017560_00020,đúng,Gỡ khóa và trả khoảng 5 tháng trước khi nhận hàng
+R2a,bi_danh_dau,4507019327_00120,báo nhầm do dữ liệu,"Dòng chỉ có hủy, không có GR"
+R2a,bi_danh_dau,4507019327_00160,báo nhầm do dữ liệu,"Dòng chỉ có hủy, không có GR"
+R2a,bi_danh_dau,4507019586_00010,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507020977_00060,không xác định,Không đủ thông tin để biết lý do gỡ khóa
+R2a,bi_danh_dau,4507021585_00050,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507021947_00110,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507021947_00490,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507026595_00010,đúng,Gỡ khóa nhưng không bao giờ nhận hàng
+R2a,bi_danh_dau,4507029805_00010,không xác định,Không đủ thông tin để biết lý do gỡ khóa
+R2a,bi_danh_dau,4507032456_00010,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R2a,bi_danh_dau,4507038928_00010,đúng,Gỡ khóa trước nhận hàng đầu tiên (vài giờ đến vài ngày)
+R3,bi_danh_dau,4507000804_00020,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507001246_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507002130_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507002868_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507004130_00040,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507004659_00020,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507005232_00090,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507012662_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507013270_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507014295_00100,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507017324_00020,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507022686_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507022858_00080,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507026332_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507028653_00070,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507028709_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4507033393_00020,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4508048306_00010,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4508059911_00060,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R3,bi_danh_dau,4508065134_00020,đúng,Change Price sau IR; nhiều case sửa giá rồi batch gỡ khóa cùng phút (sửa giá cho khớp hóa đơn)
+R6,bi_danh_dau,4507003299_00180,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4507005347_00020,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4507010379_00260,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4507013283_00020,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4507014372_00020,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4507017938_00010,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4507021759_00020,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4507023687_00200,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4507027336_00010,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4507032205_00060,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4507040460_00020,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4507040901_00070,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4508046298_00010,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4508053705_00030,đúng,Cùng người tạo dòng PO và nhận hàng trong vòng 1 phút (dòng PO tạo lúc nhập kho)
+R6,bi_danh_dau,4508061192_00040,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4508061517_00010,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4508064149_00010,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4508065566_00010,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4508069394_00020,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R6,bi_danh_dau,4508070833_00010,đúng,"Cùng người tạo dòng PO và nhận hàng, cách nhau nhiều ngày"
+R7b,bi_danh_dau,4507003299_00140,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507007646_00070,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507010300_00410,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507011394_00020,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507014953_00530,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507021407_00060,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507021407_00330,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507021608_00010,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507021930_00240,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4507033835_00010,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508048892_00270,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508049391_00040,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508049619_00070,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508056772_00250,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508056772_00260,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508058968_00400,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508058968_00430,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508060634_00050,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508064611_00350,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R7b,bi_danh_dau,4508070089_00290,đúng,Ngày hóa đơn nhà cung cấp sớm hơn ngày tạo dòng PO (1 ngày đến 4 tháng)
+R1,khong_bi_danh_dau,4507001171_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507006219_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507011033_00050,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507012906_00080,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507014960_00030,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507017671_00050,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507020896_00060,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507023099_00280,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507026916_00120,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507027270_00080,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507027882_00130,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507028973_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507029814_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507032628_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507037323_00170,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507041727_00200,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4507041764_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4508052432_00060,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4508054293_00030,đúng,"Không có dấu hiệu, đúng như luật"
+R1,khong_bi_danh_dau,4508069760_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507000257_00170,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507002853_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507004342_00150,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507006687_00100,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507013123_00070,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507018541_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507021317_00150,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507022702_00380,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507024092_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507024311_00080,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507030019_00120,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507034349_00100,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4507035870_00490,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4508048861_00150,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4508050286_00140,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4508052202_00100,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4508055677_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4508061822_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4508064313_00040,đúng,"Không có dấu hiệu, đúng như luật"
+R2a,khong_bi_danh_dau,4508072849_00140,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507004606_00170,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507009160_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507009193_00070,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507009384_00470,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507014580_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507018221_00060,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507020935_00070,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507028097_00050,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4507035626_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508046153_00270,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508046287_00240,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508046913_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508048150_00050,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508056515_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508058591_00210,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508058591_00240,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508059706_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508061204_00160,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508069682_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R3,khong_bi_danh_dau,4508074952_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507000412_00050,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507003538_00160,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507007860_00040,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507010563_00040,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507016470_00100,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507018442_00100,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507025357_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507026025_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507027445_00110,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507030122_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4507038924_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508044433_00050,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508044443_00060,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508050394_00060,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508050864_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508053035_00130,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508062828_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508068701_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508070666_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R6,khong_bi_danh_dau,4508072350_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507003075_00150,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507003535_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507009866_00070,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507011849_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507014030_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507018020_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507018095_00440,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507019195_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507019663_00040,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507020326_00170,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507026152_00001,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507030221_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507031198_00040,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507034411_00190,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4507039930_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4508048093_00070,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4508055028_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4508056994_00280,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4508057731_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R7,khong_bi_danh_dau,4508063502_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507001986_00220,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507002218_00100,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507013377_00510,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507015612_00320,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507021153_00140,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507025474_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507028719_00030,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507033002_00200,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4507035820_00070,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508042098_00200,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508047045_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508052113_00040,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508054167_00090,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508056304_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508056548_00250,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508062309_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508062700_00020,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508064247_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508066646_00010,đúng,"Không có dấu hiệu, đúng như luật"
+R7b,khong_bi_danh_dau,4508075086_00010,đúng,"Không có dấu hiệu, đúng như luật"

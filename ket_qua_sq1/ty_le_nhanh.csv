@@ -1,0 +1,7 @@
+﻿nhanh,so_case,so_case_co_rpb,ty_le,ty_le_co_rpb_trong_nhom
+(a) GR trước IR,175935,37167,0.834262,0.211254
+(b) IR trước GR,15293,14822,0.072518,0.969202
+trùng thời điểm,9,1,4.3e-05,0.111111
+chỉ có GR,6179,0,0.0293,0.0
+chỉ có IR,314,168,0.001489,0.535032
+không có cả hai,13157,39,0.062389,0.002964

@@ -1,0 +1,173 @@
+Đọc log xong sau 90 giây.
+Phạm vi 210.887 dòng hàng, 1.175.650 sự kiện. Thời điểm trích xuất: 2019-01-18 13:34:00
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Số dòng hàng theo luật khớp kiểm chứng (R2a 508, R3 2.008, R6 650).
+Mọi dòng hàng bị đánh dấu đều có thời điểm dấu hiệu.
+Dòng hàng thiếu giá trị tại Create Purchase Order Item: 1.428; R1 có thời điểm: 654 (kỳ vọng 654); R5 v2.2 có thời điểm: 681 (kỳ vọng 681).
+29 hoạt động làm biến đếm (Clear Invoice tách hai loại). Seed 2026; 5 phần theo đơn mua hàng; lưới: LR 4 bộ, XGBoost 8 bộ; bootstrap 1.000 lần.
+Xác suất dự báo chỉ dùng để xếp hạng (class weight; hai tập có tỷ lệ nhãn 1 khác nhau): không báo Brier, đường hiệu chỉnh hay ngưỡng 0,5; Precision@k và lift theo top k%.
+(*) tập kiểm tra có dưới 100 dòng nhãn 1 (toàn nhãn, hoặc của riêng luật / tháng): chỉ báo cáo, không kết luận.
+
+=== chinh: Nhãn chính (R2a, R3, R6), H = 90, toàn bộ ===
+  Tiền tố 2: huấn luyện 54.868 dòng (1.057 nhãn 1); kiểm tra 530 (0,87%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0087; chạy 298.0 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0385 (0,0304–0,0513)   0,7399  0,0435     5,02  0,0303      3,49
+    Logistic Regression                0,0665 (0,0490–0,0888)   0,7365  0,0478     5,51  0,0337      3,89
+    Mốc 1: biến lúc tạo                0,0583 (0,0436–0,0778)   0,7350  0,0497     5,74  0,0325      3,75
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0646 (0,0476–0,0855)   0,7548  0,0429     4,94  0,0371      4,28
+    Chênh PR-AUC XGBoost − Logistic Regression: -0,0280 (-0,0435–-0,0138), p bootstrap = < 0,001
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: -0,0197 (-0,0322–-0,0091), p bootstrap = < 0,001
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: -0,0261 (-0,0402–-0,0126), p bootstrap = < 0,001
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: 0,0082 (-0,0010–0,0195), p bootstrap = 0,082
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0018 (-0,0034–0,0099), p bootstrap = 0,434
+    Theo luật R2a: 85 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0018 (mốc ngẫu nhiên 0,0014) (*)
+    Theo luật R3: 335 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0144 (mốc ngẫu nhiên 0,0055)
+    Theo luật R6: 112 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0636 (mốc ngẫu nhiên 0,0018)
+  Tiền tố 3: huấn luyện 52.279 dòng (980 nhãn 1); kiểm tra 475 (0,81%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0081; chạy 244.3 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0279 (0,0216–0,0403)   0,7314  0,0340     4,21  0,0264      3,26
+    Logistic Regression                0,0337 (0,0273–0,0454)   0,7728  0,0398     4,93  0,0315      3,89
+    Mốc 1: biến lúc tạo                0,0249 (0,0199–0,0329)   0,7005  0,0333     4,13  0,0245      3,03
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0274 (0,0219–0,0371)   0,7368  0,0320     3,96  0,0320      3,96
+    Chênh PR-AUC XGBoost − Logistic Regression: -0,0058 (-0,0120–0,0014), p bootstrap = 0,112
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: 0,0030 (-0,0024–0,0110), p bootstrap = 0,302
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0005 (-0,0053–0,0080), p bootstrap = 0,820
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: 0,0088 (0,0025–0,0169), p bootstrap = 0,010
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0063 (0,0035–0,0106), p bootstrap = < 0,001
+    Theo luật R2a: 85 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0028 (mốc ngẫu nhiên 0,0015) (*)
+    Theo luật R3: 335 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0170 (mốc ngẫu nhiên 0,0057)
+    Theo luật R6: 57 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0388 (mốc ngẫu nhiên 0,0010) (*)
+  Tiền tố 4: huấn luyện 49.586 dòng (807 nhãn 1); kiểm tra 396 (0,70%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0070; chạy 216.7 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0246 (0,0202–0,0325)   0,7704  0,0342     4,90  0,0273      3,91
+    Logistic Regression                0,0235 (0,0197–0,0290)   0,7644  0,0321     4,59  0,0268      3,84
+    Mốc 1: biến lúc tạo                0,0213 (0,0175–0,0271)   0,7106  0,0328     4,70  0,0238      3,41
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0179 (0,0149–0,0224)   0,7156  0,0254     3,64  0,0238      3,41
+    Chênh PR-AUC XGBoost − Logistic Regression: 0,0010 (-0,0020–0,0059), p bootstrap = 0,474
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: 0,0033 (-0,0002–0,0077), p bootstrap = 0,080
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0066 (0,0031–0,0120), p bootstrap = < 0,001
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: 0,0022 (-0,0013–0,0055), p bootstrap = 0,232
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0056 (0,0035–0,0078), p bootstrap = < 0,001
+    Theo luật R2a: 42 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0044 (mốc ngẫu nhiên 0,0007) (*)
+    Theo luật R3: 330 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0194 (mốc ngẫu nhiên 0,0058)
+    Theo luật R6: 26 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0026 (mốc ngẫu nhiên 0,0005) (*)
+  Tiền tố 5: huấn luyện 40.319 dòng (387 nhãn 1); kiểm tra 221 (0,47%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0047; chạy 237.0 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0196 (0,0148–0,0281)   0,8176  0,0208     4,43  0,0172      3,66
+    Logistic Regression                0,0199 (0,0156–0,0273)   0,8111  0,0229     4,89  0,0199      4,25
+    Mốc 1: biến lúc tạo                0,0105 (0,0081–0,0143)   0,6544  0,0182     3,89  0,0121      2,58
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0109 (0,0083–0,0155)   0,6803  0,0127     2,71  0,0140      2,99
+    Chênh PR-AUC XGBoost − Logistic Regression: -0,0003 (-0,0047–0,0051), p bootstrap = 0,928
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: 0,0092 (0,0057–0,0151), p bootstrap = < 0,001
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0087 (0,0050–0,0151), p bootstrap = < 0,001
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: 0,0095 (0,0063–0,0142), p bootstrap = < 0,001
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0090 (0,0065–0,0127), p bootstrap = < 0,001
+    Theo luật R2a: 34 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0056 (mốc ngẫu nhiên 0,0007) (*)
+    Theo luật R3: 179 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0148 (mốc ngẫu nhiên 0,0038)
+    Theo luật R6: 10 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0010 (mốc ngẫu nhiên 0,0002) (*)
+
+=== R3: Nhãn R3 riêng, H = 90, toàn bộ ===
+  Tiền tố 2: huấn luyện 54.915 dòng (729 nhãn 1); kiểm tra 335 (0,55%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0055; chạy 85.6 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0175 (0,0143–0,0222)   0,7582  0,0262     4,78  0,0183      3,34
+    Logistic Regression                0,0163 (0,0134–0,0203)   0,7189  0,0245     4,48  0,0177      3,22
+    Mốc 1: biến lúc tạo                0,0195 (0,0148–0,0285)   0,7469  0,0245     4,48  0,0191      3,49
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0161 (0,0133–0,0202)   0,7345  0,0268     4,90  0,0216      3,94
+    Chênh PR-AUC XGBoost − Logistic Regression: 0,0012 (-0,0009–0,0039), p bootstrap = 0,250
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: -0,0020 (-0,0070–0,0007), p bootstrap = 0,194
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0014 (-0,0007–0,0044), p bootstrap = 0,162
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: -0,0032 (-0,0096–0,0003), p bootstrap = 0,082
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0002 (-0,0012–0,0018), p bootstrap = 0,744
+    Theo luật R3: 335 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0175 (mốc ngẫu nhiên 0,0055)
+  Tiền tố 3: huấn luyện 52.400 dòng (729 nhãn 1); kiểm tra 335 (0,57%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0057; chạy 70.0 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0170 (0,0141–0,0222)   0,7464  0,0231     4,06  0,0180      3,16
+    Logistic Regression                0,0179 (0,0150–0,0221)   0,7531  0,0255     4,48  0,0197      3,46
+    Mốc 1: biến lúc tạo                0,0200 (0,0161–0,0269)   0,7536  0,0272     4,78  0,0216      3,79
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0167 (0,0138–0,0208)   0,7351  0,0272     4,78  0,0224      3,94
+    Chênh PR-AUC XGBoost − Logistic Regression: -0,0008 (-0,0031–0,0024), p bootstrap = 0,638
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: -0,0029 (-0,0066–-0,0005), p bootstrap = 0,030
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0004 (-0,0018–0,0035), p bootstrap = 0,662
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: -0,0021 (-0,0063–0,0005), p bootstrap = 0,134
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0012 (-0,0002–0,0029), p bootstrap = 0,084
+    Theo luật R3: 335 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0170 (mốc ngẫu nhiên 0,0057)
+  Tiền tố 4: huấn luyện 49.841 dòng (713 nhãn 1); kiểm tra 330 (0,58%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0058; chạy 67.9 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0186 (0,0154–0,0239)   0,7557  0,0263     4,54  0,0207      3,58
+    Logistic Regression                0,0179 (0,0151–0,0221)   0,7590  0,0260     4,48  0,0195      3,36
+    Mốc 1: biến lúc tạo                0,0189 (0,0152–0,0254)   0,7422  0,0256     4,42  0,0190      3,27
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0162 (0,0135–0,0202)   0,7315  0,0263     4,54  0,0223      3,85
+    Chênh PR-AUC XGBoost − Logistic Regression: 0,0007 (-0,0013–0,0033), p bootstrap = 0,454
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: -0,0003 (-0,0038–0,0022), p bootstrap = 0,732
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0024 (0,0005–0,0051), p bootstrap = 0,022
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: -0,0010 (-0,0060–0,0019), p bootstrap = 0,488
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0017 (0,0002–0,0034), p bootstrap = 0,030
+    Theo luật R3: 330 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0186 (mốc ngẫu nhiên 0,0058)
+  Tiền tố 5: huấn luyện 40.585 dòng (334 nhãn 1); kiểm tra 179 (0,38%) nhãn 1; mốc ngẫu nhiên PR-AUC = 0,0038; chạy 59.4 giây
+    Mô hình                                    PR-AUC (KTC 95%)  AUC-ROC    P@5%  Lift@5%   P@10%  Lift@10%
+    XGBoost                            0,0144 (0,0110–0,0208)   0,7957  0,0190     5,03  0,0125      3,30
+    Logistic Regression                0,0159 (0,0123–0,0219)   0,8093  0,0182     4,80  0,0173      4,58
+    Mốc 1: biến lúc tạo                0,0110 (0,0081–0,0167)   0,6951  0,0144     3,80  0,0099      2,63
+    Mốc 2: tỷ lệ của nhà cung cấp      0,0111 (0,0084–0,0151)   0,7253  0,0212     5,59  0,0131      3,46
+    Chênh PR-AUC XGBoost − Logistic Regression: -0,0015 (-0,0048–0,0025), p bootstrap = 0,404
+    Chênh PR-AUC XGBoost − Mốc 1: biến lúc tạo: 0,0034 (0,0009–0,0065), p bootstrap = 0,012
+    Chênh PR-AUC XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0033 (0,0009–0,0076), p bootstrap = 0,008
+    Chênh PR-AUC Logistic Regression − Mốc 1: biến lúc tạo: 0,0049 (0,0011–0,0087), p bootstrap = 0,022
+    Chênh PR-AUC Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0048 (0,0027–0,0076), p bootstrap = < 0,001
+    Theo luật R3: 179 dòng nhãn 1 trong tập kiểm tra; PR-AUC XGBoost 0,0144 (mốc ngẫu nhiên 0,0038)
+
+PR-AUC theo tháng tạo của tập kiểm tra, XGBoost (tỷ số = PR-AUC / tỷ lệ nhãn 1 của tháng):
+  chinh  tiền tố 2 2018-07: 17.727 dòng,  203 nhãn 1 (1,15%); PR-AUC 0,0360; tỷ số 3,14
+  chinh  tiền tố 2 2018-08: 16.769 dòng,  133 nhãn 1 (0,79%); PR-AUC 0,0291; tỷ số 3,67
+  chinh  tiền tố 2 2018-09: 14.662 dòng,  104 nhãn 1 (0,71%); PR-AUC 0,1143; tỷ số 16,12
+  chinh  tiền tố 2 2018-10: 11.976 dòng,   90 nhãn 1 (0,75%); PR-AUC 0,0478; tỷ số 6,37 (*)
+  chinh  tiền tố 3 2018-07: 16.922 dòng,  184 nhãn 1 (1,09%); PR-AUC 0,0274; tỷ số 2,52
+  chinh  tiền tố 3 2018-08: 16.091 dòng,  129 nhãn 1 (0,80%); PR-AUC 0,0298; tỷ số 3,71
+  chinh  tiền tố 3 2018-09: 14.142 dòng,   89 nhãn 1 (0,63%); PR-AUC 0,0721; tỷ số 11,46 (*)
+  chinh  tiền tố 3 2018-10: 11.651 dòng,   73 nhãn 1 (0,63%); PR-AUC 0,0125; tỷ số 1,99 (*)
+  chinh  tiền tố 4 2018-07: 16.410 dòng,  145 nhãn 1 (0,88%); PR-AUC 0,0309; tỷ số 3,50
+  chinh  tiền tố 4 2018-08: 15.542 dòng,  111 nhãn 1 (0,71%); PR-AUC 0,0402; tỷ số 5,62
+  chinh  tiền tố 4 2018-09: 13.632 dòng,   79 nhãn 1 (0,58%); PR-AUC 0,0236; tỷ số 4,06 (*)
+  chinh  tiền tố 4 2018-10: 11.184 dòng,   61 nhãn 1 (0,55%); PR-AUC 0,0103; tỷ số 1,90 (*)
+  chinh  tiền tố 5 2018-07: 13.150 dòng,   64 nhãn 1 (0,49%); PR-AUC 0,0419; tỷ số 8,61 (*)
+  chinh  tiền tố 5 2018-08: 12.114 dòng,   41 nhãn 1 (0,34%); PR-AUC 0,0310; tỷ số 9,17 (*)
+  chinh  tiền tố 5 2018-09: 12.095 dòng,   64 nhãn 1 (0,53%); PR-AUC 0,0215; tỷ số 4,07 (*)
+  chinh  tiền tố 5 2018-10:  9.766 dòng,   52 nhãn 1 (0,53%); PR-AUC 0,0080; tỷ số 1,51 (*)
+  R3     tiền tố 2 2018-07: 17.737 dòng,  122 nhãn 1 (0,69%); PR-AUC 0,0237; tỷ số 3,44
+  R3     tiền tố 2 2018-08: 16.774 dòng,  100 nhãn 1 (0,60%); PR-AUC 0,0250; tỷ số 4,19
+  R3     tiền tố 2 2018-09: 14.677 dòng,   62 nhãn 1 (0,42%); PR-AUC 0,0172; tỷ số 4,06 (*)
+  R3     tiền tố 2 2018-10: 11.988 dòng,   51 nhãn 1 (0,43%); PR-AUC 0,0069; tỷ số 1,61 (*)
+  R3     tiền tố 3 2018-07: 16.949 dòng,  122 nhãn 1 (0,72%); PR-AUC 0,0207; tỷ số 2,87
+  R3     tiền tố 3 2018-08: 16.099 dòng,  100 nhãn 1 (0,62%); PR-AUC 0,0235; tỷ số 3,78
+  R3     tiền tố 3 2018-09: 14.171 dòng,   62 nhãn 1 (0,44%); PR-AUC 0,0219; tỷ số 5,01 (*)
+  R3     tiền tố 3 2018-10: 11.679 dòng,   51 nhãn 1 (0,44%); PR-AUC 0,0065; tỷ số 1,48 (*)
+  R3     tiền tố 4 2018-07: 16.472 dòng,  118 nhãn 1 (0,72%); PR-AUC 0,0212; tỷ số 2,97
+  R3     tiền tố 4 2018-08: 15.568 dòng,  100 nhãn 1 (0,64%); PR-AUC 0,0275; tỷ số 4,28
+  R3     tiền tố 4 2018-09: 13.669 dòng,   61 nhãn 1 (0,45%); PR-AUC 0,0238; tỷ số 5,33 (*)
+  R3     tiền tố 4 2018-10: 11.223 dòng,   51 nhãn 1 (0,45%); PR-AUC 0,0081; tỷ số 1,79 (*)
+  R3     tiền tố 5 2018-07: 13.212 dòng,   48 nhãn 1 (0,36%); PR-AUC 0,0263; tỷ số 7,23 (*)
+  R3     tiền tố 5 2018-08: 12.145 dòng,   35 nhãn 1 (0,29%); PR-AUC 0,0215; tỷ số 7,44 (*)
+  R3     tiền tố 5 2018-09: 12.125 dòng,   50 nhãn 1 (0,41%); PR-AUC 0,0203; tỷ số 4,93 (*)
+  R3     tiền tố 5 2018-10:  9.793 dòng,   46 nhãn 1 (0,47%); PR-AUC 0,0066; tỷ số 1,41 (*)
+
+SHAP (XGBoost, tập kiểm tra): 8 biến có trung bình |SHAP| lớn nhất
+  R3, tiền tố 2: te_ncc 1,618; log_gia_tri 0,888; ngay_den_cuoi_tien_to 0,437; log_quy_mo_ncc 0,378; n_Receive Order Confirmation 0,161; n_Vendor creates invoice 0,084; n_Delete Purchase Order Item 0,078; Sales 0,059
+    Thông tin R7: r7_vi_cung_ngay_po 0,017 (hạng 17/44); r7_vi_truoc_po 0,015 (hạng 18/44)
+  R3, tiền tố 3: te_ncc 1,760; log_gia_tri 1,283; ngay_den_cuoi_tien_to 0,721; log_quy_mo_ncc 0,654; n_Receive Order Confirmation 0,269; n_Record Goods Receipt 0,146; n_Create Purchase Requisition Item 0,119; Sales 0,088
+    Thông tin R7: r7_vi_cung_ngay_po 0,037 (hạng 16/44); r7_vi_truoc_po 0,018 (hạng 18/44)
+  R3, tiền tố 4: te_ncc 1,469; log_gia_tri 0,819; ngay_den_cuoi_tien_to 0,481; log_quy_mo_ncc 0,453; n_Receive Order Confirmation 0,284; n_Create Purchase Requisition Item 0,128; n_Record Invoice Receipt 0,075; Packaging 0,056
+    Thông tin R7: r7_vi_cung_ngay_po 0,029 (hạng 16/44); r7_vi_truoc_po 0,015 (hạng 19/44)
+  R3, tiền tố 5: te_ncc 1,584; n_Clear Invoice (thanh toán) 1,571; log_gia_tri 1,268; ngay_den_cuoi_tien_to 1,058; log_quy_mo_ncc 0,529; n_Receive Order Confirmation 0,415; n_Remove Payment Block 0,372; Sales 0,169
+    Thông tin R7: r7_vi_cung_ngay_po 0,061 (hạng 13/44); r7_vi_truoc_po 0,000 (hạng 33/44)
+  chinh, tiền tố 2: te_ncc 1,787; log_gia_tri 0,807; ngay_den_cuoi_tien_to 0,514; log_quy_mo_ncc 0,483; n_Record Goods Receipt 0,246; n_Receive Order Confirmation 0,213; n_Delete Purchase Order Item 0,102; n_Vendor creates invoice 0,085
+    Thông tin R7: r7_vi_cung_ngay_po 0,044 (hạng 15/44); r7_vi_truoc_po 0,009 (hạng 22/44)
+  chinh, tiền tố 3: te_ncc 1,676; log_gia_tri 0,841; ngay_den_cuoi_tien_to 0,582; n_Record Goods Receipt 0,534; log_quy_mo_ncc 0,478; n_Receive Order Confirmation 0,335; n_Create Purchase Requisition Item 0,116; Packaging 0,076
+    Thông tin R7: r7_vi_cung_ngay_po 0,045 (hạng 13/44); r7_vi_truoc_po 0,011 (hạng 23/44)
+  chinh, tiền tố 4: te_ncc 1,537; log_gia_tri 0,791; ngay_den_cuoi_tien_to 0,387; log_quy_mo_ncc 0,363; n_Receive Order Confirmation 0,284; n_Record Goods Receipt 0,201; n_Record Invoice Receipt 0,093; n_Create Purchase Requisition Item 0,088
+    Thông tin R7: r7_vi_cung_ngay_po 0,030 (hạng 15/44); r7_vi_truoc_po 0,013 (hạng 20/44)
+  chinh, tiền tố 5: n_Clear Invoice (thanh toán) 1,476; te_ncc 1,237; log_gia_tri 0,810; ngay_den_cuoi_tien_to 0,603; n_Receive Order Confirmation 0,388; n_Remove Payment Block 0,367; log_quy_mo_ncc 0,252; n_Record Goods Receipt 0,148
+    Thông tin R7: r7_vi_cung_ngay_po 0,013 (hạng 18/44); r7_vi_truoc_po 0,000 (hạng 33/44)
+
+Xong sau 25,2 phút.

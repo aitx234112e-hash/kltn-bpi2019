@@ -1,0 +1,1 @@
+->( X( tau, 'Create Purchase Requisition Item' ), +( *( 'Record Goods Receipt', tau ), ->( 'Create Purchase Order Item', +( *( 'Record Invoice Receipt', tau ), X( tau, *( 'Remove Payment Block', tau ) ), ->( X( tau, *( 'Receive Order Confirmation', tau ) ), *( 'Clear Invoice', tau ) ) ) ) ) )

@@ -1,0 +1,9 @@
+﻿vet,chuoi,ky_vong,fitness,lech,ket_qua
+a_hop_le,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Clear Invoice,fitness = 1,1.0,,ĐẠT
+a_hop_le_co_rpb,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block → Clear Invoice,fitness = 1,1.0,,ĐẠT
+b_hop_le,Create Purchase Order Item → Record Invoice Receipt → Record Goods Receipt → Remove Payment Block → Clear Invoice,fitness = 1,1.0,,ĐẠT
+day_du_pr_oc,Create Purchase Requisition Item → Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt → Clear Invoice,fitness = 1,1.0,,ĐẠT
+b_thieu_rpb,Create Purchase Order Item → Record Invoice Receipt → Record Goods Receipt → Clear Invoice,fitness < 1,0.875,>>/Remove Payment Block,ĐẠT
+tra_truoc_nhan_hang,Create Purchase Order Item → Record Invoice Receipt → Clear Invoice → Record Goods Receipt,fitness < 1,0.75,>>/Record Goods Receipt; Record Goods Receipt/>>,ĐẠT
+clear_truoc_ir,Create Purchase Order Item → Record Goods Receipt → Clear Invoice → Record Invoice Receipt,fitness < 1,0.75,>>/Record Invoice Receipt; Record Invoice Receipt/>>,ĐẠT
+thieu_po,Record Goods Receipt → Record Invoice Receipt → Clear Invoice,fitness < 1,0.8571,>>/Create Purchase Order Item,ĐẠT

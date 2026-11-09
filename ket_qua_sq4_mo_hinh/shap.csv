@@ -1,0 +1,353 @@
+﻿ma,nhan,H,tap_du_lieu,bo_vendor_inv,tien_to,n_huan_luyen,n1_huan_luyen,chi_bao_cao,bien,ma_bien,tb_abs_shap
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,Packaging,hm_0,0.06830895692110062
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,Sales,hm_1,0.06262941658496857
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,Trading & End Products,hm_2,0.046250954270362854
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,Additives,hm_3,0.062474366277456284
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,CAPEX & SOCS,hm_4,0.021749138832092285
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,Latex & Monomers,hm_5,0.012038443237543106
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,Pigments & Colorants,hm_6,0.01382446102797985
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,Solvents,hm_7,0.009302390739321709
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,log_gia_tri,log_gia_tri,0.8069285750389099
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,gia_tri_0,gia_tri_0,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,log_quy_mo_ncc,log_quy_mo_ncc,0.4827527701854706
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,te_ncc,te_ncc,1.7868750095367432
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Block Purchase Order Item,n_Block Purchase Order Item,0.000908605579752475
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.007786615751683712
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.0040650335140526295
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change Currency,n_Change Currency,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.007243158761411905
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change Price,n_Change Price,0.021842321380972862
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change Quantity,n_Change Quantity,0.02684534527361393
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change Storage Location,n_Change Storage Location,3.968848250224255e-05
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Change payment term,n_Change payment term,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.07333648949861526
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.10226723551750183
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.2134675234556198
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Record Goods Receipt,n_Record Goods Receipt,0.24642886221408844
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.0023284712806344032
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Release Purchase Order,n_Release Purchase Order,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Remove Payment Block,n_Remove Payment Block,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Set Payment Block,n_Set Payment Block,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Update Order Confirmation,n_Update Order Confirmation,0.0
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.05027730390429497
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,n_Vendor creates invoice,n_Vendor creates invoice,0.08462201058864594
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,0.5140472650527954
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,r7_vi_truoc_po,r7_vi_truoc_po,0.008985981345176697
+chinh,chinh,90,toàn bộ,False,2,54868,1057,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.04378697648644447
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,Packaging,hm_0,0.07649238407611847
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,Sales,hm_1,0.059903644025325775
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,Trading & End Products,hm_2,0.04910310357809067
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,Additives,hm_3,0.05676185339689255
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,CAPEX & SOCS,hm_4,0.02290366403758526
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,Latex & Monomers,hm_5,0.01475152000784874
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,Pigments & Colorants,hm_6,0.012544495984911919
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,Solvents,hm_7,0.010030865669250488
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,log_gia_tri,log_gia_tri,0.8411109447479248
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,gia_tri_0,gia_tri_0,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,log_quy_mo_ncc,log_quy_mo_ncc,0.4778648316860199
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,te_ncc,te_ncc,1.6763337850570679
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Block Purchase Order Item,n_Block Purchase Order Item,5.066595258540474e-05
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.002483982825651765
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0006781988777220249
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.0044304425828158855
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change Currency,n_Change Currency,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.028791317716240883
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change Price,n_Change Price,0.024078771471977234
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change Quantity,n_Change Quantity,0.0360831692814827
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change Storage Location,n_Change Storage Location,0.0007240583654493093
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Change payment term,n_Change payment term,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.1163758784532547
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.0224272683262825
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0011221969034522772
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.33531105518341064
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Record Goods Receipt,n_Record Goods Receipt,0.5337305068969727
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.04889289289712906
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Release Purchase Order,n_Release Purchase Order,0.000591081683523953
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Remove Payment Block,n_Remove Payment Block,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Set Payment Block,n_Set Payment Block,0.0
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Update Order Confirmation,n_Update Order Confirmation,0.005712468642741442
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.03418054059147835
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,n_Vendor creates invoice,n_Vendor creates invoice,0.04212340712547302
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,0.5822622776031494
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,r7_vi_truoc_po,r7_vi_truoc_po,0.011079915799200535
+chinh,chinh,90,toàn bộ,False,3,52279,980,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.04493880271911621
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,Packaging,hm_0,0.07296508550643921
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,Sales,hm_1,0.06518145650625229
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,Trading & End Products,hm_2,0.03302225098013878
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,Additives,hm_3,0.0476389043033123
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,CAPEX & SOCS,hm_4,0.019055865705013275
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,Latex & Monomers,hm_5,0.009827476926147938
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,Pigments & Colorants,hm_6,0.012913485988974571
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,Solvents,hm_7,0.005156999453902245
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,log_gia_tri,log_gia_tri,0.7905396223068237
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,gia_tri_0,gia_tri_0,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,log_quy_mo_ncc,log_quy_mo_ncc,0.36303582787513733
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,te_ncc,te_ncc,1.5374518632888794
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Block Purchase Order Item,n_Block Purchase Order Item,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.0012409996706992388
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0010064344387501478
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.0012806482845917344
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change Currency,n_Change Currency,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.020927289500832558
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change Price,n_Change Price,0.019291700795292854
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change Quantity,n_Change Quantity,0.0505995899438858
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change Storage Location,n_Change Storage Location,0.0005849292501807213
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Change payment term,n_Change payment term,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.08766455948352814
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.005893834866583347
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0007142220856621861
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.2841615676879883
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Record Goods Receipt,n_Record Goods Receipt,0.2013767957687378
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.09300080686807632
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Release Purchase Order,n_Release Purchase Order,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Remove Payment Block,n_Remove Payment Block,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Set Payment Block,n_Set Payment Block,0.0
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Update Order Confirmation,n_Update Order Confirmation,0.0044001564383506775
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.04339342936873436
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,n_Vendor creates invoice,n_Vendor creates invoice,0.019302688539028168
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,0.3865092992782593
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,r7_vi_truoc_po,r7_vi_truoc_po,0.012939264066517353
+chinh,chinh,90,toàn bộ,False,4,49586,807,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.029581930488348007
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,Packaging,hm_0,0.04804699867963791
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,Sales,hm_1,0.04190634936094284
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,Trading & End Products,hm_2,0.03179414942860603
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,Additives,hm_3,0.01919940672814846
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,CAPEX & SOCS,hm_4,0.010271424427628517
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,Latex & Monomers,hm_5,0.003906748723238707
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,Pigments & Colorants,hm_6,0.0012554103741422296
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,Solvents,hm_7,0.006055804435163736
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,log_gia_tri,log_gia_tri,0.8101359009742737
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,gia_tri_0,gia_tri_0,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,log_quy_mo_ncc,log_quy_mo_ncc,0.2520425319671631
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,te_ncc,te_ncc,1.2369319200515747
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Block Purchase Order Item,n_Block Purchase Order Item,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.0012644636444747448
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0004645973676815629
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.003244585357606411
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change Currency,n_Change Currency,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.009862233884632587
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change Price,n_Change Price,0.012610775418579578
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change Quantity,n_Change Quantity,0.06993008404970169
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change Storage Location,n_Change Storage Location,0.000318050297209993
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Change payment term,n_Change payment term,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),1.4755176305770874
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.039185672998428345
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.0021271510049700737
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0007839212194085121
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.3877926170825958
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Record Goods Receipt,n_Record Goods Receipt,0.14794057607650757
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.03704777732491493
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Release Purchase Order,n_Release Purchase Order,0.0024745529517531395
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Remove Payment Block,n_Remove Payment Block,0.36660218238830566
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Set Payment Block,n_Set Payment Block,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Update Order Confirmation,n_Update Order Confirmation,0.0034187622368335724
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.10946158319711685
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,n_Vendor creates invoice,n_Vendor creates invoice,0.02611430361866951
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,0.6030526757240295
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,r7_vi_truoc_po,r7_vi_truoc_po,0.0
+chinh,chinh,90,toàn bộ,False,5,40319,387,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.013366990722715855
+R3,R3,90,toàn bộ,False,2,54915,729,False,Packaging,hm_0,0.037133943289518356
+R3,R3,90,toàn bộ,False,2,54915,729,False,Sales,hm_1,0.05853869765996933
+R3,R3,90,toàn bộ,False,2,54915,729,False,Trading & End Products,hm_2,0.03186650574207306
+R3,R3,90,toàn bộ,False,2,54915,729,False,Additives,hm_3,0.05230283737182617
+R3,R3,90,toàn bộ,False,2,54915,729,False,CAPEX & SOCS,hm_4,0.011047616600990295
+R3,R3,90,toàn bộ,False,2,54915,729,False,Latex & Monomers,hm_5,0.011403804644942284
+R3,R3,90,toàn bộ,False,2,54915,729,False,Pigments & Colorants,hm_6,0.009364401921629906
+R3,R3,90,toàn bộ,False,2,54915,729,False,Solvents,hm_7,0.0023446816485375166
+R3,R3,90,toàn bộ,False,2,54915,729,False,log_gia_tri,log_gia_tri,0.8883320093154907
+R3,R3,90,toàn bộ,False,2,54915,729,False,gia_tri_0,gia_tri_0,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,log_quy_mo_ncc,log_quy_mo_ncc,0.3779860734939575
+R3,R3,90,toàn bộ,False,2,54915,729,False,te_ncc,te_ncc,1.6181936264038086
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Block Purchase Order Item,n_Block Purchase Order Item,1.2522976248874329e-05
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.0024548848159611225
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.006709777284413576
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change Currency,n_Change Currency,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.00015801018162164837
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change Price,n_Change Price,0.04179023578763008
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change Quantity,n_Change Quantity,0.055191587656736374
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change Storage Location,n_Change Storage Location,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Change payment term,n_Change payment term,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.04535168036818504
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.0775982066988945
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.16145828366279602
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Record Goods Receipt,n_Record Goods Receipt,0.038261912763118744
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.0012555988505482674
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Release Purchase Order,n_Release Purchase Order,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Remove Payment Block,n_Remove Payment Block,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Set Payment Block,n_Set Payment Block,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Update Order Confirmation,n_Update Order Confirmation,0.0
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.043323446065187454
+R3,R3,90,toàn bộ,False,2,54915,729,False,n_Vendor creates invoice,n_Vendor creates invoice,0.08403084427118301
+R3,R3,90,toàn bộ,False,2,54915,729,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,0.43677666783332825
+R3,R3,90,toàn bộ,False,2,54915,729,False,r7_vi_truoc_po,r7_vi_truoc_po,0.015265402384102345
+R3,R3,90,toàn bộ,False,2,54915,729,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.016560997813940048
+R3,R3,90,toàn bộ,False,3,52400,729,False,Packaging,hm_0,0.0833917111158371
+R3,R3,90,toàn bộ,False,3,52400,729,False,Sales,hm_1,0.08815915882587433
+R3,R3,90,toàn bộ,False,3,52400,729,False,Trading & End Products,hm_2,0.05307139828801155
+R3,R3,90,toàn bộ,False,3,52400,729,False,Additives,hm_3,0.06126350536942482
+R3,R3,90,toàn bộ,False,3,52400,729,False,CAPEX & SOCS,hm_4,0.0174122154712677
+R3,R3,90,toàn bộ,False,3,52400,729,False,Latex & Monomers,hm_5,0.016952764242887497
+R3,R3,90,toàn bộ,False,3,52400,729,False,Pigments & Colorants,hm_6,0.015752095729112625
+R3,R3,90,toàn bộ,False,3,52400,729,False,Solvents,hm_7,0.011091222986578941
+R3,R3,90,toàn bộ,False,3,52400,729,False,log_gia_tri,log_gia_tri,1.2832845449447632
+R3,R3,90,toàn bộ,False,3,52400,729,False,gia_tri_0,gia_tri_0,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,log_quy_mo_ncc,log_quy_mo_ncc,0.6540606021881104
+R3,R3,90,toàn bộ,False,3,52400,729,False,te_ncc,te_ncc,1.760428547859192
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Block Purchase Order Item,n_Block Purchase Order Item,0.0002701810735743493
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.003943913616240025
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.00822843611240387
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change Currency,n_Change Currency,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.0009398168767802417
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change Price,n_Change Price,0.037104807794094086
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change Quantity,n_Change Quantity,0.0568484328687191
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change Storage Location,n_Change Storage Location,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Change payment term,n_Change payment term,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.11874523013830185
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.016291342675685883
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0007029246771708131
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.2691660523414612
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Record Goods Receipt,n_Record Goods Receipt,0.14589335024356842
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.0625254437327385
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Release Purchase Order,n_Release Purchase Order,0.0014954472426325083
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Remove Payment Block,n_Remove Payment Block,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Set Payment Block,n_Set Payment Block,0.0
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Update Order Confirmation,n_Update Order Confirmation,0.0014309928519651294
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.05380626395344734
+R3,R3,90,toàn bộ,False,3,52400,729,False,n_Vendor creates invoice,n_Vendor creates invoice,0.03630036488175392
+R3,R3,90,toàn bộ,False,3,52400,729,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,0.7211766839027405
+R3,R3,90,toàn bộ,False,3,52400,729,False,r7_vi_truoc_po,r7_vi_truoc_po,0.018146079033613205
+R3,R3,90,toàn bộ,False,3,52400,729,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.036925941705703735
+R3,R3,90,toàn bộ,False,4,49841,713,False,Packaging,hm_0,0.05590491369366646
+R3,R3,90,toàn bộ,False,4,49841,713,False,Sales,hm_1,0.036767665296792984
+R3,R3,90,toàn bộ,False,4,49841,713,False,Trading & End Products,hm_2,0.03749518841505051
+R3,R3,90,toàn bộ,False,4,49841,713,False,Additives,hm_3,0.03893279284238815
+R3,R3,90,toàn bộ,False,4,49841,713,False,CAPEX & SOCS,hm_4,0.020216645672917366
+R3,R3,90,toàn bộ,False,4,49841,713,False,Latex & Monomers,hm_5,0.01264470536261797
+R3,R3,90,toàn bộ,False,4,49841,713,False,Pigments & Colorants,hm_6,0.008997130207717419
+R3,R3,90,toàn bộ,False,4,49841,713,False,Solvents,hm_7,0.002650782698765397
+R3,R3,90,toàn bộ,False,4,49841,713,False,log_gia_tri,log_gia_tri,0.8189110159873962
+R3,R3,90,toàn bộ,False,4,49841,713,False,gia_tri_0,gia_tri_0,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,log_quy_mo_ncc,log_quy_mo_ncc,0.45302191376686096
+R3,R3,90,toàn bộ,False,4,49841,713,False,te_ncc,te_ncc,1.468875765800476
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Block Purchase Order Item,n_Block Purchase Order Item,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.002501887269318104
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.012243970297276974
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change Currency,n_Change Currency,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.0010704498272389174
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change Price,n_Change Price,0.02490680292248726
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change Quantity,n_Change Quantity,0.04516187310218811
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change Storage Location,n_Change Storage Location,0.0001756926067173481
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Change payment term,n_Change payment term,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.1280403882265091
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.00442282622680068
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0014440588420256972
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.2841162383556366
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Record Goods Receipt,n_Record Goods Receipt,0.0383426770567894
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.0746782049536705
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Release Purchase Order,n_Release Purchase Order,0.00031350506469607353
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Remove Payment Block,n_Remove Payment Block,0.0030520909931510687
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Set Payment Block,n_Set Payment Block,0.0
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Update Order Confirmation,n_Update Order Confirmation,0.0017692528199404478
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.04145664721727371
+R3,R3,90,toàn bộ,False,4,49841,713,False,n_Vendor creates invoice,n_Vendor creates invoice,0.03708549961447716
+R3,R3,90,toàn bộ,False,4,49841,713,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,0.4812150001525879
+R3,R3,90,toàn bộ,False,4,49841,713,False,r7_vi_truoc_po,r7_vi_truoc_po,0.015323249623179436
+R3,R3,90,toàn bộ,False,4,49841,713,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.02893712744116783
+R3,R3,90,toàn bộ,False,5,40585,334,False,Packaging,hm_0,0.09421132504940033
+R3,R3,90,toàn bộ,False,5,40585,334,False,Sales,hm_1,0.16882331669330597
+R3,R3,90,toàn bộ,False,5,40585,334,False,Trading & End Products,hm_2,0.09189080446958542
+R3,R3,90,toàn bộ,False,5,40585,334,False,Additives,hm_3,0.021535174921154976
+R3,R3,90,toàn bộ,False,5,40585,334,False,CAPEX & SOCS,hm_4,0.009349470026791096
+R3,R3,90,toàn bộ,False,5,40585,334,False,Latex & Monomers,hm_5,0.01385275088250637
+R3,R3,90,toàn bộ,False,5,40585,334,False,Pigments & Colorants,hm_6,0.008558125235140324
+R3,R3,90,toàn bộ,False,5,40585,334,False,Solvents,hm_7,0.008856918662786484
+R3,R3,90,toàn bộ,False,5,40585,334,False,log_gia_tri,log_gia_tri,1.2684966325759888
+R3,R3,90,toàn bộ,False,5,40585,334,False,gia_tri_0,gia_tri_0,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,log_quy_mo_ncc,log_quy_mo_ncc,0.5291017293930054
+R3,R3,90,toàn bộ,False,5,40585,334,False,te_ncc,te_ncc,1.5843592882156372
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Block Purchase Order Item,n_Block Purchase Order Item,0.0004137352807447314
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Cancel Goods Receipt,n_Cancel Goods Receipt,0.0059626661241054535
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Cancel Invoice Receipt,n_Cancel Invoice Receipt,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Cancel Subsequent Invoice,n_Cancel Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change Approval for Purchase Order,n_Change Approval for Purchase Order,0.011115447618067265
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change Currency,n_Change Currency,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change Delivery Indicator,n_Change Delivery Indicator,0.00959167443215847
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change Final Invoice Indicator,n_Change Final Invoice Indicator,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change Price,n_Change Price,0.05833082273602486
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change Quantity,n_Change Quantity,0.05533115938305855
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change Storage Location,n_Change Storage Location,0.0009716945933178067
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Change payment term,n_Change payment term,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Clear Invoice (bù trừ do hủy),n_Clear Invoice (bù trừ do hủy),0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Clear Invoice (thanh toán),n_Clear Invoice (thanh toán),1.5712908506393433
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Create Purchase Order Item,n_Create Purchase Order Item,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Create Purchase Requisition Item,n_Create Purchase Requisition Item,0.08415732532739639
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Delete Purchase Order Item,n_Delete Purchase Order Item,0.0021199400071054697
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Reactivate Purchase Order Item,n_Reactivate Purchase Order Item,0.0012695934856310487
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Receive Order Confirmation,n_Receive Order Confirmation,0.4152594208717346
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Record Goods Receipt,n_Record Goods Receipt,0.031095361337065697
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Record Invoice Receipt,n_Record Invoice Receipt,0.04563244432210922
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Record Subsequent Invoice,n_Record Subsequent Invoice,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Release Purchase Order,n_Release Purchase Order,0.0005681209149770439
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Release Purchase Requisition,n_Release Purchase Requisition,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Remove Payment Block,n_Remove Payment Block,0.37174829840660095
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Set Payment Block,n_Set Payment Block,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Update Order Confirmation,n_Update Order Confirmation,0.0008923698333092034
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Vendor creates debit memo,n_Vendor creates debit memo,0.08853857964277267
+R3,R3,90,toàn bộ,False,5,40585,334,False,n_Vendor creates invoice,n_Vendor creates invoice,0.04727129265666008
+R3,R3,90,toàn bộ,False,5,40585,334,False,ngay_den_cuoi_tien_to,ngay_den_cuoi_tien_to,1.058105707168579
+R3,R3,90,toàn bộ,False,5,40585,334,False,r7_vi_truoc_po,r7_vi_truoc_po,0.0
+R3,R3,90,toàn bộ,False,5,40585,334,False,r7_vi_cung_ngay_po,r7_vi_cung_ngay_po,0.060989752411842346

@@ -1,0 +1,29 @@
+﻿act,so_su_kien,so_case,so_case_bat_dau,so_case_ket_thuc,ty_le_su_kien
+Record Goods Receipt,212458,197416,9,6283,0.180715
+Create Purchase Order Item,210887,210887,158301,3409,0.179379
+Record Invoice Receipt,200593,191551,0,20232,0.170623
+Vendor creates invoice,195707,191018,10946,1,0.166467
+Clear Invoice,173256,166980,0,165279,0.14737
+Remove Payment Block,53217,52197,0,5085,0.045266
+Create Purchase Requisition Item,41393,41393,41309,0,0.035209
+Receive Order Confirmation,31273,31269,0,215,0.026601
+Change Quantity,16607,13602,0,368,0.014126
+Change Price,9845,9013,0,265,0.008374
+Delete Purchase Order Item,7598,7568,0,7030,0.006463
+Cancel Invoice Receipt,5842,5500,0,1238,0.004969
+Vendor creates debit memo,5170,5056,243,0,0.004398
+Change Approval for Purchase Order,3422,2424,63,635,0.002911
+Change Delivery Indicator,2507,2272,0,409,0.002132
+Cancel Goods Receipt,1908,1805,1,206,0.001623
+Release Purchase Order,1447,860,13,1,0.001231
+Release Purchase Requisition,456,456,0,0,0.000388
+Cancel Subsequent Invoice,451,440,0,21,0.000384
+Block Purchase Order Item,385,370,0,167,0.000327
+Reactivate Purchase Order Item,374,361,0,11,0.000318
+Change Storage Location,373,323,0,20,0.000317
+Update Order Confirmation,234,218,0,2,0.000199
+Record Subsequent Invoice,155,147,0,8,0.000132
+Set Payment Block,52,50,0,0,4.4e-05
+Change Currency,34,34,2,1,2.9e-05
+Change payment term,5,5,0,1,4e-06
+Change Final Invoice Indicator,1,1,0,0,1e-06

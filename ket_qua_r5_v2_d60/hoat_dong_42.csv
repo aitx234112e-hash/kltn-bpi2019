@@ -1,0 +1,43 @@
+﻿act,su_kien_toan_log,su_kien_pham_vi,case_pham_vi,ty_le_case_pham_vi,khau,anh_huong_so_chung_tu_phai_tra
+Record Goods Receipt,314097,212458,197416,0.9361,Kho,
+Create Purchase Order Item,251734,210887,210887,1.0,Mua hàng,
+Record Invoice Receipt,228760,200593,191551,0.9083,Kế toán phải trả,+1 (ghi nhận hóa đơn)
+Vendor creates invoice,219919,195707,191018,0.9058,Nhà cung cấp,Không đếm (đã có Record Invoice Receipt tương ứng)
+Clear Invoice,194393,173256,166980,0.7918,Kế toán phải trả,Không đổi số chứng từ; là thanh toán hoặc bù trừ
+Remove Payment Block,57136,53217,52197,0.2475,Kế toán phải trả,
+Create Purchase Requisition Item,46592,41393,41393,0.1963,Mua hàng,
+Receive Order Confirmation,32065,31273,31269,0.1483,Mua hàng,
+Change Quantity,21449,16607,13602,0.0645,Mua hàng,
+Change Price,12423,9845,9013,0.0427,Mua hàng,
+Delete Purchase Order Item,8875,7598,7568,0.0359,Hủy – sửa,
+Cancel Invoice Receipt,7096,5842,5500,0.0261,Hủy – sửa,−1 (hủy hóa đơn)
+Vendor creates debit memo,6255,5170,5056,0.024,Nhà cung cấp,"+1 (chỉ có phía NCC, không có hoạt động ghi nhận)"
+Change Approval for Purchase Order,7541,3422,2424,0.0115,Mua hàng,
+Change Delivery Indicator,3289,2507,2272,0.0108,Mua hàng,
+Cancel Goods Receipt,3096,1908,1805,0.0086,Hủy – sửa,
+Release Purchase Order,1610,1447,860,0.0041,Mua hàng,
+Release Purchase Requisition,467,456,456,0.0022,Mua hàng,
+Cancel Subsequent Invoice,491,451,440,0.0021,Hủy – sửa,−1 nếu tính (độ nhạy)
+Block Purchase Order Item,514,385,370,0.0018,Hủy – sửa,
+Reactivate Purchase Order Item,543,374,361,0.0017,Hủy – sửa,
+Change Storage Location,415,373,323,0.0015,Mua hàng,
+Update Order Confirmation,244,234,218,0.001,Mua hàng,
+Record Subsequent Invoice,167,155,147,0.0007,Kế toán phải trả,+1 nếu tính (độ nhạy)
+Set Payment Block,124,52,50,0.0002,Kế toán phải trả,
+Change Currency,35,34,34,0.0002,Mua hàng,
+Change payment term,7,5,5,0.0,Kế toán phải trả,
+Change Final Invoice Indicator,11,1,1,0.0,Kế toán phải trả,
+Record Service Entry Sheet,164975,0,0,0.0,Kho,
+Change Rejection Indicator,2,0,0,0.0,Mua hàng,
+SRM: Awaiting Approval,1628,0,0,0.0,Mua hàng (SRM),
+SRM: Change was Transmitted,1440,0,0,0.0,Mua hàng (SRM),
+SRM: Complete,1628,0,0,0.0,Mua hàng (SRM),
+SRM: Created,1628,0,0,0.0,Mua hàng (SRM),
+SRM: In Transfer to Execution Syst.,1765,0,0,0.0,Mua hàng (SRM),
+SRM: Held,6,0,0,0.0,Mua hàng (SRM),
+SRM: Document Completed,1628,0,0,0.0,Mua hàng (SRM),
+SRM: Deleted,188,0,0,0.0,Hủy – sửa,
+SRM: Transfer Failed (E.Sys.),45,0,0,0.0,Mua hàng (SRM),
+SRM: Transaction Completed,8,0,0,0.0,Mua hàng (SRM),
+SRM: Ordered,1628,0,0,0.0,Mua hàng (SRM),
+SRM: Incomplete,6,0,0,0.0,Mua hàng (SRM),

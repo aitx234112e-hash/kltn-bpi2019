@@ -1,0 +1,70 @@
+Phạm vi 210,887 dòng hàng. Δ = 60 phút. Thời điểm trích xuất: 2019-01-18 13:34:00
+
+=== G5 Mục 2.3. Trạng thái hoàn tất không đòi debit memo ===
+  Định nghĩa hiện tại (đếm sự kiện Clear, tính debit memo): hoàn tất 162.015 (76,83%); còn mở 41.592 (19,72%); bị xóa 7.280 (3,45%)
+  Định nghĩa mới G5 (đếm thời điểm thanh toán, không đòi debit memo): hoàn tất 163.619 (77,59%); còn mở 39.988 (18,96%); bị xóa 7.280 (3,45%)
+  Như định nghĩa mới nhưng đếm sự kiện Clear: hoàn tất 163.735 (77,64%); còn mở 39.872 (18,91%); bị xóa 7.280 (3,45%)
+Bảng chéo trạng thái (hàng: hiện tại, cột: mới G5):
+mới G5    Bị xóa  Còn mở  Hoàn tất
+hiện tại                          
+Bị xóa      7280       0         0
+Còn mở         0   39882      1710
+Hoàn tất       0     106    161909
+Số dòng hàng đổi trạng thái: 1.816 (0,86%)
+  Còn mở → hoàn tất: 1,710; trong đó có ≥ 1 debit memo: 1,710
+  Hoàn tất → còn mở: 106 (do đếm theo thời điểm: nhiều Clear cùng timestamp tính là một lần trả)
+  Riêng ảnh hưởng của đếm theo thời điểm (mới G5 so với mới đếm sự kiện): 116 dòng hàng khác trạng thái
+  Trong 2,096 dòng hàng hoàn tất → còn mở khi phân loại Clear (Mục 5.2): theo định nghĩa mới, hoàn tất trở lại 1,710, vẫn còn mở 386
+Thời gian thanh toán (Create Purchase Order Item → Clear thanh toán cuối), ngày:
+  trước phân loại Clear (Bảng 3): hoàn tất 164.124, còn mở 39.496; trung vị (hoàn tất) 77,4; P90 127,2; trung vị Kaplan-Meier 84,3
+  hiện tại: hoàn tất 162.015, còn mở 41.592; trung vị (hoàn tất) 77,3; P90 127,1; trung vị Kaplan-Meier 85,0
+  mới G5: hoàn tất 163.619, còn mở 39.988; trung vị (hoàn tất) 77,4; P90 127,2; trung vị Kaplan-Meier 84,6
+  mới, đếm sự kiện: hoàn tất 163.735, còn mở 39.872; trung vị (hoàn tất) 77,4; P90 127,2; trung vị Kaplan-Meier 84,4
+
+=== G5 Mục 3. Phân loại R5 v2.2 theo chứng từ nhà cung cấp và đơn mua hàng ===
+R5 v2.2: 681 dòng hàng
+  M: 74 (10,87%)
+  N1: 65 (9,54%)
+  N2: 542 (79,59%)
+  khác (P ≤ I + M khi xét cả dòng hàng): 0 (0,00%)
+  Dòng hàng R5 thuộc đơn mua hàng chỉ có một dòng (kiểm tra cấp đơn không áp dụng, mặc định N2 nếu không phải M): 138 (20,26%); trong N2: 104
+Bảng chéo loại × nhóm tầng (G4):
+nhom  3. có hủy và debit memo  4. không hủy, không debit memo  5. có debit memo, không hủy  6. có hủy, không debit memo  Tổng
+loai                                                                                                                         
+M                          54                              15                            4                            1    74
+N1                         56                               5                            0                            4    65
+N2                        357                             130                           40                           15   542
+Tổng                      467                             150                           44                           20   681
+Bảng chéo loại × nhánh:
+nhanh  R5a  R5b  Tổng
+loai                 
+M       55   19    74
+N1      60    5    65
+N2     371  171   542
+Tổng   486  195   681
+Đối chiếu 37 case đọc ở G4 (kết luận đọc tay × loại):
+loai                                                                       M  N1  N2  Tổng
+ket_luan                                                                                  
+chưa rõ, nhiều khả năng trả cho hóa đơn tiếp theo                          1   0   3     4
+không đáng nghi (bù trừ trễ qua kỳ nghỉ)                                   0   0   2     2
+không đáng nghi (bù trừ trễ)                                               1   1   2     4
+khớp chứng từ NCC, không đáng nghi                                         0   0  10    10
+khớp chứng từ NCC; không phân biệt được bù trừ và trả memo                 0   0   9     9
+nghi do ghi trùng, không phải trả 2 lần                                    0   0   2     2
+số Clear khớp hóa đơn NCC + memo; không phân biệt được bù trừ và trả memo  0   1   0     1
+đáng nghi cao                                                              0   0   5     5
+Tổng                                                                       2   2  33    37
+
+Mẫu kiểm chứng (đã loại 159 case đọc trước đây):
+  M: 72 case đủ điều kiện, lấy 10
+  N2: 461 case đủ điều kiện, lấy 10
+
+=== G5 Mục 5. Đối chiếu 744 / 681 / 126 / 63 ===
+Đếm theo thời điểm (bước trung gian): 744; R5 v2.2: 681; chênh 63
+Chỉ báo 'trả trước khi ghi nhận hóa đơn' (dòng hàng có ít nhất một lần vượt mà sau đó có Record Invoice Receipt): 126
+  trong đó vẫn còn lần vượt khác nên vẫn ở R5 v2.2: 63; rời khỏi R5: 63
+  Kiểm tra: mọi dòng hàng rời khỏi R5 (744 → 681) đều thuộc chỉ báo này: True
+R5 v2.2 dạng khoảng: 681 (0,32%) (tính debit memo) đến 2.556 (1,21%) (không tính debit memo)
+R5a: 486 (0,23%) (con số cuối của chuỗi R4: 2.562 → 1.566 → R5a)
+  M trên toàn phạm vi: 74 (0,04%)
+  N2 trên toàn phạm vi: 542 (0,26%)

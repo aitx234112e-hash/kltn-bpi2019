@@ -1,0 +1,588 @@
+case,act,ts,user,item_category,item_type,doc_type,company
+2000000100_00001,Vendor creates invoice,2017-01-31 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2017-05-25 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Created,2018-01-29 09:34:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Complete,2018-01-29 10:34:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Awaiting Approval,2018-01-29 10:34:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Document Completed,2018-01-29 10:34:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Ordered,2018-01-29 10:34:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: In Transfer to Execution Syst.,2018-01-29 10:34:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Change was Transmitted,2018-01-29 10:34:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Create Purchase Order Item,2018-01-29 10:34:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-01-31 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates debit memo,2018-01-31 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-02-09 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:20:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:20:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:23:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:23:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:26:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:26:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:29:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:29:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:32:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:32:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:35:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:35:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:37:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:37:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:40:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:40:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:43:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:43:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-02-16 15:53:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-02-16 15:53:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:19:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:22:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:24:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:25:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:28:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:29:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:31:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:32:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-02-19 13:33:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-02-22 15:18:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-02-28 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-03-05 11:15:00,user_006,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-03-09 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates debit memo,2018-03-09 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-03-27 12:20:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-03-27 12:20:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-03-29 08:01:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-03-29 13:10:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-03-29 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-03-31 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-04-06 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-04-09 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-04-10 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates debit memo,2018-04-10 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Created,2018-04-26 06:19:00,user_014,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Complete,2018-04-26 08:21:00,user_014,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Awaiting Approval,2018-04-26 08:21:00,user_014,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Document Completed,2018-04-26 08:21:00,user_014,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-04-26 09:15:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-04-26 09:15:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Ordered,2018-04-26 11:04:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: In Transfer to Execution Syst.,2018-04-26 11:04:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Deleted,2018-04-26 11:04:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Change Price,2018-04-26 11:04:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-29 16:46:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-29 16:46:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-29 16:49:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-29 16:49:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-29 16:52:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-29 16:52:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-29 16:55:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-29 16:55:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-29 16:58:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-29 16:58:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-29 21:16:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-29 21:16:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-29 21:19:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-29 21:19:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-30 09:11:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-30 09:11:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-04-30 09:14:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-04-30 09:14:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-04-30 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates debit memo,2018-04-30 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-05-15 14:29:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-05-17 09:56:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-05-17 13:16:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-05-24 11:36:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 19:51:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 19:51:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 19:54:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 19:54:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 19:57:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 19:57:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 19:59:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 19:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 20:02:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 20:02:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 20:04:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 20:04:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 20:52:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 20:52:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 20:56:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 20:56:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 20:58:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 20:58:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 21:01:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 21:01:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-05-27 21:04:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-05-27 21:04:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-05-31 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates debit memo,2018-05-31 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-04 08:33:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-06 15:39:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-06 15:55:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-06 16:03:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-07 12:21:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-07 12:26:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-07 12:27:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-07 14:21:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-08 12:02:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-12 15:04:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-12 15:12:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-12 15:27:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-06-12 15:43:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:03:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:03:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:07:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:07:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:10:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:10:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:12:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:12:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:15:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:15:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:18:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:18:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:20:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:20:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:31:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:31:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:34:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:34:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:36:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:36:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:38:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:38:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-26 23:46:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-26 23:46:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-06-28 11:27:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-06-28 11:27:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Goods Receipt,2018-06-28 11:34:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-06-28 12:05:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-06-30 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates debit memo,2018-06-30 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-04 08:48:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-07-05 12:13:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-07-09 09:54:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 09:56:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-07-09 09:57:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 10:17:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 10:19:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 10:21:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 10:23:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 12:30:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 12:31:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 12:33:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 12:34:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-09 12:35:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-11 09:05:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-11 09:11:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-07-12 10:55:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-13 15:01:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:19:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:19:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:23:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:23:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:26:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:26:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:29:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:29:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:31:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:31:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:34:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:34:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:37:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:37:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-24 13:40:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-24 13:40:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-07-26 16:09:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-07-26 16:09:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-27 07:37:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-27 08:12:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-27 09:39:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-07-27 11:18:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-07-27 11:18:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Created,2018-07-27 11:40:00,user_016,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Complete,2018-07-27 13:40:00,user_016,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Awaiting Approval,2018-07-27 13:40:00,user_016,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Document Completed,2018-07-27 13:40:00,user_016,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-07-30 09:41:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Ordered,2018-07-30 20:58:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: In Transfer to Execution Syst.,2018-07-30 20:58:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Deleted,2018-07-30 20:58:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Change Price,2018-07-30 20:58:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-07-31 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-01 13:29:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-02 09:46:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-08-02 14:07:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-06 13:37:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-06 15:36:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-08-13 10:30:00,user_004,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-13 10:33:00,user_004,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-14 09:11:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-08-16 13:03:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-17 15:14:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-27 10:39:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-27 10:39:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-27 10:50:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-27 10:50:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-30 09:29:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 12:01:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 12:01:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-08-30 13:40:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:10:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:10:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:14:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:14:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:18:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:18:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:21:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:21:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:24:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:24:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:28:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:28:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:31:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:31:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:35:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:35:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:38:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:38:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:42:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:42:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:51:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:51:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-08-30 15:57:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-08-30 15:57:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-31 12:16:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-31 12:20:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-08-31 13:12:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-08-31 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-03 08:16:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-09-03 09:43:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-09-03 09:53:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-03 15:18:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 09:12:00,user_004,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 10:01:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 10:02:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 10:04:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 11:55:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 12:04:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-09-06 12:08:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 14:31:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 14:33:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-06 14:36:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:12:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:12:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:21:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:21:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:25:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:25:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:31:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:31:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:36:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:36:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:40:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:40:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:54:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:54:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 07:59:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 07:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 08:03:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 08:03:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 08:08:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 08:09:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-09-28 08:13:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-09-28 08:13:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-09-28 08:29:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-09-28 08:29:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-09-28 11:02:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-09-29 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-09-30 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-01 12:28:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-10-01 14:16:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-01 15:33:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Remove Payment Block,2018-10-01 15:34:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-02 10:17:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-02 10:20:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-02 10:27:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-02 10:29:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-02 10:31:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-03 09:22:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-03 09:24:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-03 09:26:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-03 09:30:00,user_011,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-10-04 14:50:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-10-11 11:03:00,user_027,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Created,2018-10-18 11:59:00,user_010,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Complete,2018-10-18 14:00:00,user_010,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Awaiting Approval,2018-10-18 14:00:00,user_010,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Document Completed,2018-10-18 14:00:00,user_010,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Ordered,2018-10-22 07:31:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: In Transfer to Execution Syst.,2018-10-22 07:31:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Deleted,2018-10-22 07:31:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Change Price,2018-10-22 07:31:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-10-26 09:03:00,user_005,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 16:40:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 16:40:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 16:44:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 16:44:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 16:48:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 16:48:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 16:52:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 16:52:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 16:56:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 16:56:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:00:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:00:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:04:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:04:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:08:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:08:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:12:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:12:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:16:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:16:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:20:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:20:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:24:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:24:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-10-30 17:28:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-10-30 17:28:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-31 10:09:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-31 10:11:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-31 10:12:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-31 10:15:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-31 15:25:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-31 15:27:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-10-31 15:39:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-11-05 11:12:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-05 11:14:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-05 11:28:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-11-05 15:46:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-05 15:47:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-05 16:00:00,user_015,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-11-06 04:21:00,user_004,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-06 04:23:00,user_004,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-06 04:24:00,user_004,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-11-06 12:03:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-06 12:09:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-06 12:11:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-11-07 02:51:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-07 02:54:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-07 02:55:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-12 12:33:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-12 12:35:00,user_001,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-12 16:01:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-11-13 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-14 12:24:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-14 15:40:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Goods Receipt,2018-11-19 00:12:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-19 11:14:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-11-21 13:43:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-21 13:46:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-21 13:47:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Cancel Invoice Receipt,2018-11-21 13:54:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-21 14:01:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-21 14:03:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 01:13:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 01:13:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 01:18:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 01:18:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 01:23:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 01:23:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 01:30:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 01:30:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 01:42:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 01:42:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 01:56:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 01:56:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 02:03:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 02:03:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 02:10:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 02:10:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 02:21:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 02:21:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 02:28:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 02:28:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-27 15:47:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-11-27 15:48:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 23:25:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 23:25:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 23:36:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 23:36:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 23:39:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 23:39:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-11-27 23:44:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-11-27 23:44:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Clear Invoice,2018-11-29 15:16:00,user_002,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2018-11-30 22:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-12 17:05:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:09:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:09:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:19:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:19:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:27:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:27:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:32:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:32:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:37:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:37:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:44:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:44:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:50:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:50:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 13:59:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 13:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 14:03:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 14:03:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 15:56:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 15:56:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Goods Receipt,2018-12-17 16:07:00,user_000,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Service Entry Sheet,2018-12-17 16:07:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-20 12:40:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-20 12:56:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-20 15:01:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-20 15:03:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-20 15:07:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-24 13:23:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-27 13:57:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-27 14:01:00,batch_00,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-27 14:04:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-27 16:18:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-28 13:09:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2018-12-28 13:15:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-02 08:54:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-02 08:56:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-02 12:27:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-02 13:35:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-02 16:43:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-03 08:11:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-03 09:25:00,user_012,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-03 09:27:00,user_019,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-04 07:02:00,user_020,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-04 09:52:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Record Invoice Receipt,2019-01-04 12:29:00,user_013,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: In Transfer to Execution Syst.,2019-01-17 11:00:00,user_003,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,SRM: Transfer Failed (E.Sys.),2019-01-17 11:00:00,user_003,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates invoice,2019-04-30 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+2000000100_00001,Vendor creates debit memo,2019-04-30 21:59:00,NONE,"3-way match, invoice after GR",Service,EC Purchase order,companyID_0000
+4507005744_00010,Create Purchase Order Item,2018-01-26 14:45:00,user_289,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-02-21 22:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-02-23 22:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-02-26 22:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-02-27 15:29:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-02-27 15:30:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-02-27 15:33:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-02-27 15:33:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-02-28 22:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-03-05 10:44:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-03-05 10:45:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-03-06 16:55:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-03-06 16:58:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-03-07 11:15:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-03-07 22:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-03-08 12:22:00,user_005,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-03-12 22:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-03-14 13:37:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-03-14 13:37:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-03-14 13:42:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-03-14 13:42:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-03-14 13:48:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-03-14 13:48:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-03-14 13:57:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-03-14 13:57:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-03-15 08:58:00,user_004,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-03-15 13:14:00,user_005,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-03-20 13:02:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-03-23 10:40:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-04-05 13:51:00,user_002,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-04-09 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates debit memo,2018-04-09 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-04-12 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates debit memo,2018-04-12 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-04-20 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-05-07 10:25:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-05-07 10:25:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-05-07 10:30:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-05-07 10:30:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-05-07 11:38:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-05-07 11:38:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-05-07 11:46:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-05-07 11:46:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-05-07 12:51:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-05-07 12:51:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-05-08 08:19:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-05-08 08:23:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-05-08 08:29:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-05-08 08:33:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-05-08 08:35:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-05-08 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-05-09 12:12:00,user_002,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-05-15 06:16:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-05-15 06:16:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-05-15 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-05-21 09:59:00,user_013,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-05-29 09:31:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-05-29 09:31:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-05-30 15:10:00,user_012,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-06-07 11:13:00,user_002,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2018-06-25 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Cancel Invoice Receipt,2018-08-17 04:49:00,user_004,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-08-17 04:51:00,user_004,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-08-17 04:52:00,user_004,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Cancel Invoice Receipt,2018-08-17 09:14:00,user_007,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-08-17 09:17:00,user_007,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-08-17 09:18:00,user_007,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Cancel Invoice Receipt,2018-08-17 10:30:00,user_020,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-08-17 10:43:00,user_020,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Cancel Invoice Receipt,2018-08-20 09:33:00,user_019,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-08-20 09:37:00,user_019,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-08-20 09:38:00,user_019,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Cancel Invoice Receipt,2018-08-20 09:46:00,user_015,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-08-20 09:49:00,user_015,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-08-20 09:51:00,user_015,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-08-23 11:40:00,user_002,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Service Entry Sheet,2018-10-08 08:50:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Goods Receipt,2018-10-08 08:50:00,user_214,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Record Invoice Receipt,2018-10-09 10:04:00,user_001,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Clear Invoice,2018-10-11 11:47:00,user_002,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507005744_00010,Vendor creates invoice,2020-04-09 21:59:00,NONE,"3-way match, invoice after GR",Service,Framework order,companyID_0000
+4507019322_00010,Create Purchase Order Item,2018-03-27 12:45:00,user_091,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Vendor creates invoice,2018-04-06 21:59:00,NONE,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Vendor creates debit memo,2018-04-06 21:59:00,NONE,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Record Goods Receipt,2018-04-12 14:15:00,user_031,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Record Invoice Receipt,2018-05-08 14:19:00,user_020,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Clear Invoice,2018-06-28 12:05:00,user_002,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Cancel Invoice Receipt,2018-10-02 09:32:00,user_004,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Record Invoice Receipt,2018-10-02 09:34:00,user_004,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Clear Invoice,2018-10-02 09:35:00,user_004,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Cancel Invoice Receipt,2018-10-26 12:32:00,user_019,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Record Invoice Receipt,2018-10-26 12:33:00,user_019,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Clear Invoice,2018-10-26 12:35:00,user_019,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4507019322_00010,Vendor creates invoice,2020-04-06 21:59:00,NONE,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Vendor creates debit memo,2018-08-21 21:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Create Purchase Order Item,2018-09-17 06:55:00,user_078,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Vendor creates invoice,2018-10-03 21:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Record Goods Receipt,2018-10-05 10:34:00,user_077,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Record Invoice Receipt,2018-10-18 11:21:00,user_019,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Record Invoice Receipt,2018-10-22 14:02:00,user_001,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Cancel Invoice Receipt,2018-10-24 13:03:00,user_001,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Remove Payment Block,2018-10-25 00:23:00,batch_02,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Clear Invoice,2018-11-08 15:44:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Clear Invoice,2018-11-29 15:14:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508055808_00020,Vendor creates invoice,2019-10-03 21:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508071281_00010,Create Purchase Requisition Item,2018-11-28 23:00:00,user_451,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4508071281_00010,Create Purchase Order Item,2018-11-29 07:35:00,user_038,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4508071281_00010,Record Goods Receipt,2018-12-06 06:24:00,user_029,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4508071281_00010,Record Invoice Receipt,2019-01-07 13:44:00,user_012,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4508071281_00010,Vendor creates invoice,2019-12-05 22:59:00,NONE,"3-way match, invoice after GR",Standard,Standard PO,companyID_0000
+4508071281_00140,Create Purchase Requisition Item,2018-11-28 23:00:00,user_451,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508071281_00140,Create Purchase Order Item,2018-11-29 07:35:00,user_038,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508071281_00140,Record Goods Receipt,2018-12-06 06:24:00,user_029,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508071281_00140,Record Invoice Receipt,2019-01-07 13:44:00,user_012,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508071281_00140,Vendor creates invoice,2019-12-05 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4508076322_00010,Create Purchase Order Item,2019-01-02 12:18:00,user_602,2-way match,Limit,Framework order,companyID_0003
+4508076322_00010,Change Approval for Purchase Order,2019-01-02 13:07:00,user_603,2-way match,Limit,Framework order,companyID_0003
+4508076322_00010,Record Invoice Receipt,2019-01-02 16:47:00,user_359,2-way match,Limit,Framework order,companyID_0003
+4508076322_00010,Vendor creates invoice,2019-02-01 22:59:00,NONE,2-way match,Limit,Framework order,companyID_0003
+4508076323_00010,Create Purchase Order Item,2019-01-02 12:24:00,user_602,2-way match,Limit,Framework order,companyID_0003
+4508076323_00010,Change Approval for Purchase Order,2019-01-02 13:07:00,user_603,2-way match,Limit,Framework order,companyID_0003
+4508076323_00010,Record Invoice Receipt,2019-01-02 16:50:00,user_359,2-way match,Limit,Framework order,companyID_0003
+4508076323_00010,Vendor creates invoice,2019-02-01 22:59:00,NONE,2-way match,Limit,Framework order,companyID_0003

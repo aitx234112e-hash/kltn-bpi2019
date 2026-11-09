@@ -1,0 +1,185 @@
+case,act,ts,user,item_category,item_type,doc_type,company
+2000000184_00001,SRM: Created,2018-02-20 09:22:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,SRM: Complete,2018-02-20 10:22:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,SRM: Awaiting Approval,2018-02-20 10:22:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,SRM: Document Completed,2018-02-20 10:22:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,SRM: In Transfer to Execution Syst.,2018-02-20 10:22:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,SRM: Ordered,2018-02-20 10:22:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,SRM: Change was Transmitted,2018-02-20 10:22:00,batch_00,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Create Purchase Order Item,2018-02-20 10:22:00,user_000,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Record Goods Receipt,2018-02-21 12:01:00,user_000,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Vendor creates debit memo,2018-03-23 22:59:00,NONE,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Vendor creates invoice,2018-03-23 22:59:00,NONE,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Record Invoice Receipt,2018-05-10 05:19:00,user_012,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Clear Invoice,2018-05-24 11:32:00,user_002,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Cancel Invoice Receipt,2018-10-26 07:10:00,user_001,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+2000000184_00001,Clear Invoice,2018-11-29 15:14:00,user_002,"3-way match, invoice before GR",Standard,EC Purchase order,companyID_0000
+4507000230_00040,Create Purchase Order Item,2018-01-02 06:31:00,user_036,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Vendor creates invoice,2018-01-08 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Record Goods Receipt,2018-01-10 10:29:00,user_029,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Change Delivery Indicator,2018-01-12 13:02:00,user_036,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Record Invoice Receipt,2018-02-01 14:15:00,user_001,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Vendor creates debit memo,2018-02-19 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Cancel Invoice Receipt,2018-02-22 12:28:00,user_007,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Remove Payment Block,2018-02-22 15:54:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Clear Invoice,2018-03-01 13:05:00,user_005,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000230_00040,Clear Invoice,2018-03-29 13:08:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Create Purchase Order Item,2018-01-02 11:22:00,user_064,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Receive Order Confirmation,2018-01-02 11:29:00,user_029,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Vendor creates invoice,2018-01-15 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Record Invoice Receipt,2018-01-22 15:27:00,user_001,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Record Goods Receipt,2018-01-23 11:11:00,user_030,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Remove Payment Block,2018-01-26 15:38:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Clear Invoice,2018-03-29 13:10:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000357_00010,Cancel Invoice Receipt,2018-12-20 13:19:00,user_073,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Create Purchase Order Item,2018-01-02 12:32:00,user_085,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Record Goods Receipt,2018-01-09 14:53:00,user_087,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Vendor creates invoice,2018-01-10 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Vendor creates debit memo,2018-01-15 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Record Invoice Receipt,2018-03-13 09:59:00,user_001,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Cancel Invoice Receipt,2018-03-21 14:43:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Remove Payment Block,2018-03-21 15:06:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00030,Clear Invoice,2018-04-26 09:14:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Create Purchase Order Item,2018-01-02 12:32:00,user_085,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Record Goods Receipt,2018-01-09 14:53:00,user_087,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Vendor creates invoice,2018-01-10 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Vendor creates debit memo,2018-01-15 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Record Invoice Receipt,2018-03-13 09:59:00,user_001,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Cancel Invoice Receipt,2018-03-21 14:43:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Remove Payment Block,2018-03-21 15:06:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000377_00050,Clear Invoice,2018-04-26 09:14:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Create Purchase Order Item,2018-01-02 13:21:00,user_036,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Vendor creates invoice,2018-01-04 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Record Goods Receipt,2018-01-08 07:10:00,user_029,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Record Goods Receipt,2018-01-08 09:29:00,user_029,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Record Invoice Receipt,2018-01-08 13:09:00,user_004,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Change Delivery Indicator,2018-01-12 13:44:00,user_036,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Vendor creates debit memo,2018-01-16 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Cancel Invoice Receipt,2018-01-18 14:11:00,user_018,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Remove Payment Block,2018-01-18 16:25:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000400_00050,Clear Invoice,2018-03-29 13:10:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Create Purchase Order Item,2018-01-03 07:24:00,user_036,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Vendor creates invoice,2018-01-04 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Record Goods Receipt,2018-01-08 09:23:00,user_029,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Change Delivery Indicator,2018-01-08 11:26:00,user_036,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Record Invoice Receipt,2018-01-08 16:59:00,user_024,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Vendor creates debit memo,2018-01-11 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Cancel Invoice Receipt,2018-01-17 12:07:00,user_007,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Remove Payment Block,2018-01-17 15:50:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Clear Invoice,2018-01-25 15:52:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000526_00010,Clear Invoice,2018-02-08 13:43:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Create Purchase Order Item,2018-01-03 08:09:00,user_121,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Record Goods Receipt,2018-01-08 18:02:00,user_127,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Cancel Goods Receipt,2018-01-08 18:05:00,user_127,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Record Goods Receipt,2018-01-08 18:06:00,user_127,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Vendor creates invoice,2018-01-08 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Record Invoice Receipt,2018-01-19 11:03:00,user_008,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Remove Payment Block,2018-01-26 15:37:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Clear Invoice,2018-04-05 13:49:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000548_00010,Cancel Invoice Receipt,2018-07-23 00:08:00,batch_01,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Create Purchase Order Item,2018-01-03 08:52:00,user_045,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Vendor creates invoice,2018-01-04 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Record Goods Receipt,2018-01-09 12:29:00,user_046,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Record Invoice Receipt,2018-01-09 15:11:00,user_007,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Change Quantity,2018-01-10 08:01:00,user_045,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Vendor creates debit memo,2018-01-10 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Cancel Invoice Receipt,2018-01-17 14:30:00,user_007,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Remove Payment Block,2018-01-17 15:50:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Clear Invoice,2018-02-08 13:43:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000569_00030,Clear Invoice,2018-02-15 13:51:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000593_00010,Create Purchase Order Item,2018-01-03 09:53:00,user_059,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000593_00010,Vendor creates invoice,2018-01-18 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000593_00010,Record Goods Receipt,2018-01-31 12:57:00,user_031,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000593_00010,Record Invoice Receipt,2018-02-15 16:46:00,user_007,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000593_00010,Clear Invoice,2018-03-29 13:08:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000593_00010,Cancel Invoice Receipt,2018-08-20 00:21:00,batch_01,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Create Purchase Order Item,2018-01-04 07:50:00,user_045,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Vendor creates invoice,2018-01-08 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Record Goods Receipt,2018-01-10 06:43:00,user_048,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Record Goods Receipt,2018-01-10 06:44:00,user_048,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Record Invoice Receipt,2018-03-15 13:23:00,user_004,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Vendor creates debit memo,2018-03-16 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Cancel Invoice Receipt,2018-03-22 11:37:00,user_013,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Remove Payment Block,2018-03-23 11:22:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Clear Invoice,2018-03-29 13:08:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00010,Clear Invoice,2018-05-24 11:33:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Create Purchase Order Item,2018-01-04 07:50:00,user_045,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Vendor creates invoice,2018-01-08 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Change Quantity,2018-01-09 12:22:00,user_045,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Record Goods Receipt,2018-01-10 06:46:00,user_049,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Cancel Goods Receipt,2018-01-10 11:11:00,user_139,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Record Goods Receipt,2018-01-18 06:48:00,user_049,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Change Quantity,2018-03-15 08:26:00,user_045,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Record Invoice Receipt,2018-03-15 13:23:00,user_004,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Remove Payment Block,2018-03-23 11:22:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Clear Invoice,2018-03-29 13:08:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000865_00120,Cancel Invoice Receipt,2018-12-20 13:33:00,user_073,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000889_00010,Create Purchase Order Item,2018-01-04 08:54:00,user_059,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000889_00010,Record Goods Receipt,2018-01-18 10:54:00,user_031,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000889_00010,Vendor creates invoice,2018-01-31 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000889_00010,Record Invoice Receipt,2018-02-12 12:36:00,user_012,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000889_00010,Clear Invoice,2018-04-06 07:40:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000889_00010,Cancel Invoice Receipt,2018-08-20 00:21:00,batch_01,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Create Purchase Order Item,2018-01-04 09:44:00,user_068,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Change Quantity,2018-01-04 13:06:00,user_068,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Change Price,2018-01-19 07:27:00,user_069,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Vendor creates invoice,2018-02-16 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Record Goods Receipt,2018-02-19 09:21:00,user_133,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Change Delivery Indicator,2018-02-20 11:59:00,user_068,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Vendor creates debit memo,2018-02-21 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Record Invoice Receipt,2018-03-19 15:41:00,user_013,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Remove Payment Block,2018-03-20 15:28:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Cancel Invoice Receipt,2018-04-17 13:37:00,user_001,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000930_00010,Clear Invoice,2018-05-09 12:08:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Create Purchase Order Item,2018-01-04 10:48:00,user_084,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Vendor creates invoice,2018-03-15 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Record Invoice Receipt,2018-03-16 06:15:00,user_015,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Record Goods Receipt,2018-03-16 06:39:00,batch_03,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Change Quantity,2018-03-16 09:43:00,user_084,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Change Delivery Indicator,2018-03-16 09:43:00,user_084,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Remove Payment Block,2018-03-22 15:21:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Clear Invoice,2018-03-29 13:08:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000966_00030,Cancel Invoice Receipt,2018-12-20 13:33:00,user_073,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000969_00010,Create Purchase Order Item,2018-01-04 10:58:00,user_052,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000969_00010,Change Quantity,2018-01-10 14:04:00,user_052,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000969_00010,Vendor creates invoice,2018-01-24 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000969_00010,Record Goods Receipt,2018-01-29 13:16:00,user_053,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000969_00010,Record Invoice Receipt,2018-02-10 06:36:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000969_00010,Clear Invoice,2018-04-05 13:49:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000969_00010,Cancel Invoice Receipt,2018-08-20 00:21:00,batch_01,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000993_00010,Create Purchase Order Item,2018-01-04 12:27:00,user_097,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000993_00010,Record Goods Receipt,2018-01-25 10:54:00,user_181,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000993_00010,Vendor creates invoice,2018-01-25 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000993_00010,Record Invoice Receipt,2018-02-19 14:02:00,user_012,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000993_00010,Clear Invoice,2018-04-26 09:11:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507000993_00010,Cancel Invoice Receipt,2018-09-06 00:23:00,batch_01,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Create Purchase Order Item,2018-01-04 13:36:00,user_057,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Record Goods Receipt,2018-01-22 10:58:00,user_035,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Vendor creates invoice,2018-01-22 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Record Invoice Receipt,2018-01-23 09:05:00,batch_00,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Cancel Goods Receipt,2018-01-23 12:12:00,user_034,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Change Quantity,2018-01-26 10:31:00,user_057,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Vendor creates debit memo,2018-02-28 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Cancel Invoice Receipt,2018-03-14 14:31:00,user_012,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Change Delivery Indicator,2018-04-23 08:30:00,user_057,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Clear Invoice,2018-04-26 09:12:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001020_00110,Clear Invoice,2018-05-24 11:32:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Create Purchase Order Item,2018-01-05 12:16:00,user_079,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Vendor creates invoice,2018-01-30 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Record Invoice Receipt,2018-02-07 09:46:00,batch_00,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Change Delivery Indicator,2018-06-20 09:44:00,user_147,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Vendor creates debit memo,2018-06-27 21:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Cancel Invoice Receipt,2018-06-28 10:34:00,user_015,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Remove Payment Block,2018-06-28 11:06:00,user_196,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Clear Invoice,2018-06-29 09:23:00,user_005,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001238_00140,Clear Invoice,2018-07-05 08:55:00,user_197,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Create Purchase Order Item,2018-01-05 12:18:00,user_079,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Record Goods Receipt,2018-01-24 12:22:00,user_130,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Vendor creates invoice,2018-01-24 22:59:00,NONE,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Record Invoice Receipt,2018-01-25 16:33:00,user_024,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Change Quantity,2018-03-07 11:54:00,user_147,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Remove Payment Block,2018-03-21 05:28:00,user_006,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Change Quantity,2018-03-22 16:18:00,user_147,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Clear Invoice,2018-03-29 13:09:00,user_002,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Change Quantity,2018-04-13 11:37:00,user_147,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000
+4507001239_00120,Cancel Invoice Receipt,2018-07-27 00:20:00,batch_01,"3-way match, invoice before GR",Standard,Standard PO,companyID_0000

@@ -1,0 +1,35 @@
+﻿fitness,cost,lech,bien_the,so_dong_hang
+1.0,3,,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Clear Invoice,85089
+1.0,2,,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block → Clear Invoice,22510
+1.0,2,,Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt → Clear Invoice,14923
+1.0,2,,Create Purchase Requisition Item → Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Clear Invoice,11843
+1.0,2,,Create Purchase Order Item → Record Invoice Receipt → Record Goods Receipt → Remove Payment Block → Clear Invoice,10103
+0.4,30003,thiếu so với mô hình: Record Goods Receipt; thiếu so với mô hình: Record Invoice Receipt; thiếu so với mô hình: Clear Invoice,Create Purchase Order Item,8870
+0.875,10002,thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt,7356
+0.8571428571428572,10003,thiếu so với mô hình: Clear Invoice,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt,6468
+0.8888888888888888,10001,thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt,3490
+0.6666666666666667,20003,thiếu so với mô hình: Record Invoice Receipt; thiếu so với mô hình: Clear Invoice,Create Purchase Order Item → Record Goods Receipt,2893
+1.0,1,,Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block → Clear Invoice,2690
+1.0,1,,Create Purchase Requisition Item → Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block → Clear Invoice,2521
+0.5,30002,thiếu so với mô hình: Record Goods Receipt; thiếu so với mô hình: Record Invoice Receipt; thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item,2518
+0.7142857142857143,20002,thiếu so với mô hình: Record Invoice Receipt; thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Record Goods Receipt,2455
+1.0,1,,Create Purchase Requisition Item → Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt → Clear Invoice,1901
+1.0,1,,Create Purchase Requisition Item → Create Purchase Order Item → Record Invoice Receipt → Record Goods Receipt → Remove Payment Block → Clear Invoice,1700
+0.875,10002,thiếu so với mô hình: Clear Invoice,Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt,1660
+0.8888888888888888,10001,thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block,1505
+1.0,0,,Create Purchase Requisition Item → Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block → Clear Invoice,1206
+0.875,10002,thiếu so với mô hình: Clear Invoice,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block,1099
+0.8888888888888888,10003,thừa trong log: Record Goods Receipt,Create Purchase Order Item → Record Goods Receipt → Record Goods Receipt → Record Invoice Receipt → Clear Invoice,1045
+0.9,10000,thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block,880
+0.5,30002,thiếu so với mô hình: Record Goods Receipt; thiếu so với mô hình: Record Invoice Receipt; thiếu so với mô hình: Clear Invoice,Create Purchase Order Item → Receive Order Confirmation,845
+0.8888888888888888,10001,thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Record Invoice Receipt → Record Goods Receipt → Remove Payment Block,730
+1.0,1,,Create Purchase Order Item → Receive Order Confirmation → Record Invoice Receipt → Record Goods Receipt → Remove Payment Block → Clear Invoice,640
+0.8,20003,thừa trong log: Record Invoice Receipt; thừa trong log: Clear Invoice,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Clear Invoice → Record Invoice Receipt → Clear Invoice,639
+0.5714285714285714,30001,thiếu so với mô hình: Record Goods Receipt; thiếu so với mô hình: Record Invoice Receipt; thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Receive Order Confirmation,549
+0.75,20001,thiếu so với mô hình: Record Invoice Receipt; thiếu so với mô hình: Clear Invoice,Create Purchase Requisition Item → Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt,448
+0.8,20003,thừa trong log: Record Goods Receipt; thừa trong log: Record Invoice Receipt,Create Purchase Order Item → Record Goods Receipt → Record Goods Receipt → Record Invoice Receipt → Record Invoice Receipt → Clear Invoice,341
+0.6666666666666667,20003,thiếu so với mô hình: Record Goods Receipt; thiếu so với mô hình: Record Invoice Receipt,Create Purchase Order Item → Clear Invoice,336
+0.8888888888888888,10001,thiếu so với mô hình: Clear Invoice,Create Purchase Order Item → Receive Order Confirmation → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block,329
+0.9,10002,thừa trong log: Record Goods Receipt,Create Purchase Order Item → Record Goods Receipt → Record Goods Receipt → Record Invoice Receipt → Remove Payment Block → Clear Invoice,319
+0.8181818181818181,20002,thừa trong log: Clear Invoice; thừa trong log: Record Invoice Receipt,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Clear Invoice → Record Invoice Receipt → Remove Payment Block → Clear Invoice,283
+0.8181818181818181,20002,thừa trong log: Record Invoice Receipt; thừa trong log: Clear Invoice,Create Purchase Order Item → Record Goods Receipt → Record Invoice Receipt → Record Invoice Receipt → Remove Payment Block → Clear Invoice → Clear Invoice,276

@@ -1,0 +1,6 @@
+﻿mo_hinh,tap_danh_gia,so_bien_the,fitness,khop_hoan_toan_%,precision
+Mô hình chuẩn hai nhánh,toàn bộ phạm vi,34,0.9375,77.39,0.995
+Mô hình chuẩn hai nhánh,dòng hàng hoàn tất,11,0.9993,99.33,0.9844
+IMf khám phá từ toàn bộ phạm vi,toàn bộ phạm vi,34,0.9398,78.83,0.5323
+IMf khám phá từ toàn bộ phạm vi,dòng hàng hoàn tất,11,1.0,100.0,0.4513
+IMf khám phá từ dòng hàng hoàn tất,dòng hàng hoàn tất,11,1.0,100.0,0.4513

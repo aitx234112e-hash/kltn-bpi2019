@@ -1,0 +1,55 @@
+digraph DFG {
+  rankdir=TB; nodesep=0.25; ranksep=0.5; bgcolor=white;
+  node [shape=box, style="rounded,filled", fontname="Times New Roman", fontsize=12, penwidth=1.6];
+  edge [fontname="Times New Roman", fontsize=10, arrowsize=0.7];
+  "Cancel Invoice Receipt" [label=<<b>Cancel Invoice Receipt</b><br/>5.842>, fillcolor="#eeeeee", color="#718096"];
+  "Change Price" [label=<<b>Change Price</b><br/>9.845>, fillcolor="#eeeeee", color="#718096"];
+  "Change Quantity" [label=<<b>Change Quantity</b><br/>16.607>, fillcolor="#eeeeee", color="#718096"];
+  "Clear Invoice" [label=<<b>Clear Invoice</b><br/>173.256>, fillcolor="#ead9f5", color="#6b46c1"];
+  "Create Purchase Order Item" [label=<<b>Create Purchase Order Item</b><br/>210.887>, fillcolor="#dbe9f6", color="#2b6cb0"];
+  "Create Purchase Requisition Item" [label=<<b>Create Purchase Requisition Item</b><br/>41.393>, fillcolor="#dbe9f6", color="#2b6cb0"];
+  "Delete Purchase Order Item" [label=<<b>Delete Purchase Order Item</b><br/>7.598>, fillcolor="#eeeeee", color="#718096"];
+  "Receive Order Confirmation" [label=<<b>Receive Order Confirmation</b><br/>31.273>, fillcolor="#dbe9f6", color="#2b6cb0"];
+  "Record Goods Receipt" [label=<<b>Record Goods Receipt</b><br/>212.458>, fillcolor="#d9f2e3", color="#2f855a"];
+  "Record Invoice Receipt" [label=<<b>Record Invoice Receipt</b><br/>200.593>, fillcolor="#fdebd3", color="#c05621"];
+  "Remove Payment Block" [label=<<b>Remove Payment Block</b><br/>53.217>, fillcolor="#fdebd3", color="#c05621"];
+  "Vendor creates debit memo" [label=<<b>Vendor creates debit memo</b><br/>5.170>, fillcolor="#eeeeee", color="#718096"];
+  "Vendor creates invoice" [label=<<b>Vendor creates invoice</b><br/>195.707>, fillcolor="#fdebd3", color="#c05621"];
+  "Record Goods Receipt" -> "Record Invoice Receipt" [label="142.375 | 218,7", penwidth=6.00, color="#1a365d", fontcolor="#1a365d"];
+  "Vendor creates invoice" -> "Record Goods Receipt" [label="129.084 | 37,6", penwidth=5.53, color="#203b61", fontcolor="#203b61"];
+  "Record Invoice Receipt" -> "Clear Invoice" [label="120.758 | 905,0", penwidth=5.24, color="#243f64", fontcolor="#243f64"];
+  "Create Purchase Order Item" -> "Vendor creates invoice" [label="111.381 | 182,8", penwidth=4.91, color="#294368", fontcolor="#294368"];
+  "Vendor creates invoice" -> "Record Invoice Receipt" [label="46.371 | 111,2", penwidth=2.63, color="#536987", fontcolor="#536987"];
+  "Remove Payment Block" -> "Clear Invoice" [label="46.237 | 679,6", penwidth=2.62, color="#536987", fontcolor="#536987"];
+  "Create Purchase Order Item" -> "Record Goods Receipt" [label="39.846 | 198,3", penwidth=2.40, color="#596e8b", fontcolor="#596e8b"];
+  "Create Purchase Requisition Item" -> "Create Purchase Order Item" [label="37.986 | 10,8", penwidth=2.33, color="#5a708c", fontcolor="#5a708c"];
+  "Record Invoice Receipt" -> "Remove Payment Block" [label="35.168 | 204,1", penwidth=2.24, color="#5d728e", fontcolor="#5d728e"];
+  "Record Goods Receipt" -> "Vendor creates invoice" [label="33.602 | 62,4", penwidth=2.18, color="#5e738f", fontcolor="#5e738f", constraint=false];
+  "Create Purchase Order Item" -> "Receive Order Confirmation" [label="29.936 | 1,5", penwidth=2.05, color="#627692", fontcolor="#627692"];
+  "Receive Order Confirmation" -> "Vendor creates invoice" [label="21.198 | 109,8", penwidth=1.74, color="#6c7f99", fontcolor="#6c7f99"];
+  "Record Invoice Receipt" -> "Record Goods Receipt" [label="15.127 | 27,2", penwidth=1.53, color="#74869f", fontcolor="#74869f", constraint=false];
+  "Record Goods Receipt" -> "Remove Payment Block" [label="14.406 | 9,2", penwidth=1.51, color="#7587a0", fontcolor="#7587a0"];
+  "Vendor creates invoice" -> "Create Purchase Order Item" [label="13.990 | 8,8", penwidth=1.49, color="#7588a0", fontcolor="#7588a0", constraint=false];
+  "Record Goods Receipt" -> "Record Goods Receipt" [label="10.929 | 0,0", penwidth=1.38, color="#7a8ca4", fontcolor="#7a8ca4", constraint=false];
+  "Create Purchase Order Item" -> "Change Quantity" [label="8.387 | 97,6", penwidth=1.29, color="#7f90a7", fontcolor="#7f90a7"];
+  "Receive Order Confirmation" -> "Record Goods Receipt" [label="7.793 | 119,3", penwidth=1.27, color="#8091a8", fontcolor="#8091a8"];
+  "Change Quantity" -> "Vendor creates invoice" [label="6.013 | 184,3", penwidth=1.21, color="#8495ab", fontcolor="#8495ab"];
+  "Create Purchase Order Item" -> "Delete Purchase Order Item" [label="5.826 | 22,4", penwidth=1.20, color="#8495ab", fontcolor="#8495ab"];
+  "Change Quantity" -> "Record Goods Receipt" [label="5.619 | 20,3", penwidth=1.20, color="#8596ac", fontcolor="#8596ac"];
+  "Create Purchase Order Item" -> "Change Price" [label="4.826 | 42,8", penwidth=1.17, color="#8797ad", fontcolor="#8797ad"];
+  "Vendor creates debit memo" -> "Vendor creates invoice" [label="3.425 | 0,0", penwidth=1.12, color="#8b9bb0", fontcolor="#8b9bb0", constraint=false];
+  "Record Invoice Receipt" -> "Record Invoice Receipt" [label="3.211 | 3,5", penwidth=1.11, color="#8b9bb1", fontcolor="#8b9bb1", constraint=false];
+  "Vendor creates invoice" -> "Change Quantity" [label="3.050 | 33,0", penwidth=1.11, color="#8c9cb1", fontcolor="#8c9cb1", constraint=false];
+  "Create Purchase Requisition Item" -> "Vendor creates invoice" [label="2.952 | 0,0", penwidth=1.10, color="#8c9cb1", fontcolor="#8c9cb1"];
+  "Change Price" -> "Vendor creates invoice" [label="2.939 | 205,4", penwidth=1.10, color="#8c9cb1", fontcolor="#8c9cb1"];
+  "Clear Invoice" -> "Clear Invoice" [label="2.354 | 330,9", penwidth=1.08, color="#8e9eb3", fontcolor="#8e9eb3", constraint=false];
+  "Clear Invoice" -> "Record Invoice Receipt" [label="2.241 | 123,4", penwidth=1.08, color="#8f9eb3", fontcolor="#8f9eb3", constraint=false];
+  "Create Purchase Order Item" -> "Vendor creates debit memo" [label="2.172 | 88,5", penwidth=1.08, color="#8f9fb3", fontcolor="#8f9fb3"];
+  "Change Price" -> "Record Goods Receipt" [label="2.156 | 118,4", penwidth=1.08, color="#8f9fb3", fontcolor="#8f9fb3"];
+  "Clear Invoice" -> "Cancel Invoice Receipt" [label="2.131 | 1.432,2", penwidth=1.07, color="#8f9fb3", fontcolor="#8f9fb3"];
+  "Cancel Invoice Receipt" -> "Clear Invoice" [label="2.064 | 0,1", penwidth=1.07, color="#8f9fb4", fontcolor="#8f9fb4", constraint=false];
+  "Cancel Invoice Receipt" -> "Record Invoice Receipt" [label="1.799 | 0,1", penwidth=1.06, color="#90a0b4", fontcolor="#90a0b4", constraint=false];
+  chu_giai [shape=plaintext, style="", label=<<table border="0" cellspacing="6"><tr><td>Giai đoạn:</td><td bgcolor="#dbe9f6" border="1" color="#2b6cb0" cellpadding="5">Mua hàng</td><td bgcolor="#d9f2e3" border="1" color="#2f855a" cellpadding="5">Nhận hàng</td><td bgcolor="#fdebd3" border="1" color="#c05621" cellpadding="5">Hóa đơn</td><td bgcolor="#ead9f5" border="1" color="#6b46c1" cellpadding="5">Thanh toán</td><td bgcolor="#eeeeee" border="1" color="#718096" cellpadding="5">Điều chỉnh, hủy</td></tr></table>>];
+  { rank=min; "Create Purchase Requisition Item"; }
+  { rank=max; chu_giai; }
+}

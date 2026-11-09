@@ -1,0 +1,49 @@
+﻿ma,nhan,H,tap_du_lieu,bo_vendor_inv,tien_to,n_huan_luyen,n1_huan_luyen,chi_bao_cao,luat,mo_hinh,n1_luat,ty_le_nhan_1,pr_auc,chi_bao_cao_luat
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R2a,XGBoost,50,0.000841283462049703,0.0014462737660387247,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R2a,Logistic Regression,50,0.000841283462049703,0.0024696341445963293,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R2a,Mốc 1: biến lúc tạo,50,0.000841283462049703,0.0010475165725550874,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R2a,Mốc 2: tỷ lệ của nhà cung cấp,50,0.000841283462049703,0.003548865813024564,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R3,XGBoost,306,0.005126572735344871,0.014102034582953615,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R3,Logistic Regression,306,0.005126572735344871,0.016184136529788774,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R3,Mốc 1: biến lúc tạo,306,0.005126572735344871,0.01916623646935415,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R3,Mốc 2: tỷ lệ của nhà cung cấp,306,0.005126572735344871,0.016245004268155443,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R6,XGBoost,97,0.0016308002689979825,0.0632218541864562,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R6,Logistic Regression,97,0.0016308002689979825,0.1822250774152011,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R6,Mốc 1: biến lúc tạo,97,0.0016308002689979825,0.1786274644712756,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,2,52729,928,False,R6,Mốc 2: tỷ lệ của nhà cung cấp,97,0.0016308002689979825,0.17848424381042977,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R2a,XGBoost,50,0.0008741717222931273,0.0027735165292429084,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R2a,Logistic Regression,50,0.0008741717222931273,0.0031865095031332127,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R2a,Mốc 1: biến lúc tạo,50,0.0008741717222931273,0.0010969373537561148,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R2a,Mốc 2: tỷ lệ của nhà cung cấp,50,0.0008741717222931273,0.0036518926143804488,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R3,XGBoost,306,0.005326092632238526,0.016710779425962774,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R3,Logistic Regression,306,0.005326092632238526,0.017350711047309765,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R3,Mốc 1: biến lúc tạo,306,0.005326092632238526,0.018739939646125164,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R3,Mốc 2: tỷ lệ của nhà cung cấp,306,0.005326092632238526,0.016764107373025902,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R6,XGBoost,47,0.0008217645207539252,0.007191678133639129,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R6,Logistic Regression,47,0.0008217645207539252,0.05038366159839657,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R6,Mốc 1: biến lúc tạo,47,0.0008217645207539252,0.008435144872740667,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,3,50299,854,False,R6,Mốc 2: tỷ lệ của nhà cung cấp,47,0.0008217645207539252,0.037091430200074105,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R2a,XGBoost,12,0.00021732043898728675,0.001272494926727081,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R2a,Logistic Regression,12,0.00021732043898728675,0.0008870523693724464,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R2a,Mốc 1: biến lúc tạo,12,0.00021732043898728675,0.00034177264963485416,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R2a,Mốc 2: tỷ lệ của nhà cung cấp,12,0.00021732043898728675,0.0005247293078038633,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R3,XGBoost,301,0.005422739474300538,0.018004435301208797,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R3,Logistic Regression,301,0.005422739474300538,0.017529717412229556,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R3,Mốc 1: biến lúc tạo,301,0.005422739474300538,0.01851333233020565,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R3,Mốc 2: tỷ lệ của nhà cung cấp,301,0.005422739474300538,0.016245120551005948,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R6,XGBoost,18,0.0003259452411994785,0.0010364927732502184,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R6,Logistic Regression,18,0.0003259452411994785,0.002212854532040395,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R6,Mốc 1: biến lúc tạo,18,0.0003259452411994785,0.0008726546654476867,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,4,47690,690,False,R6,Mốc 2: tỷ lệ của nhà cung cấp,18,0.0003259452411994785,0.0015392524941253757,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R2a,XGBoost,6,0.00013103011508811774,0.00029854239315481264,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R2a,Logistic Regression,6,0.00013103011508811774,0.0006420878354599228,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R2a,Mốc 1: biến lúc tạo,6,0.00013103011508811774,0.0005553410415307293,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R2a,Mốc 2: tỷ lệ của nhà cung cấp,6,0.00013103011508811774,0.0002651833100107446,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R3,XGBoost,150,0.0032654838358550124,0.02080498173705385,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R3,Logistic Regression,150,0.0032654838358550124,0.015571512755077392,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R3,Mốc 1: biến lúc tạo,150,0.0032654838358550124,0.009102359647157098,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R3,Mốc 2: tỷ lệ của nhà cung cấp,150,0.0032654838358550124,0.009641118417874114,False
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R6,XGBoost,8,0.00017469918983250716,0.0006764376400236234,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R6,Logistic Regression,8,0.00017469918983250716,0.0007172499070233853,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R6,Mốc 1: biến lúc tạo,8,0.00017469918983250716,0.0009758794988185667,True
+dn3_loai_huy,chinh,90,loại dòng có hủy,False,5,38569,322,False,R6,Mốc 2: tỷ lệ của nhà cung cấp,8,0.00017469918983250716,0.0006295422626100197,True

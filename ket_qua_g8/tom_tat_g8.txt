@@ -1,0 +1,116 @@
+Đọc log xong sau 48 giây.
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Số dòng hàng theo luật khớp kiểm chứng (R2a 508, R3 2.008, R6 650, R7b 2.430, làm lại 2.982).
+Mọi dòng hàng bị đánh dấu đều có thời điểm dấu hiệu.
+Tập phân tích: 203.607 dòng hàng (hoàn tất 163.619).
+
+=== Mục 2. Mẫu bổ sung R6 khác thời điểm ===
+  Tập đã đọc: 523 case từ 25 file mẫu và file nhận xét (cùng 44 case ghi trong G3).
+  R6: 650 dòng; khác thời điểm 583, trong đó đã đọc 13.
+  Khung mẫu (chưa đọc): hai nhà cung cấp 190, nhà cung cấp khác 380; rút 10 + 10 case (seed 2026).
+  Ghi mau_r6_khac_thoi_diem_g8.csv (vết) và mau_r6_khac_thoi_diem_g8_nhan_xet.csv (điền cột co_che, ghi_chu).
+
+=== Mục 2. Phép đếm thêm cho R3 ===
+  R3: sửa giá sau hóa đơn: 2.008 dòng hàng
+    người sửa giá là người tạo dòng đơn hàng (ít nhất một lần): 180 (9,0%); mọi lần sửa đều do người tạo: 163 (8,1%)
+    có Change Approval for Purchase Order từ lần sửa giá đầu tiên trở đi: 13 (0,6%); trong đó do người khác người sửa giá: 13 (0,6%)
+    người tạo tự sửa giá và không có phê duyệt sau đó: 168 (8,4%)
+  Đối chứng: dòng không R3 có sửa giá (trước hóa đơn hoặc không có hóa đơn): 7.005 dòng hàng
+    người sửa giá là người tạo dòng đơn hàng (ít nhất một lần): 3.003 (42,9%); mọi lần sửa đều do người tạo: 2.879 (41,1%)
+    có Change Approval for Purchase Order từ lần sửa giá đầu tiên trở đi: 42 (0,6%); trong đó do người khác người sửa giá: 28 (0,4%)
+    người tạo tự sửa giá và không có phê duyệt sau đó: 2.980 (42,5%)
+  Người tạo dòng đơn hàng R3 là tài khoản batch: 46 (2,3%).
+
+=== Mục 3.1. R6 và nhà cung cấp ===
+  (1) Cox phân tầng theo nhà cung cấp: 379 tầng (378 nhà cung cấp có từ 50 dòng hàng, còn lại gộp một tầng gồm 10.871 dòng). Dòng R6 nằm trong tầng có cả dòng không R6: 648 (100,0%); trong tầng nhà cung cấp nhỏ: 162.
+  209.023 đoạn; chạy 81 giây.
+  R2a                      HR 2,005 (KTC 95%: 1,824–2,203); p < 0,001
+  R3                       HR 1,285 (KTC 95%: 1,225–1,349); p < 0,001
+  Làm lại                  HR 5,246 (KTC 95%: 4,974–5,534); p < 0,001
+  R6                       HR 1,154 (KTC 95%: 1,038–1,283); p 0,008
+  R7 (biến thể phụ)        HR 3,772 (KTC 95%: 3,539–4,020); p < 0,001
+
+  (2) Loại 285 dòng hàng của vendorID_0741, vendorID_0572 (193 dòng R6): 203.322 dòng, R6 455.
+  R2a                      HR 1,281 (KTC 95%: 1,167–1,406); p < 0,001
+  R3                       HR 1,439 (KTC 95%: 1,374–1,507); p < 0,001
+  Làm lại                  HR 4,875 (KTC 95%: 4,635–5,127); p < 0,001
+  R6                       HR 0,478 (KTC 95%: 0,430–0,532); p < 0,001
+  R7 (biến thể phụ)        HR 4,604 (KTC 95%: 4,417–4,799); p < 0,001
+  RMST R6, đã loại hai nhà cung cấp: có 455, so sánh 202.867; trung vị KM 86 so với 85 ngày; log-rank p < 0,001; RMST đến 180 ngày 98,6 so với 89,5, chênh 9,0 (KTC 95%: 4,1–13,9); chênh > 0 là chậm hơn
+  RMST R6, chỉ trong hai nhà cung cấp: có 193, so sánh 92; trung vị KM 133 so với 129 ngày; log-rank p 0,054; RMST đến 180 ngày 137,9 so với 129,6, chênh 8,3 (KTC 95%: 1,5–15,1); chênh > 0 là chậm hơn
+
+  (3) Tách R6: cùng phút 67, khác thời điểm 581 dòng (trong tập phân tích).
+  R2a                      HR 1,280 (KTC 95%: 1,166–1,405); p < 0,001
+  R3                       HR 1,438 (KTC 95%: 1,373–1,506); p < 0,001
+  Làm lại                  HR 4,851 (KTC 95%: 4,613–5,101); p < 0,001
+  R6 cùng phút             HR 1,123 (KTC 95%: 0,868–1,452); p 0,377
+  R6 khác thời điểm        HR 0,487 (KTC 95%: 0,443–0,537); p < 0,001
+  R7 (biến thể phụ)        HR 4,565 (KTC 95%: 4,378–4,759); p < 0,001
+  RMST R6 cùng phút so với dòng không R6: có 67, so sánh 202.959; trung vị KM 52 so với 85 ngày; log-rank p < 0,001; RMST đến 180 ngày 61,4 so với 89,6, chênh -28,1 (KTC 95%: -39,1–-17,1); chênh > 0 là chậm hơn
+  RMST R6 khác thời điểm so với dòng không R6: có 581, so sánh 202.959; trung vị KM 121 so với 85 ngày; log-rank p < 0,001; RMST đến 180 ngày 116,3 so với 89,6, chênh 26,7 (KTC 95%: 22,9–30,6); chênh > 0 là chậm hơn
+  RMST R6 khác thời điểm của hai nhà cung cấp, so với dòng không R6 cùng hai nhà cung cấp: có 193, so sánh 92; trung vị KM 133 so với 129 ngày; log-rank p 0,054; RMST đến 180 ngày 137,9 so với 129,6, chênh 8,3 (KTC 95%: 1,5–15,1); chênh > 0 là chậm hơn
+  RMST R6 khác thời điểm của nhà cung cấp khác, so với dòng không R6 ngoài hai nhà cung cấp: có 388, so sánh 202.867; trung vị KM 93 so với 85 ngày; log-rank p < 0,001; RMST đến 180 ngày 104,9 so với 89,5, chênh 15,3 (KTC 95%: 10,2–20,5); chênh > 0 là chậm hơn
+
+=== Mục 3.2. Debit memo và chỉ báo làm lại ===
+  2.982 dòng làm lại; có debit memo 2.982 (100,0%); số debit memo: 1 2.905; 2 70; 3 7 (3 = từ 3 trở lên).
+  Ngày (giờ địa phương) của debit memo gần lần hủy nhất, so với (số ngày lịch, dương là debit memo xảy ra sau):
+    lần hủy hóa đơn đầu tiên do người dùng thật: trước 2.964 (99,4%), cùng ngày 8 (0,3%), sau 10 (0,3%); khoảng cách -55 [-109–-25] ngày
+    lần ghi lại hóa đơn: trước 2.970 (99,6%), cùng ngày 4 (0,1%), sau 8 (0,3%); khoảng cách -64 [-130–-33] ngày
+    lần ghi nhận hóa đơn đầu tiên: trước 2.556 (85,7%), cùng ngày 116 (3,9%), sau 310 (10,4%); khoảng cách -13 [-35–-3] ngày
+  Từ lần hủy đến lần ghi lại hóa đơn: 0 [0–1] ngày; cùng ngày 2.181 (73,1%).
+
+  Bảng chéo k = số Clear thanh toán − max(0, #IR − #Cancel IR), G4: có debit memo, không hoạt động > 90 ngày (n = 3.028):
+    lam_lai                không làm lại  làm lại  tổng
+    nhom_k                                             
+    0 < k < số debit memo              5        9    14
+    k < 0                              7       49    56
+    k = 0                            439     1025  1464
+    k = số debit memo                610      574  1184
+    k > số debit memo                213       97   310
+    tổng                            1274     1754  3028
+    Tỷ lệ theo cột: không làm lại: 0 < k < số debit memo 0,4%, k < 0 0,5%, k = 0 34,5%, k = số debit memo 47,9%, k > số debit memo 16,7%; làm lại: 0 < k < số debit memo 0,5%, k < 0 2,8%, k = 0 58,4%, k = số debit memo 32,7%, k > số debit memo 5,5%
+
+  Bảng chéo k = số Clear thanh toán − max(0, #IR − #Cancel IR), mọi dòng có debit memo (n = 5.056):
+    lam_lai                không làm lại  làm lại  tổng
+    nhom_k                                             
+    0 < k < số debit memo              7       26    33
+    k < 0                             20      139   159
+    k = 0                            665     1668  2333
+    k = số debit memo                972     1000  1972
+    k > số debit memo                410      149   559
+    tổng                            2074     2982  5056
+    Tỷ lệ theo cột: không làm lại: 0 < k < số debit memo 0,3%, k < 0 1,0%, k = 0 32,1%, k = số debit memo 46,9%, k > số debit memo 19,8%; làm lại: 0 < k < số debit memo 0,9%, k < 0 4,7%, k = 0 55,9%, k = số debit memo 33,5%, k > số debit memo 5,0%
+
+  Rút 10 dòng làm lại để đọc (seed 2026): mau_lam_lai_g8.csv và mau_lam_lai_g8_nhan_xet.csv.
+
+=== Mục 3.3. R7 biến thể phụ với mốc chung ===
+  Mốc = thời điểm sớm hơn giữa tạo dòng đơn hàng và Vendor creates invoice đầu tiên (sự kiện chỉ ghi đến ngày). Không có ngày hóa đơn nhà cung cấp: 12.604 dòng, dùng ngày tạo dòng đơn hàng.
+  Mốc lùi sớm hơn ngày tạo dòng đơn hàng: 2.430 (1,2%) dòng; số ngày lùi ở dòng R7b 14,4 [6,4–29,3], ở dòng không R7b có lùi –.
+  R2a                      HR 1,341 (KTC 95%: 1,222–1,472); p < 0,001
+  R3                       HR 1,441 (KTC 95%: 1,376–1,509); p < 0,001
+  Làm lại                  HR 4,819 (KTC 95%: 4,583–5,068); p < 0,001
+  R6                       HR 0,495 (KTC 95%: 0,452–0,542); p < 0,001
+  R7 (biến thể phụ)        HR 1,415 (KTC 95%: 1,357–1,475); p < 0,001
+  RMST R7b, mốc chung: có 2.430, so sánh 201.177; trung vị KM 56 so với 86 ngày; log-rank p < 0,001; RMST đến 180 ngày 66,5 so với 90,2, chênh -23,7 (KTC 95%: -25,1–-22,2); chênh > 0 là chậm hơn
+
+  Loại vendorID_0550: 1.260 dòng (1.215 dòng R7b); còn R7b 1.215.
+  R2a                      HR 1,303 (KTC 95%: 1,187–1,430); p < 0,001
+  R3                       HR 1,433 (KTC 95%: 1,368–1,501); p < 0,001
+  Làm lại                  HR 4,771 (KTC 95%: 4,537–5,018); p < 0,001
+  R6                       HR 0,530 (KTC 95%: 0,484–0,580); p < 0,001
+  R7 (biến thể phụ)        HR 0,810 (KTC 95%: 0,763–0,860); p < 0,001
+  RMST R7b, mốc chung, loại vendorID_0550: có 1.215, so sánh 201.132; trung vị KM 71 so với 86 ngày; log-rank p < 0,001; RMST đến 180 ngày 83,7 so với 90,2, chênh -6,5 (KTC 95%: -9,0–-4,0); chênh > 0 là chậm hơn
+
+=== Mục 3.4. Mô hình chỉ dùng biến kiểm soát biết được lúc tạo dòng đơn hàng ===
+  Bỏ nhanh_b, nhanh_khac, nhieu_gr_ir; giữ hạng mục chi tiêu, log giá trị, giá trị 0, quy mô nhà cung cấp.
+  R2a                      HR 1,029 (KTC 95%: 0,939–1,128); p 0,541
+  R3                       HR 1,376 (KTC 95%: 1,314–1,441); p < 0,001
+  Làm lại                  HR 1,480 (KTC 95%: 1,420–1,541); p < 0,001
+  R6                       HR 0,442 (KTC 95%: 0,404–0,483); p < 0,001
+  R7 (biến thể phụ)        HR 4,048 (KTC 95%: 3,884–4,219); p < 0,001
+
+Đã vẽ hinh_4_4_hai_hang.png (Hình 4.4, hai hàng).
+
+Xong sau 759 giây.

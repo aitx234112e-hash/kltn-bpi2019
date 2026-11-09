@@ -1,0 +1,7 @@
+﻿loai_buoc_lech,hoat_dong,so_dong_hang,so_lan,ty_le_dong_hang
+thiếu so với mô hình,Clear Invoice,42095,42095,0.20999201835777712
+thiếu so với mô hình,Record Invoice Receipt,18914,18914,0.09435298812730719
+thiếu so với mô hình,Record Goods Receipt,13118,13118,0.06543948917489774
+thừa trong log,Record Goods Receipt,1705,1705,0.008505437493764341
+thừa trong log,Record Invoice Receipt,1539,1539,0.007677342113139778
+thừa trong log,Clear Invoice,1198,1198,0.00597625461438691

@@ -1,0 +1,7 @@
+﻿nhom_k,không làm lại,làm lại,tổng,tap
+0 < k < số debit memo,7,26,33,mọi dòng có debit memo
+k < 0,20,139,159,mọi dòng có debit memo
+k = 0,665,1668,2333,mọi dòng có debit memo
+k = số debit memo,972,1000,1972,mọi dòng có debit memo
+k > số debit memo,410,149,559,mọi dòng có debit memo
+tổng,2074,2982,5056,mọi dòng có debit memo

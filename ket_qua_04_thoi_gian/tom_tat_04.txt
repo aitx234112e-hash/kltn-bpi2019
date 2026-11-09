@@ -1,0 +1,126 @@
+Đọc log xong sau 81 giây. Phạm vi 210.887 dòng hàng, 1.175.650 sự kiện; trích xuất 2019-01-18 13:34:00.
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Số dòng hàng theo luật khớp kiểm chứng (R2a 508, R3 2.008, R6 650, R7b 2.430, làm lại 2.982).
+Mọi dòng hàng bị đánh dấu đều có thời điểm dấu hiệu.
+Tập phân tích: 203.607 dòng hàng (hoàn tất 163.619, còn mở bị kiểm duyệt 39.988); loại bị xóa 7.280, thời gian ≤ 0 hoặc thiếu 0.
+
+=== 1. Mô tả ===
+Kiểm tra với Mục 3.2.2 (số ngày thực): hoàn tất 163.619, còn mở 39.988; trung vị 77,4, P90 127,2, trung vị Kaplan-Meier 84,6 ngày (kỳ vọng 163.619; 39.988; 77,4; 127,2; 84,6).
+Trên thang ngày nguyên: trung vị Kaplan-Meier 85 ngày, P90 Kaplan-Meier 141 ngày.
+Tỷ lệ đã thanh toán xong (Kaplan-Meier): ngày 30: 6,0%; ngày 60: 27,2%; ngày 90: 54,2%; ngày 120: 78,6%; ngày 180: 94,2%; ngày 365: 96,3%
+Dòng hoàn tất: đến Clear thanh toán đầu tiên trung vị 77,1 ngày, đến Clear thanh toán cuối cùng 77,4 ngày; 3.262 (1,99%) dòng có hơn một thời điểm thanh toán.
+
+Theo nhánh:
+  nhánh (a): 175.933 dòng, hoàn tất 149.362 (84,90%); trung vị KM 84, P90 KM 136 ngày; trung vị dòng hoàn tất 77,7 ngày
+  nhánh (b): 15.293 dòng, hoàn tất 13.710 (89,65%); trung vị KM 83, P90 KM 133 ngày; trung vị dòng hoàn tất 77,2 ngày
+  nhánh khác: 12.381 dòng, hoàn tất 547 (4,42%); trung vị KM –, P90 KM – ngày; trung vị dòng hoàn tất 53,0 ngày
+
+Thời gian chờ theo giai đoạn, dòng hoàn tất (ngày; trung vị [P25–P75]):
+  (a) tạo đơn hàng → nhận hàng đầu tiên: n = 149.362; 8,5 [4,4–16,8]
+  (a) ghi nhận hóa đơn đầu tiên → gỡ khóa đầu tiên: n = 32.058; 10,3 [3,8–38,1]
+  (a) gỡ khóa đầu tiên → thanh toán cuối cùng: n = 32.058; 22,7 [6,6–51,3]; âm 7
+  (a) ghi nhận hóa đơn đầu tiên → thanh toán cuối cùng: n = 149.362; 42,9 [22,9–71,1]
+  (b) tạo đơn hàng → nhận hàng đầu tiên: n = 13.710; 13,9 [6,4–21,0]
+  (b) ghi nhận hóa đơn đầu tiên → gỡ khóa đầu tiên: n = 13.464; 2,5 [1,0–5,3]
+  (b) gỡ khóa đầu tiên → thanh toán cuối cùng: n = 13.464; 51,3 [21,4–83,4]; âm 5
+  (b) ghi nhận hóa đơn đầu tiên → thanh toán cuối cùng: n = 13.710; 59,0 [29,1–92,3]
+
+Clear Invoice thanh toán theo thứ (giờ địa phương): Thứ Hai 283 (0,2%); Thứ Ba 1.832 (1,1%); Thứ Tư 5.493 (3,2%); Thứ Năm 130.861 (76,5%); Thứ Sáu 32.522 (19,0%); Thứ Bảy 56 (0,0%); Chủ nhật 93 (0,1%)
+Đã vẽ km_toan_bo_theo_nhanh.png, km_minh_hoa_theo_luat.png.
+
+Thời điểm dấu hiệu so với thời gian theo dõi (tập phân tích):
+  R2a: 504 dòng; dấu hiệu sau trung vị 24,9 ngày; phơi nhiễm từ ngày đầu 0, giữa chừng 504, sau thanh toán/kiểm duyệt 0
+  R3: 2.008 dòng; dấu hiệu sau trung vị 47,1 ngày; phơi nhiễm từ ngày đầu 0, giữa chừng 1.973, sau thanh toán/kiểm duyệt 35
+  Làm lại: 2.982 dòng; dấu hiệu sau trung vị 83,0 ngày; phơi nhiễm từ ngày đầu 0, giữa chừng 2.978, sau thanh toán/kiểm duyệt 4
+  R6 (nhận hàng do người tạo đơn): 648 dòng; dấu hiệu sau trung vị 20,2 ngày; phơi nhiễm từ ngày đầu 120, giữa chừng 527, sau thanh toán/kiểm duyệt 1
+
+=== 2. Cox có biến thay đổi theo thời gian (R2a, R3, làm lại) và biến ban đầu (R6, R7b), có biến kiểm soát ===
+HR < 1: thanh toán chậm hơn; HR > 1: nhanh hơn.
+209.023 đoạn thời gian; 163.619 sự kiện; chạy 51 giây.
+  R2a                      HR 1,278 (KTC 95%: 1,165–1,403); p < 0,001; p Holm < 0,001
+  R3                       HR 1,438 (KTC 95%: 1,373–1,506); p < 0,001; p Holm < 0,001
+  Làm lại                  HR 4,842 (KTC 95%: 4,604–5,091); p < 0,001; p Holm < 0,001
+  R6                       HR 0,524 (KTC 95%: 0,478–0,573); p < 0,001; p Holm < 0,001
+  R7 (biến thể phụ)        HR 4,600 (KTC 95%: 4,413–4,795); p < 0,001; p Holm < 0,001
+Biến kiểm soát:
+  nhanh_b                  HR 1,166 (KTC 95%: 1,145–1,187); p < 0,001
+  nhanh_khac               HR 0,030 (KTC 95%: 0,028–0,033); p < 0,001
+  Sales                    HR 2,822 (KTC 95%: 2,785–2,860); p < 0,001
+  Trading & End Products   HR 1,656 (KTC 95%: 1,622–1,689); p < 0,001
+  Additives                HR 1,541 (KTC 95%: 1,506–1,576); p < 0,001
+  CAPEX & SOCS             HR 6,174 (KTC 95%: 5,973–6,382); p < 0,001
+  Latex & Monomers         HR 2,093 (KTC 95%: 2,008–2,181); p < 0,001
+  (không ghi hạng mục)     HR 1,398 (KTC 95%: 1,324–1,477); p < 0,001
+  Pigments & Colorants     HR 1,552 (KTC 95%: 1,478–1,630); p < 0,001
+  Khác                     HR 1,616 (KTC 95%: 1,571–1,662); p < 0,001
+  nhieu_gr_ir              HR 0,182 (KTC 95%: 0,176–0,187); p < 0,001
+  log_gia_tri              HR 0,906 (KTC 95%: 0,903–0,910); p < 0,001
+  gia_tri_0                HR 0,013 (KTC 95%: 0,007–0,025); p < 0,001
+  log_quy_mo_ncc           HR 0,973 (KTC 95%: 0,970–0,977); p < 0,001
+
+Độ vững: R6 thay đổi theo thời gian (tại lần nhận hàng do người tạo dòng đơn hàng thực hiện):
+  R6 (thay đổi theo t.g.)  HR 0,581 (KTC 95%: 0,531–0,636); p < 0,001
+
+=== 3. Mốc ngày 30, log-rank, giả định nguy cơ tỷ lệ, RMST ===
+Tập mốc: 189.663 (93,15%) dòng hàng chưa thanh toán xong và chưa bị kiểm duyệt sau ngày 30.
+R2a (mốc ngày 30): có 271, không 189.392; trung vị KM 75 so với 58 ngày; log-rank χ² = 3,0, p Holm 0,083; HR Cox 1,169 (1,032–1,325)
+    Schoenfeld χ² = 28,8, p < 0,001 → vi phạm, báo cáo RMST; RMST đến 150 ngày: 66,3 so với 63,8, chênh 2,5 ngày (KTC 95%: -2,3–7,3); chênh > 0 nghĩa là chậm hơn
+R3 (mốc ngày 30): có 521, không 189.142; trung vị KM 49 so với 58 ngày; log-rank χ² = 56,3, p Holm < 0,001; HR Cox 1,508 (1,379–1,648)
+    Schoenfeld χ² = 17,2, p < 0,001 → vi phạm, báo cáo RMST; RMST đến 150 ngày: 51,4 so với 63,8, chênh -12,5 ngày (KTC 95%: -15,4–-9,6); chênh > 0 nghĩa là chậm hơn
+Làm lại (mốc ngày 30): có 262, không 189.401; trung vị KM 28 so với 58 ngày; log-rank χ² = 216,1, p Holm < 0,001; HR Cox 6,770 (5,945–7,709)
+    Schoenfeld χ² = 0,8, p 0,367; RMST đến 150 ngày: 34,6 so với 63,8, chênh -29,3 ngày (KTC 95%: -32,9–-25,6); chênh > 0 nghĩa là chậm hơn
+R6 (toàn bộ): có 648, không 202.959; trung vị KM 119 so với 85 ngày; log-rank χ² = 144,1, p Holm < 0,001; HR Cox 0,574 (0,525–0,628)
+    Schoenfeld χ² = 144,9, p < 0,001 → vi phạm, báo cáo RMST; RMST đến 180 ngày: 110,7 so với 89,6, chênh 21,2 ngày (KTC 95%: 17,3–25,1); chênh > 0 nghĩa là chậm hơn
+R7 (biến thể phụ) (toàn bộ): có 2.430, không 201.177; trung vị KM 38 so với 86 ngày; log-rank χ² = 6.015,8, p Holm < 0,001; HR Cox 4,488 (4,306–4,679)
+    Schoenfeld χ² = 368,1, p < 0,001 → vi phạm, báo cáo RMST; RMST đến 180 ngày: 42,8 so với 90,2, chênh -47,4 ngày (KTC 95%: -48,6–-46,1); chênh > 0 nghĩa là chậm hơn
+Đã vẽ km_toan_bo_theo_nhanh.png, km_minh_hoa_theo_luat.png, km_moc_ngay_30.png.
+
+=== 4. Độ nhạy (mô hình Cox có biến thay đổi theo thời gian, cùng biến kiểm soát) ===
+(1) trạng thái theo định nghĩa có debit memo: 203.607 dòng, hoàn tất 162.015
+  R2a                      HR 1,612 (KTC 95%: 1,469–1,769); p < 0,001
+  R3                       HR 1,440 (KTC 95%: 1,374–1,509); p < 0,001
+  Làm lại                  HR 0,627 (KTC 95%: 0,586–0,671); p < 0,001
+  R6                       HR 0,606 (KTC 95%: 0,554–0,664); p < 0,001
+  R7 (biến thể phụ)        HR 4,499 (KTC 95%: 4,315–4,691); p < 0,001
+(2) loại 1.754 dòng còn mở không hoạt động > 180 ngày: 201.853 dòng, hoàn tất 163.619
+  R2a                      HR 1,244 (KTC 95%: 1,133–1,365); p < 0,001
+  R3                       HR 1,444 (KTC 95%: 1,379–1,512); p < 0,001
+  Làm lại                  HR 4,639 (KTC 95%: 4,411–4,879); p < 0,001
+  R6                       HR 0,507 (KTC 95%: 0,463–0,555); p < 0,001
+  R7 (biến thể phụ)        HR 4,590 (KTC 95%: 4,404–4,785); p < 0,001
+(3) loại 6.308 dòng có Cancel Invoice Receipt hoặc Cancel Goods Receipt: 197.299 dòng, hoàn tất 158.743; bỏ biến hằng ['lam_lai']
+  R2a                      HR 1,127 (KTC 95%: 1,006–1,262); p 0,039
+  R3                       HR 1,475 (KTC 95%: 1,406–1,548); p < 0,001
+  Làm lại                  không ước lượng được (biến hằng trong tập này)
+  R6                       HR 0,663 (KTC 95%: 0,604–0,727); p < 0,001
+  R7 (biến thể phụ)        HR 4,672 (KTC 95%: 4,478–4,874); p < 0,001
+(Định nghĩa có debit memo loại: bị xóa 7.280, thời gian ≤ 0 hoặc thiếu 0.)
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Số dòng hàng theo luật khớp kiểm chứng (R2a 508, R3 2.008, R6 650, R7b 2.430, làm lại 2.982).
+Mọi dòng hàng bị đánh dấu đều có thời điểm dấu hiệu.
+
+=== 1. Từ dấu hiệu đến lần thanh toán cuối cùng (dòng hoàn tất, dấu hiệu trước thanh toán) ===
+R2a: 464 dòng; ngày từ dấu hiệu đến thanh toán 41,6 [19,5–99,9]; trong 7 ngày 48 (10,3%), trong 14 ngày 84 (18,1%); dấu hiệu ở ngày 23,1 [14,8–43,4] kể từ khi tạo
+R3: 1.848 dòng; ngày từ dấu hiệu đến thanh toán 36,6 [14,0–59,1]; trong 7 ngày 268 (14,5%), trong 14 ngày 453 (24,5%); dấu hiệu ở ngày 45,9 [28,1–71,3] kể từ khi tạo
+Làm lại: 2.434 dòng; ngày từ dấu hiệu đến thanh toán 12,3 [4,1–29,7]; trong 7 ngày 805 (33,1%), trong 14 ngày 1.303 (53,5%); dấu hiệu ở ngày 71,1 [48,5–133,1] kể từ khi tạo
+R6 (nhận hàng do người tạo đơn): 487 dòng; ngày từ dấu hiệu đến thanh toán 62,8 [37,2–85,1]; trong 7 ngày 21 (4,3%), trong 14 ngày 30 (6,2%); dấu hiệu ở ngày 20,1 [6,1–55,8] kể từ khi tạo
+So sánh: toàn bộ dòng hoàn tất, ngày từ ghi nhận hóa đơn cuối cùng đến thanh toán 43,0 [22,7–71,7]
+
+=== 2. Làm lại và định nghĩa trạng thái ===
+Dòng làm lại, hàng = định nghĩa chính, cột = định nghĩa có debit memo:
+  tt_cu     Còn mở  Hoàn tất
+  tt_moi                    
+  Còn mở       544         0
+  Hoàn tất    1368      1070
+Dòng đổi trạng thái giữa hai định nghĩa: 1.816; trong đó là dòng làm lại 1.368 (75,3%)
+Dòng làm lại có debit memo: 2.982 (100,0%); dòng không làm lại có debit memo: 2.074 (1,00%)
+
+=== 3. Biến thể phụ của R7: mốc thời gian ===
+Ngày hóa đơn của nhà cung cấp sớm hơn ngày tạo dòng đơn hàng (R7b): 15,0 [7,0–30,0] ngày
+  Tính từ tạo dòng đơn hàng: dòng hoàn tất R7b 36,2 [22,2–51,2], không R7b 78,0 [56,1–106,4]; trung vị KM 38 so với 86 ngày
+  Tính từ ngày hóa đơn nhà cung cấp: dòng hoàn tất R7b 55,7 [45,6–72,5], không R7b 65,4 [49,5–88,4]; trung vị KM 57 so với 71 ngày
+  Dòng không có ngày hóa đơn nhà cung cấp: 12.604

@@ -1,0 +1,46 @@
+Phạm vi 210,887 dòng hàng. Thời điểm trích xuất: 2019-01-18 13:34:00. Ngưỡng nhiễu IMf: 0.2
+Dòng hàng hoàn tất (định nghĩa G5): 163.619 (77,59%)
+
+=== IMf khám phá từ toàn bộ phạm vi (1 giây) ===
+  Cây quy trình: ->( X( tau, 'Create Purchase Requisition Item' ), +( *( 'Record Goods Receipt', tau ), ->( 'Create Purchase Order Item', +( *( 'Record Invoice Receipt', tau ), X( tau, *( 'Remove Payment Block', tau ) ), ->( X( tau, *( 'Receive Order Confirmation', tau ) ), *( 'Clear Invoice', tau ) ) ) ) ) )
+  Petri net: 18 place, 22 transition (15 chuyển tiếp ẩn); nhãn: Clear Invoice, Create Purchase Order Item, Create Purchase Requisition Item, Receive Order Confirmation, Record Goods Receipt, Record Invoice Receipt, Remove Payment Block
+  Không vẽ được hình cây (ExecutableNotFound); thường do chưa cài Graphviz. File .pnml và _cay.txt vẫn được ghi.
+
+=== IMf khám phá từ dòng hàng hoàn tất (1 giây) ===
+  Cây quy trình: ->( X( tau, 'Create Purchase Requisition Item' ), +( *( 'Record Goods Receipt', tau ), ->( 'Create Purchase Order Item', +( *( 'Record Invoice Receipt', tau ), X( tau, *( 'Remove Payment Block', tau ) ), ->( X( tau, *( 'Receive Order Confirmation', tau ) ), *( 'Clear Invoice', tau ) ) ) ) ) )
+  Petri net: 18 place, 22 transition (15 chuyển tiếp ẩn); nhãn: Clear Invoice, Create Purchase Order Item, Create Purchase Requisition Item, Receive Order Confirmation, Record Goods Receipt, Record Invoice Receipt, Remove Payment Block
+  Không vẽ được hình cây (ExecutableNotFound); thường do chưa cài Graphviz. File .pnml và _cay.txt vẫn được ghi.
+
+[Mô hình chuẩn hai nhánh | đánh giá trên toàn bộ phạm vi] 34 biến thể phủ 200.460 (95,06%); fitness 0.9375; khớp hoàn toàn 77.39%; precision 0.9950 (2 giây)
+  Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+      loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình          Clear Invoice         42095   42095            21.00
+thiếu so với mô hình Record Invoice Receipt         18914   18914             9.44
+thiếu so với mô hình   Record Goods Receipt         13118   13118             6.54
+      thừa trong log   Record Goods Receipt          1705    1705             0.85
+      thừa trong log Record Invoice Receipt          1539    1539             0.77
+      thừa trong log          Clear Invoice          1198    1198             0.60
+
+[Mô hình chuẩn hai nhánh | đánh giá trên dòng hàng hoàn tất] 11 biến thể phủ 155.520 (95,05%); fitness 0.9993; khớp hoàn toàn 99.33%; precision 0.9844 (1 giây)
+  Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+loai_buoc_lech            hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thừa trong log Record Goods Receipt          1045    1045             0.67
+
+[IMf khám phá từ toàn bộ phạm vi | đánh giá trên toàn bộ phạm vi] 34 biến thể phủ 200.460 (95,06%); fitness 0.9398; khớp hoàn toàn 78.83%; precision 0.5323 (2 giây)
+  Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+      loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình          Clear Invoice         42095   42095            21.00
+thiếu so với mô hình Record Invoice Receipt         18914   18914             9.44
+thiếu so với mô hình   Record Goods Receipt         13118   13118             6.54
+
+[IMf khám phá từ toàn bộ phạm vi | đánh giá trên dòng hàng hoàn tất] 11 biến thể phủ 155.520 (95,05%); fitness 1.0000; khớp hoàn toàn 100.00%; precision 0.4513 (2 giây)
+
+[IMf khám phá từ dòng hàng hoàn tất | đánh giá trên dòng hàng hoàn tất] 11 biến thể phủ 155.520 (95,05%); fitness 1.0000; khớp hoàn toàn 100.00%; precision 0.4513 (2 giây)
+
+=== Bảng so sánh ===
+                           mo_hinh       tap_danh_gia  so_dong_hang  so_bien_the  fitness  ty_le_khop_hoan_toan  precision
+           Mô hình chuẩn hai nhánh    toàn bộ phạm vi        210887           34   0.9375                0.7739     0.9950
+           Mô hình chuẩn hai nhánh dòng hàng hoàn tất        163619           11   0.9993                0.9933     0.9844
+   IMf khám phá từ toàn bộ phạm vi    toàn bộ phạm vi        210887           34   0.9398                0.7883     0.5323
+   IMf khám phá từ toàn bộ phạm vi dòng hàng hoàn tất        163619           11   1.0000                1.0000     0.4513
+IMf khám phá từ dòng hàng hoàn tất dòng hàng hoàn tất        163619           11   1.0000                1.0000     0.4513

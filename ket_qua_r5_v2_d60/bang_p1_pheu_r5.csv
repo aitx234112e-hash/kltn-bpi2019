@@ -1,0 +1,12 @@
+﻿buoc,dinh_nghia,so_case,phan_tram_pham_vi
+v1,#Clear > #IR − #Cancel IR,5587,2.65
+Đề xuất của SV,#Clear > #IR,1479,0.7
+,trong đó: không có debit memo,243,0.12
+,trong đó: có debit memo,1236,0.59
+,– dư được giải thích bằng debit memo,1170,0.55
+,– vẫn dư sau khi tính debit memo,66,0.03
+Trước phân loại Clear,#Clear > #IR + #memo (= 'không memo' + 'vẫn dư'),309,0.15
+v2,"Clear thanh toán > #IR − #Cancel IR + #memo, Δ = 60 phút",1987,0.94
+Độ nhạy,R5 v2 với Δ = 1 giờ,1987,0.94
+Độ nhạy,R5 v2 với Δ = 1 ngày,1955,0.93
+Độ nhạy,R5 v2 có tính Record Subsequent Invoice,1908,0.9

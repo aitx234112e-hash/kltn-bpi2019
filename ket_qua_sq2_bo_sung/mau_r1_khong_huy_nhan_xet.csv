@@ -1,0 +1,21 @@
+﻿case,ket_qua,nhan_xet
+4507003243_00110,đúng,Thanh toán trước khi nhận hàng; hàng nhận sau lần trả khoảng 2 tháng (nhận hàng do batch_06); sau đó có thêm một vòng hóa đơn và thanh toán thứ hai
+4507014673_00010,đúng,Thanh toán trước khi nhận hàng; hàng nhận sau lần trả 3 tuần
+4507016299_00030,đúng,Thanh toán trước khi nhận hàng; hàng nhận sau lần trả 5 ngày
+4507020939_00010,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; có Change Quantity"
+4507028436_00010,đúng,Thanh toán trước khi nhận hàng; hàng nhận sau lần trả khoảng 6 tuần; dòng đơn hàng tạo sau ngày hóa đơn nhà cung cấp
+4507037293_00030,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; có Change Delivery Indicator trước khi gỡ khóa"
+4507037450_00110,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; có Change Delivery Indicator"
+4508043052_00020,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; Change Delivery Indicator sau khi thanh toán"
+4508044535_00010,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất"
+4508048353_00020,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; có Change Delivery Indicator trước khi gỡ khóa"
+4508051508_00020,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091); user_015 gỡ khóa cùng lúc với nhiều dòng khác"
+4508051517_00010,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091)"
+4508051518_00010,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091); user_015 gỡ khóa cùng lúc với nhiều dòng khác"
+4508051998_00010,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091); user_015 gỡ khóa cùng lúc với nhiều dòng khác"
+4508051998_00020,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; như dòng 00010 của cùng đơn hàng"
+4508064088_00030,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091)"
+4508064093_00020,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091)"
+4508069339_00020,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091); Clear Invoice do NONE lúc 22:59"
+4508071074_00010,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; dòng đơn hàng tạo sau ngày hóa đơn (user_091); ghi nhận hóa đơn do batch_00; Clear Invoice do NONE lúc 22:59"
+4508071543_00100,đúng,"Đã thanh toán, chưa từng nhận hàng đến thời điểm trích xuất; có Change Delivery Indicator"

@@ -1,0 +1,9 @@
+﻿loai_buoc_lech,hoat_dong,so_dong_hang,so_lan,ty_le_dong_hang
+thừa trong log,Clear Invoice,727,799,0.004654974804228535
+thiếu so với mô hình,Record Goods Receipt,241,241,0.0015431209461060208
+thừa trong log,Record Goods Receipt,241,241,0.0015431209461060208
+thừa trong log,Receive Order Confirmation,40,40,0.00025611965910473376
+thừa trong log,Remove Payment Block,23,23,0.0001472688039852219
+thiếu so với mô hình,Create Purchase Order Item,16,16,0.00010244786364189349
+thừa trong log,Create Purchase Order Item,16,16,0.00010244786364189349
+thiếu so với mô hình,Remove Payment Block,7,7,4.4820940343328406e-05

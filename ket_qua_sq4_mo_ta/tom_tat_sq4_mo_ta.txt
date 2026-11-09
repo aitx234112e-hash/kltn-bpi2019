@@ -1,0 +1,123 @@
+Đọc log xong sau 55 giây.
+Phạm vi 210.887 dòng hàng, 1.175.650 sự kiện. Thời điểm trích xuất: 2019-01-18 13:34:00
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Số dòng hàng theo luật khớp kiểm chứng (R2a 508, R3 2.008, R6 650).
+Mọi dòng hàng bị đánh dấu đều có thời điểm dấu hiệu.
+
+1. Dấu hiệu đầu tiên xảy ra trong H ngày kể từ khi tạo dòng đơn hàng
+  R2a            508 dòng, trung vị ngày 25,4; trong 90 ngày 438 (86,2%), trong 120 ngày 458 (90,2%). Chỉ dòng tạo trước thời điểm trích xuất ≥ 120 ngày (444 dòng): 379 (85,4%) và 394 (88,7%).
+  R3           2.008 dòng, trung vị ngày 47,1; trong 90 ngày 1.661 (82,7%), trong 120 ngày 1.836 (91,4%). Chỉ dòng tạo trước thời điểm trích xuất ≥ 120 ngày (1.842 dòng): 1.496 (81,2%) và 1.670 (90,7%).
+  R6             650 dòng, trung vị ngày 20,2; trong 90 ngày 609 (93,7%), trong 120 ngày 639 (98,3%). Chỉ dòng tạo trước thời điểm trích xuất ≥ 120 ngày (516 dòng): 482 (93,4%) và 505 (97,9%).
+  Nhãn chính   3.143 dòng, trung vị ngày 39,1; trong 90 ngày 2.692 (85,7%), trong 120 ngày 2.914 (92,7%). Chỉ dòng tạo trước thời điểm trích xuất ≥ 120 ngày (2.779 dòng): 2.341 (84,2%) và 2.550 (91,8%).
+
+2. Chia theo thời gian (T = 01/07/2018), mọi dòng hàng trong phạm vi
+  Dòng hàng không có Create Purchase Order Item: 0; tạo trước 01/01/2018: 0.
+  H = 90: huấn luyện tạo từ 01/01/2018 đến 02/04/2018 00:00, kiểm tra tạo từ 01/07/2018 đến 20/10/2018 13:34.
+    huấn luyện    55.476 dòng hàng (hoàn tất 51.174, còn mở 2.088, bị xóa 2.214)
+    kiểm tra      62.195 dòng hàng (hoàn tất 50.666, còn mở 9.423, bị xóa 2.106)
+    Không thuộc tập nào: 93.216 (khoảng giữa T − H và T, sau thời điểm trích xuất − H, hoặc trước 01/01/2018).
+  H = 120: huấn luyện tạo từ 01/01/2018 đến 03/03/2018 00:00, kiểm tra tạo từ 01/07/2018 đến 20/09/2018 13:34.
+    huấn luyện    36.589 dòng hàng (hoàn tất 33.840, còn mở 1.309, bị xóa 1.440)
+    kiểm tra      45.837 dòng hàng (hoàn tất 40.436, còn mở 3.853, bị xóa 1.548)
+    Không thuộc tập nào: 128.461 (khoảng giữa T − H và T, sau thời điểm trích xuất − H, hoặc trước 01/01/2018).
+
+3. Số dòng hàng và số dòng nhãn 1 theo độ dài tiền tố. Tiền tố kết thúc trước dấu hiệu đầu tiên của nhãn và trước ngày thứ H.
+   Cột R2a, R3, R6: số dòng nhãn 1 có dấu hiệu của luật đó trong H ngày (một dòng có thể có nhiều luật). (*): tập kiểm tra có dưới 100 dòng nhãn 1, chỉ báo cáo, không kết luận.
+
+  Nhãn chính (R2a, R3, R6), H = 90, toàn bộ:
+    Tập          Tiền tố   Dòng hàng   Nhãn 1 (%)     R2a      R3      R6
+    huấn luyện   dòng hàng     55.476     1.104 (1,99%)     175     729     208
+    huấn luyện   2 sự kiện     54.868     1.057 (1,93%)     175     729     161
+    huấn luyện   3 sự kiện     52.279       980 (1,87%)     175     728      84
+    huấn luyện   4 sự kiện     49.586       807 (1,63%)      52     712      47
+    huấn luyện   5 sự kiện     40.319       387 (0,96%)      21     334      34
+    kiểm tra     dòng hàng     62.195       572 (0,92%)      85     335     154
+    kiểm tra     2 sự kiện     61.134       530 (0,87%)      85     335     112
+    kiểm tra     3 sự kiện     58.806       475 (0,81%)      85     335      57
+    kiểm tra     4 sự kiện     56.768       396 (0,70%)      42     330      26
+    kiểm tra     5 sự kiện     47.125       221 (0,47%)      34     179      10
+
+  Nhãn chính (R2a, R3, R6), H = 90, loại hai nhà cung cấp R6:
+    Tập          Tiền tố   Dòng hàng   Nhãn 1 (%)     R2a      R3      R6
+    huấn luyện   dòng hàng     55.399     1.047 (1,89%)     175     729     151
+    huấn luyện   2 sự kiện     54.818     1.024 (1,87%)     175     729     128
+    huấn luyện   3 sự kiện     52.255       970 (1,86%)     175     728      74
+    huấn luyện   4 sự kiện     49.572       807 (1,63%)      52     712      47
+    huấn luyện   5 sự kiện     40.306       387 (0,96%)      21     334      34
+    kiểm tra     dòng hàng     62.113       525 (0,85%)      85     335     107
+    kiểm tra     2 sự kiện     61.087       503 (0,82%)      85     335      85
+    kiểm tra     3 sự kiện     58.786       471 (0,80%)      85     335      53
+    kiểm tra     4 sự kiện     56.753       396 (0,70%)      42     330      26
+    kiểm tra     5 sự kiện     47.119       221 (0,47%)      34     179      10
+
+  Nhãn chính (R2a, R3, R6), H = 90, loại dòng có hủy:
+    Tập          Tiền tố   Dòng hàng   Nhãn 1 (%)     R2a      R3      R6
+    huấn luyện   dòng hàng     53.316       969 (1,82%)     131     646     197
+    huấn luyện   2 sự kiện     52.729       928 (1,76%)     131     646     156
+    huấn luyện   3 sự kiện     50.299       854 (1,70%)     131     645      82
+    huấn luyện   4 sự kiện     47.690       690 (1,45%)      13     631      47
+    huấn luyện   5 sự kiện     38.569       322 (0,83%)       4     285      34
+    kiểm tra     dòng hàng     60.891       492 (0,81%)      50     306     136
+    kiểm tra     2 sự kiện     59.836       453 (0,76%)      50     306      97
+    kiểm tra     3 sự kiện     57.550       403 (0,70%)      50     306      47
+    kiểm tra     4 sự kiện     55.537       331 (0,60%)      12     301      18
+    kiểm tra     5 sự kiện     45.949       164 (0,36%)       6     150       8
+
+  Nhãn R3 riêng, H = 90, toàn bộ:
+    Tập          Tiền tố   Dòng hàng   Nhãn 1 (%)
+    huấn luyện   dòng hàng     55.476       729 (1,31%)
+    huấn luyện   2 sự kiện     54.915       729 (1,33%)
+    huấn luyện   3 sự kiện     52.400       729 (1,39%)
+    huấn luyện   4 sự kiện     49.841       713 (1,43%)
+    huấn luyện   5 sự kiện     40.585       334 (0,82%)
+    kiểm tra     dòng hàng     62.195       335 (0,54%)
+    kiểm tra     2 sự kiện     61.176       335 (0,55%)
+    kiểm tra     3 sự kiện     58.898       335 (0,57%)
+    kiểm tra     4 sự kiện     56.932       330 (0,58%)
+    kiểm tra     5 sự kiện     47.275       179 (0,38%)
+
+  Nhãn không có R6 (R2a, R3), H = 90, toàn bộ:
+    Tập          Tiền tố   Dòng hàng   Nhãn 1 (%)     R2a      R3
+    huấn luyện   dòng hàng     55.476       898 (1,62%)     175     729
+    huấn luyện   2 sự kiện     54.915       898 (1,64%)     175     729
+    huấn luyện   3 sự kiện     52.400       898 (1,71%)     175     729
+    huấn luyện   4 sự kiện     49.720       761 (1,53%)      52     713
+    huấn luyện   5 sự kiện     40.437       353 (0,87%)      21     334
+    kiểm tra     dòng hàng     62.195       420 (0,68%)      85     335
+    kiểm tra     2 sự kiện     61.176       420 (0,69%)      85     335
+    kiểm tra     3 sự kiện     58.898       420 (0,71%)      85     335
+    kiểm tra     4 sự kiện     56.889       372 (0,65%)      42     330
+    kiểm tra     5 sự kiện     47.224       213 (0,45%)      34     179
+
+  Nhãn chính (R2a, R3, R6), H = 120, toàn bộ:
+    Tập          Tiền tố   Dòng hàng   Nhãn 1 (%)     R2a      R3      R6
+    huấn luyện   dòng hàng     36.589       754 (2,06%)      78     516     166
+    huấn luyện   2 sự kiện     36.355       717 (1,97%)      78     516     129
+    huấn luyện   3 sự kiện     34.783       657 (1,89%)      78     516      69
+    huấn luyện   4 sự kiện     33.817       590 (1,74%)      41     506      46
+    huấn luyện   5 sự kiện     31.007       289 (0,93%)      17     239      35
+    kiểm tra     dòng hàng     45.837       486 (1,06%)      66     307     115
+    kiểm tra     2 sự kiện     45.124       459 (1,02%)      66     307      88
+    kiểm tra     3 sự kiện     43.233       417 (0,96%)      66     307      46
+    kiểm tra     4 sự kiện     42.081       350 (0,83%)      26     303      23
+    kiểm tra     5 sự kiện     38.815       168 (0,43%)      20     139      11
+
+4. Tỷ lệ nhãn 1 theo tháng tạo dòng đơn hàng (nhãn chính, H = 90)
+  huấn luyện   2018-01: 17.598 dòng hàng, nhãn 1   344 (1,95%); tiền tố 2: 17.367, nhãn 1 328 (1,89%)
+  huấn luyện   2018-02: 17.211 dòng hàng, nhãn 1   334 (1,94%); tiền tố 2: 17.145, nhãn 1 315 (1,84%)
+  huấn luyện   2018-03: 20.664 dòng hàng, nhãn 1   426 (2,06%); tiền tố 2: 20.353, nhãn 1 414 (2,03%)
+  huấn luyện   2018-04:      3 dòng hàng, nhãn 1     0 (0,00%); tiền tố 2:      3, nhãn 1 0 (0,00%)
+  kiểm tra     2018-07: 18.072 dòng hàng, nhãn 1   213 (1,18%); tiền tố 2: 17.727, nhãn 1 203 (1,15%)
+  kiểm tra     2018-08: 16.898 dòng hàng, nhãn 1   138 (0,82%); tiền tố 2: 16.769, nhãn 1 133 (0,79%)
+  kiểm tra     2018-09: 15.205 dòng hàng, nhãn 1   119 (0,78%); tiền tố 2: 14.662, nhãn 1 104 (0,71%)
+  kiểm tra     2018-10: 12.020 dòng hàng, nhãn 1   102 (0,85%); tiền tố 2: 11.976, nhãn 1 90 (0,75%)
+
+5. Tiền tố có Vendor creates invoice nhưng chưa có Record Invoice Receipt (nhãn chính, H = 90)
+  Tiền tố 2: 45.733 (39,4%) tiền tố; trong các tiền tố nhãn 1: 810 (51,0%)
+  Tiền tố 3: 81.267 (73,2%) tiền tố; trong các tiền tố nhãn 1: 926 (63,6%)
+  Tiền tố 4: 33.401 (31,4%) tiền tố; trong các tiền tố nhãn 1: 422 (35,1%)
+  Tiền tố 5: 9.089 (10,4%) tiền tố; trong các tiền tố nhãn 1: 118 (19,4%)
+
+Xong sau 83 giây.

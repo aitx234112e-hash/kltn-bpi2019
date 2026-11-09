@@ -1,0 +1,153 @@
+=== Bảng 5. Luồng đối chiếu (toàn log) ===
+                                so_case  so_su_kien
+case                                               
+2-way match                        1044        5898
+3-way match, invoice after GR     15182      319233
+3-way match, invoice before GR   221010     1234708
+Consignment                       14498       36084
+
+Thời điểm trích xuất: 2019-01-18 13:34:00. Phạm vi: 210,887 case, 1,175,650 sự kiện
+
+=== Bảng 4. Dòng kiểm chứng (trong phạm vi) ===
+so_case                       2.108870e+05
+so_su_kien                    1.175650e+06
+so_hoat_dong                  2.800000e+01
+ty_le_su_kien_co_giay_khac_0  0.000000e+00
+ty_le_su_kien_luc_00_00       1.000000e-04
+so_cap_lien_tiep              9.647630e+05
+so_cap_trung_thoi_diem        1.274700e+04
+ty_le_cap_trung               1.320000e-02
+so_case_co_cap_trung          1.063700e+04
+Hoạt động có >= 90% sự kiện lúc 00:00 (chỉ ghi đến ngày): 
+
+=== Danh sách 42 hoạt động ===
+                                     su_kien_toan_log  su_kien_pham_vi  case_pham_vi  ty_le_case_pham_vi              khau                      anh_huong_so_chung_tu_phai_tra
+act                                                                                                                                                                           
+Record Goods Receipt                           314097           212458        197416              0.9361               Kho                                                    
+Create Purchase Order Item                     251734           210887        210887              1.0000          Mua hàng                                                    
+Record Invoice Receipt                         228760           200593        191551              0.9083  Kế toán phải trả                               +1 (ghi nhận hóa đơn)
+Vendor creates invoice                         219919           195707        191018              0.9058      Nhà cung cấp  Không đếm (đã có Record Invoice Receipt tương ứng)
+Clear Invoice                                  194393           173256        166980              0.7918  Kế toán phải trả    Không đổi số chứng từ; là thanh toán hoặc bù trừ
+Remove Payment Block                            57136            53217         52197              0.2475  Kế toán phải trả                                                    
+Create Purchase Requisition Item                46592            41393         41393              0.1963          Mua hàng                                                    
+Receive Order Confirmation                      32065            31273         31269              0.1483          Mua hàng                                                    
+Change Quantity                                 21449            16607         13602              0.0645          Mua hàng                                                    
+Change Price                                    12423             9845          9013              0.0427          Mua hàng                                                    
+Delete Purchase Order Item                       8875             7598          7568              0.0359         Hủy – sửa                                                    
+Cancel Invoice Receipt                           7096             5842          5500              0.0261         Hủy – sửa                                    −1 (hủy hóa đơn)
+Vendor creates debit memo                        6255             5170          5056              0.0240      Nhà cung cấp   +1 (chỉ có phía NCC, không có hoạt động ghi nhận)
+Change Approval for Purchase Order               7541             3422          2424              0.0115          Mua hàng                                                    
+Change Delivery Indicator                        3289             2507          2272              0.0108          Mua hàng                                                    
+Cancel Goods Receipt                             3096             1908          1805              0.0086         Hủy – sửa                                                    
+Release Purchase Order                           1610             1447           860              0.0041          Mua hàng                                                    
+Release Purchase Requisition                      467              456           456              0.0022          Mua hàng                                                    
+Cancel Subsequent Invoice                         491              451           440              0.0021         Hủy – sửa                               −1 nếu tính (độ nhạy)
+Block Purchase Order Item                         514              385           370              0.0018         Hủy – sửa                                                    
+Reactivate Purchase Order Item                    543              374           361              0.0017         Hủy – sửa                                                    
+Change Storage Location                           415              373           323              0.0015          Mua hàng                                                    
+Update Order Confirmation                         244              234           218              0.0010          Mua hàng                                                    
+Record Subsequent Invoice                         167              155           147              0.0007  Kế toán phải trả                               +1 nếu tính (độ nhạy)
+Set Payment Block                                 124               52            50              0.0002  Kế toán phải trả                                                    
+Change Currency                                    35               34            34              0.0002          Mua hàng                                                    
+Change payment term                                 7                5             5              0.0000  Kế toán phải trả                                                    
+Change Final Invoice Indicator                     11                1             1              0.0000  Kế toán phải trả                                                    
+Record Service Entry Sheet                     164975                0             0              0.0000               Kho                                                    
+Change Rejection Indicator                          2                0             0              0.0000          Mua hàng                                                    
+SRM: Awaiting Approval                           1628                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Change was Transmitted                      1440                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Complete                                    1628                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Created                                     1628                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: In Transfer to Execution Syst.              1765                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Held                                           6                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Document Completed                          1628                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Deleted                                      188                0             0              0.0000         Hủy – sửa                                                    
+SRM: Transfer Failed (E.Sys.)                      45                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Transaction Completed                          8                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Ordered                                     1628                0             0              0.0000    Mua hàng (SRM)                                                    
+SRM: Incomplete                                     6                0             0              0.0000    Mua hàng (SRM)                                                    
+
+=== Khoảng cách Cancel Invoice Receipt → Clear Invoice kế tiếp (5,842 lần hủy) ===
+  cùng phút            528 (9,04%)
+  1–10 phút            1.464 (25,06%)
+  10–60 phút           148 (2,53%)
+  1–24 giờ             289 (4,95%)
+  1–7 ngày             724 (12,39%)
+  > 7 ngày             1.434 (24,55%)
+  không có Clear sau   1.255 (21,48%)
+  Phân vị (phút): P10=0, P25=1, P50=274, P75=19,982, P90=50,716
+  Δ đề xuất từ histogram: 1,000 phút
+  => Δ dùng cho kết quả chính: 60 phút
+
+=== Phân loại Clear và luật trước/sau (số case) ===
+R1_v1                            731        731         731
+R4_v1                           2562       2562        2562
+phien_ban                    Δ chính  Δ = 1 giờ  Δ = 1 ngày
+delta_phut                      60.0       60.0      1440.0
+so_lan_huy                      5842       5842        5842
+so_lan_huy_ghep_duoc            2116       2116        2397
+ty_le_ghep                    0.3622     0.3622      0.4103
+so_clear_bu_tru                 2116       2116        2397
+R5_v2                           1987       1987        1955
+R5_v2_tinh_ca_hd_bo_sung        1908       1908        1876
+R1_v2                            654        654         651
+R4_v2                           1566       1566        1436
+ty_le_bu_tru_cung_nguoi_huy   0.9972     0.9972      0.9007
+R1: v1 731 (0,35%) → v2 654 (0,31%)
+R4: v1 2.562 (1,21%) → v2 1.566 (0,74%)
+
+=== Bảng P1. Phễu tinh chỉnh R5 ===
+                 buoc                                               dinh_nghia  so_case  phan_tram_pham_vi
+                   v1                                #Clear > #IR − #Cancel IR     5587               2.65
+       Đề xuất của SV                                             #Clear > #IR     1479               0.70
+                                                 trong đó: không có debit memo      243               0.12
+                                                       trong đó: có debit memo     1236               0.59
+                                          – dư được giải thích bằng debit memo     1170               0.55
+                                              – vẫn dư sau khi tính debit memo       66               0.03
+Trước phân loại Clear         #Clear > #IR + #memo (= 'không memo' + 'vẫn dư')      309               0.15
+                   v2 Clear thanh toán > #IR − #Cancel IR + #memo, Δ = 60 phút     1987               0.94
+              Độ nhạy                                      R5 v2 với Δ = 1 giờ     1987               0.94
+              Độ nhạy                                     R5 v2 với Δ = 1 ngày     1955               0.93
+              Độ nhạy                  R5 v2 có tính Record Subsequent Invoice     1908               0.90
+
+=== Trạng thái case: cũ (mọi Clear) × mới (Clear thanh toán, có debit memo) ===
+trang_thai_moi  Bị xóa  Còn mở  Hoàn tất     All
+trang_thai_cu                                   
+Bị xóa            7267       0         0    7267
+Còn mở               0   39496         0   39496
+Hoàn tất            13    2096    162015  164124
+All               7280   41592    162015  210887
+Số case đổi trạng thái: 2.109 (1,00%)
+Thời gian thanh toán (case hoàn tất mới, trung vị ngày): đến Clear cuối (mọi loại) 77.3; đến Clear thanh toán cuối 77.3; đến Clear thanh toán đầu 77.1
+
+=== Rework: dòng hàng có hủy hóa đơn: 5.500 (2,61%) ===
+rework_theo_ncc.csv: 10 nhóm lớn nhất
+               so_case  so_case_co_huy   ty_le
+nhom                                          
+vendorID_0136    14359             253  0.0176
+vendorID_0120    13442              99  0.0074
+vendorID_0104     9789              41  0.0042
+vendorID_0182     7249             123  0.0170
+vendorID_0106     7189              64  0.0089
+vendorID_0103     5981              24  0.0040
+vendorID_0127     4962              52  0.0105
+vendorID_0108     3902             159  0.0407
+vendorID_0118     3752             389  0.1037
+vendorID_0110     3272             124  0.0379
+rework_theo_hang_muc.csv: 10 nhóm lớn nhất
+                        so_case  so_case_co_huy   ty_le
+nhom                                                   
+Packaging                 96265            1427  0.0148
+Sales                     60920            1815  0.0298
+Trading & End Products    15714             886  0.0564
+Additives                 15492             424  0.0274
+CAPEX & SOCS               5085             217  0.0427
+Latex & Monomers           3436             190  0.0553
+                           2911              34  0.0117
+Pigments & Colorants       2304              78  0.0339
+Solvents                   2123             120  0.0565
+Others                     2004              98  0.0489
+
+Loại 4 case đã đọc khi thiết kế luật khỏi mẫu kiểm chứng.
+nhom1_r5v2: 1,987 case đủ điều kiện, lấy 20
+nhom2_bi_loai: 3,600 case đủ điều kiện, lấy 20
+nhom3_huy_khong_ghep: 3,611 case đủ điều kiện, lấy 20

@@ -1,0 +1,6 @@
+﻿mo_hinh,tap_danh_gia,so_dong_hang,so_bien_the,so_dong_hang_duoc_tinh,fitness,ty_le_khop_hoan_toan,precision
+Mô hình chuẩn hai nhánh,toàn bộ phạm vi,210887,34,200460,0.9375275029409269,0.7738501446672653,0.995031500599668
+Mô hình chuẩn hai nhánh,dòng hàng hoàn tất,163619,11,155520,0.9992534007773205,0.9932806069958847,0.9844405694185359
+IMf khám phá từ toàn bộ phạm vi,toàn bộ phạm vi,210887,34,200460,0.9397506271290318,0.7883318367754165,0.5323412822239965
+IMf khám phá từ toàn bộ phạm vi,dòng hàng hoàn tất,163619,11,155520,1.0,1.0,0.4512820447703817
+IMf khám phá từ dòng hàng hoàn tất,dòng hàng hoàn tất,163619,11,155520,1.0,1.0,0.4512820447703817

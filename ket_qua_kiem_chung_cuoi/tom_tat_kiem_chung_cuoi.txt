@@ -1,0 +1,27 @@
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Phạm vi 210,887 dòng hàng. Δ = 60 phút. Thời điểm trích xuất: 2019-01-18 13:34:00
+Loại 283 case đã đọc trước đây khỏi mẫu.
+
+R1: bị đánh dấu 654 (0,31%); dòng hàng có hoạt động liên quan 166,853; không bị đánh dấu chỉ vì trùng timestamp 0
+  mẫu bi_danh_dau: 631 case đủ điều kiện, lấy 20
+  mẫu khong_bi_danh_dau: 165,950 case đủ điều kiện, lấy 20
+R2a: bị đánh dấu 508 (0,24%); dòng hàng có hoạt động liên quan 52,197; không bị đánh dấu chỉ vì trùng timestamp 0
+  trong đó chưa từng nhận hàng: 207
+  mẫu bi_danh_dau: 487 case đủ điều kiện, lấy 20
+  mẫu khong_bi_danh_dau: 51,511 case đủ điều kiện, lấy 20
+R3: bị đánh dấu 2.008 (0,95%); dòng hàng có hoạt động liên quan 9,013; không bị đánh dấu chỉ vì trùng timestamp 0
+  mẫu bi_danh_dau: 1,995 case đủ điều kiện, lấy 20
+  mẫu khong_bi_danh_dau: 6,992 case đủ điều kiện, lấy 20
+R6: bị đánh dấu 650 (0,31%); dòng hàng có hoạt động liên quan 158,342; không bị đánh dấu chỉ vì trùng timestamp 0
+  mẫu bi_danh_dau: 650 case đủ điều kiện, lấy 20
+  mẫu khong_bi_danh_dau: 157,438 case đủ điều kiện, lấy 20
+R7: bị đánh dấu 0 (0,00%); dòng hàng có hoạt động liên quan 191,551; không bị đánh dấu chỉ vì trùng timestamp 0
+  mẫu bi_danh_dau: 0 case đủ điều kiện, lấy 0
+  mẫu khong_bi_danh_dau: 191,144 case đủ điều kiện, lấy 20
+R7b: bị đánh dấu 2.430 (1,15%); dòng hàng có hoạt động liên quan 191,018; không bị đánh dấu chỉ vì trùng timestamp 11,671
+  mẫu bi_danh_dau: 2,414 case đủ điều kiện, lấy 20
+  mẫu khong_bi_danh_dau: 188,177 case đủ điều kiện, lấy 20
+
+Tiêu chí vào nhãn chính (Mục 6.3, bước 5b): ít nhất 15/20 case bị đánh dấu là 'đúng'.

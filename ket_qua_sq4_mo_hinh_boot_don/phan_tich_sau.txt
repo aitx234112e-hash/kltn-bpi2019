@@ -1,0 +1,76 @@
+Phân tích sau khi xem kết quả, chạy lúc 06/11/2026 22:34. Không huấn luyện lại; dùng điểm dự báo trong ket_qua_sq4_mo_hinh_boot_don.
+  Đã thêm cột tien_to_co_clear_tt vào diem_kiem_tra_chinh_k5.csv (từ log, không huấn luyện lại)
+  Đã thêm cột tien_to_co_clear_tt vào diem_kiem_tra_R3_k5.csv (từ log, không huấn luyện lại)
+0. So sánh có ý nghĩa sau hiệu chỉnh Holm trong từng nhãn (p Holm < 0,05):
+  chinh: tiền tố 2: XGBoost − Logistic Regression -0,0280 (p Holm < 0,001); tiền tố 2: XGBoost − Mốc 1: biến lúc tạo -0,0197 (p Holm < 0,001); tiền tố 2: XGBoost − Mốc 2: tỷ lệ của nhà cung cấp -0,0261 (p Holm < 0,001); tiền tố 3: Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp 0,0063 (p Holm 0,024); tiền tố 4: XGBoost − Mốc 2: tỷ lệ của nhà cung cấp 0,0066 (p Holm 0,044); tiền tố 4: Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp 0,0056 (p Holm < 0,001); tiền tố 5: XGBoost − Mốc 1: biến lúc tạo 0,0092 (p Holm < 0,001); tiền tố 5: XGBoost − Mốc 2: tỷ lệ của nhà cung cấp 0,0087 (p Holm < 0,001); tiền tố 5: Logistic Regression − Mốc 1: biến lúc tạo 0,0095 (p Holm < 0,001); tiền tố 5: Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp 0,0090 (p Holm < 0,001)
+  R3: tiền tố 5: Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp 0,0048 (p Holm < 0,001)
+
+1. Tiền tố 5: tách theo tiền tố đã có hay chưa có Clear Invoice "thanh toán" (phân tích sau khi xem kết quả)
+  chinh, chưa có Clear thanh toán: 32.270 dòng, 220 nhãn 1 (0,68%)
+    XGBoost                          PR-AUC 0,0197 (0,0151–0,0288); gấp 2,89 lần tỷ lệ nhãn 1
+    Logistic Regression              PR-AUC 0,0201 (0,0153–0,0297); gấp 2,94 lần tỷ lệ nhãn 1
+    Mốc 1: biến lúc tạo              PR-AUC 0,0132 (0,0102–0,0188); gấp 1,94 lần tỷ lệ nhãn 1
+    Mốc 2: tỷ lệ của nhà cung cấp    PR-AUC 0,0147 (0,0112–0,0225); gấp 2,15 lần tỷ lệ nhãn 1
+  chinh, đã có Clear thanh toán: 14.855 dòng, 1 nhãn 1 (0,01%) (*)
+    XGBoost                          PR-AUC 0,0004 (0,0003–0,0014); gấp 5,31 lần tỷ lệ nhãn 1
+    Logistic Regression              PR-AUC 0,0008 (0,0007–0,0030); gấp 11,21 lần tỷ lệ nhãn 1
+    Mốc 1: biến lúc tạo              PR-AUC 0,0005 (0,0005–0,0021); gấp 7,61 lần tỷ lệ nhãn 1
+    Mốc 2: tỷ lệ của nhà cung cấp    PR-AUC 0,0003 (0,0003–0,0012); gấp 4,34 lần tỷ lệ nhãn 1
+  chinh, toàn bộ: 47.125 dòng, 221 nhãn 1 (0,47%)
+    XGBoost                          PR-AUC 0,0196 (0,0144–0,0280); gấp 4,18 lần tỷ lệ nhãn 1
+    Logistic Regression              PR-AUC 0,0199 (0,0147–0,0283); gấp 4,25 lần tỷ lệ nhãn 1
+    Mốc 1: biến lúc tạo              PR-AUC 0,0105 (0,0078–0,0150); gấp 2,23 lần tỷ lệ nhãn 1
+    Mốc 2: tỷ lệ của nhà cung cấp    PR-AUC 0,0109 (0,0081–0,0159); gấp 2,32 lần tỷ lệ nhãn 1
+  R3, chưa có Clear thanh toán: 32.365 dòng, 178 nhãn 1 (0,55%)
+    XGBoost                          PR-AUC 0,0145 (0,0106–0,0233); gấp 2,64 lần tỷ lệ nhãn 1
+    Logistic Regression              PR-AUC 0,0161 (0,0122–0,0240); gấp 2,92 lần tỷ lệ nhãn 1
+    Mốc 1: biến lúc tạo              PR-AUC 0,0133 (0,0093–0,0226); gấp 2,41 lần tỷ lệ nhãn 1
+    Mốc 2: tỷ lệ của nhà cung cấp    PR-AUC 0,0147 (0,0110–0,0222); gấp 2,67 lần tỷ lệ nhãn 1
+  R3, đã có Clear thanh toán: 14.910 dòng, 1 nhãn 1 (0,01%) (*)
+    XGBoost                          PR-AUC 0,0017 (0,0015–0,0063); gấp 24,60 lần tỷ lệ nhãn 1
+    Logistic Regression              PR-AUC 0,0007 (0,0006–0,0025); gấp 9,76 lần tỷ lệ nhãn 1
+    Mốc 1: biến lúc tạo              PR-AUC 0,0008 (0,0008–0,0031); gấp 12,06 lần tỷ lệ nhãn 1
+    Mốc 2: tỷ lệ của nhà cung cấp    PR-AUC 0,0003 (0,0003–0,0012); gấp 4,56 lần tỷ lệ nhãn 1
+  R3, toàn bộ: 47.275 dòng, 179 nhãn 1 (0,38%)
+    XGBoost                          PR-AUC 0,0144 (0,0108–0,0228); gấp 3,80 lần tỷ lệ nhãn 1
+    Logistic Regression              PR-AUC 0,0159 (0,0123–0,0242); gấp 4,20 lần tỷ lệ nhãn 1
+    Mốc 1: biến lúc tạo              PR-AUC 0,0110 (0,0077–0,0182); gấp 2,91 lần tỷ lệ nhãn 1
+    Mốc 2: tỷ lệ của nhà cung cấp    PR-AUC 0,0111 (0,0083–0,0169); gấp 2,93 lần tỷ lệ nhãn 1
+  So sánh trên tiền tố 5 chưa có Clear thanh toán (Holm trong từng nhãn, 5 kiểm định):
+    chinh: XGBoost − Logistic Regression: -0,0004 (-0,0053–0,0056); p Holm 0,908
+    chinh: XGBoost − Mốc 1: biến lúc tạo: 0,0065 (0,0032–0,0122); p Holm < 0,001
+    chinh: XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: 0,0051 (0,0009–0,0112); p Holm 0,052
+    chinh: Logistic Regression − Mốc 1: biến lúc tạo: 0,0068 (0,0034–0,0121); p Holm < 0,001
+    chinh: Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0054 (0,0027–0,0084); p Holm < 0,001
+    R3: XGBoost − Logistic Regression: -0,0016 (-0,0053–0,0034); p Holm 1,000
+    R3: XGBoost − Mốc 1: biến lúc tạo: 0,0012 (-0,0022–0,0047); p Holm 1,000
+    R3: XGBoost − Mốc 2: tỷ lệ của nhà cung cấp: -0,0002 (-0,0035–0,0049); p Holm 1,000
+    R3: Logistic Regression − Mốc 1: biến lúc tạo: 0,0028 (-0,0020–0,0069); p Holm 1,000
+    R3: Logistic Regression − Mốc 2: tỷ lệ của nhà cung cấp: 0,0014 (-0,0014–0,0041); p Holm 1,000
+
+2. PR-AUC kiểm định chéo (tập huấn luyện) và tập kiểm tra, chia cho tỷ lệ nhãn 1 của tập tương ứng
+  chinh  tiền tố 2 Logistic Regression   : kiểm định chéo 0,1893 (gấp 9,8 lần 1,93%); kiểm tra 0,0665 (gấp 7,7 lần 0,87%)
+  chinh  tiền tố 2 XGBoost               : kiểm định chéo 0,2219 (gấp 11,5 lần 1,93%); kiểm tra 0,0385 (gấp 4,4 lần 0,87%)
+  chinh  tiền tố 2 Mốc 1: biến lúc tạo   : kiểm định chéo 0,1979 (gấp 10,3 lần 1,93%); kiểm tra 0,0583 (gấp 6,7 lần 0,87%)
+  chinh  tiền tố 3 Logistic Regression   : kiểm định chéo 0,1700 (gấp 9,1 lần 1,87%); kiểm tra 0,0337 (gấp 4,2 lần 0,81%)
+  chinh  tiền tố 3 XGBoost               : kiểm định chéo 0,2148 (gấp 11,5 lần 1,87%); kiểm tra 0,0279 (gấp 3,5 lần 0,81%)
+  chinh  tiền tố 3 Mốc 1: biến lúc tạo   : kiểm định chéo 0,1849 (gấp 9,9 lần 1,87%); kiểm tra 0,0249 (gấp 3,1 lần 0,81%)
+  chinh  tiền tố 4 Logistic Regression   : kiểm định chéo 0,1531 (gấp 9,4 lần 1,63%); kiểm tra 0,0235 (gấp 3,4 lần 0,70%)
+  chinh  tiền tố 4 XGBoost               : kiểm định chéo 0,1932 (gấp 11,9 lần 1,63%); kiểm tra 0,0246 (gấp 3,5 lần 0,70%)
+  chinh  tiền tố 4 Mốc 1: biến lúc tạo   : kiểm định chéo 0,1862 (gấp 11,4 lần 1,63%); kiểm tra 0,0213 (gấp 3,1 lần 0,70%)
+  chinh  tiền tố 5 Logistic Regression   : kiểm định chéo 0,1335 (gấp 13,9 lần 0,96%); kiểm tra 0,0199 (gấp 4,2 lần 0,47%)
+  chinh  tiền tố 5 XGBoost               : kiểm định chéo 0,1671 (gấp 17,4 lần 0,96%); kiểm tra 0,0196 (gấp 4,2 lần 0,47%)
+  chinh  tiền tố 5 Mốc 1: biến lúc tạo   : kiểm định chéo 0,1262 (gấp 13,1 lần 0,96%); kiểm tra 0,0105 (gấp 2,2 lần 0,47%)
+  R3     tiền tố 2 Logistic Regression   : kiểm định chéo 0,1605 (gấp 12,1 lần 1,33%); kiểm tra 0,0163 (gấp 3,0 lần 0,55%)
+  R3     tiền tố 2 XGBoost               : kiểm định chéo 0,2218 (gấp 16,7 lần 1,33%); kiểm tra 0,0175 (gấp 3,2 lần 0,55%)
+  R3     tiền tố 2 Mốc 1: biến lúc tạo   : kiểm định chéo 0,2012 (gấp 15,2 lần 1,33%); kiểm tra 0,0195 (gấp 3,6 lần 0,55%)
+  R3     tiền tố 3 Logistic Regression   : kiểm định chéo 0,1616 (gấp 11,6 lần 1,39%); kiểm tra 0,0179 (gấp 3,1 lần 0,57%)
+  R3     tiền tố 3 XGBoost               : kiểm định chéo 0,2217 (gấp 15,9 lần 1,39%); kiểm tra 0,0170 (gấp 3,0 lần 0,57%)
+  R3     tiền tố 3 Mốc 1: biến lúc tạo   : kiểm định chéo 0,2132 (gấp 15,3 lần 1,39%); kiểm tra 0,0200 (gấp 3,5 lần 0,57%)
+  R3     tiền tố 4 Logistic Regression   : kiểm định chéo 0,1686 (gấp 11,8 lần 1,43%); kiểm tra 0,0179 (gấp 3,1 lần 0,58%)
+  R3     tiền tố 4 XGBoost               : kiểm định chéo 0,2137 (gấp 14,9 lần 1,43%); kiểm tra 0,0186 (gấp 3,2 lần 0,58%)
+  R3     tiền tố 4 Mốc 1: biến lúc tạo   : kiểm định chéo 0,2174 (gấp 15,2 lần 1,43%); kiểm tra 0,0189 (gấp 3,3 lần 0,58%)
+  R3     tiền tố 5 Logistic Regression   : kiểm định chéo 0,1703 (gấp 20,7 lần 0,82%); kiểm tra 0,0159 (gấp 4,2 lần 0,38%)
+  R3     tiền tố 5 XGBoost               : kiểm định chéo 0,2140 (gấp 26,0 lần 0,82%); kiểm tra 0,0144 (gấp 3,8 lần 0,38%)
+  R3     tiền tố 5 Mốc 1: biến lúc tạo   : kiểm định chéo 0,1601 (gấp 19,5 lần 0,82%); kiểm tra 0,0110 (gấp 2,9 lần 0,38%)
+  Khoảng chung (mọi cấu hình): kiểm định chéo gấp 9,1–26,0 lần; kiểm tra gấp 2,2–7,7 lần tỷ lệ nhãn 1.

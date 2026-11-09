@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="QuyTrinhChuan_P2P_2nhanh" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>QuyTrinhChuan_P2P_2nhanh</text>
+    </name>
+    <page id="n0">
+      <place id="sau_po">
+        <name>
+          <text>sau_po</text>
+        </name>
+      </place>
+      <place id="a_sau_gr">
+        <name>
+          <text>a_sau_gr</text>
+        </name>
+      </place>
+      <place id="a_truoc_clear">
+        <name>
+          <text>a_truoc_clear</text>
+        </name>
+      </place>
+      <place id="b_sau_ir">
+        <name>
+          <text>b_sau_ir</text>
+        </name>
+      </place>
+      <place id="b_sau_gr">
+        <name>
+          <text>b_sau_gr</text>
+        </name>
+      </place>
+      <place id="b_truoc_clear">
+        <name>
+          <text>b_truoc_clear</text>
+        </name>
+      </place>
+      <place id="ket_thuc">
+        <name>
+          <text>ket_thuc</text>
+        </name>
+      </place>
+      <place id="bat_dau">
+        <name>
+          <text>bat_dau</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sau_pr">
+        <name>
+          <text>sau_pr</text>
+        </name>
+      </place>
+      <place id="chon_nhanh">
+        <name>
+          <text>chon_nhanh</text>
+        </name>
+      </place>
+      <place id="a_sau_ir">
+        <name>
+          <text>a_sau_ir</text>
+        </name>
+      </place>
+      <transition id="pr">
+        <name>
+          <text>Create Purchase Requisition Item</text>
+        </name>
+      </transition>
+      <transition id="oc">
+        <name>
+          <text>Receive Order Confirmation</text>
+        </name>
+      </transition>
+      <transition id="bo_qua_oc">
+        <name>
+          <text>bo_qua_oc</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="21e31639-423a-4170-920e-9faed0eee0ea"/>
+      </transition>
+      <transition id="a_gr">
+        <name>
+          <text>Record Goods Receipt</text>
+        </name>
+      </transition>
+      <transition id="a_ir">
+        <name>
+          <text>Record Invoice Receipt</text>
+        </name>
+      </transition>
+      <transition id="a_bo_qua_rpb">
+        <name>
+          <text>a_bo_qua_rpb</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5604d236-9ddf-47d6-8146-5fb076691f86"/>
+      </transition>
+      <transition id="a_clear">
+        <name>
+          <text>Clear Invoice</text>
+        </name>
+      </transition>
+      <transition id="b_rpb">
+        <name>
+          <text>Remove Payment Block</text>
+        </name>
+      </transition>
+      <transition id="b_clear">
+        <name>
+          <text>Clear Invoice</text>
+        </name>
+      </transition>
+      <transition id="bo_qua_pr">
+        <name>
+          <text>bo_qua_pr</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="fc8fdffc-ba4a-4df3-8749-76ab13befef4"/>
+      </transition>
+      <transition id="po">
+        <name>
+          <text>Create Purchase Order Item</text>
+        </name>
+      </transition>
+      <transition id="a_rpb">
+        <name>
+          <text>Remove Payment Block</text>
+        </name>
+      </transition>
+      <transition id="b_ir">
+        <name>
+          <text>Record Invoice Receipt</text>
+        </name>
+      </transition>
+      <transition id="b_gr">
+        <name>
+          <text>Record Goods Receipt</text>
+        </name>
+      </transition>
+      <arc id="2865904608384" source="bo_qua_pr" target="sau_pr"/>
+      <arc id="2865904608768" source="sau_po" target="bo_qua_oc"/>
+      <arc id="2865904614528" source="bo_qua_oc" target="chon_nhanh"/>
+      <arc id="2865904599168" source="a_truoc_clear" target="a_clear"/>
+      <arc id="2865904604928" source="b_clear" target="ket_thuc"/>
+      <arc id="2865904605840" source="b_ir" target="b_sau_ir"/>
+      <arc id="2865904611744" source="a_gr" target="a_sau_gr"/>
+      <arc id="2865904612896" source="a_sau_ir" target="a_rpb"/>
+      <arc id="2865904610352" source="pr" target="sau_pr"/>
+      <arc id="2865904608816" source="sau_po" target="oc"/>
+      <arc id="2865904603440" source="b_gr" target="b_sau_gr"/>
+      <arc id="2865904601136" source="b_sau_gr" target="b_rpb"/>
+      <arc id="2865904611264" source="a_ir" target="a_sau_ir"/>
+      <arc id="2865904602816" source="b_sau_ir" target="b_gr"/>
+      <arc id="2865904606800" source="bat_dau" target="pr"/>
+      <arc id="2865904609104" source="bat_dau" target="bo_qua_pr"/>
+      <arc id="2865904604880" source="po" target="sau_po"/>
+      <arc id="2865904608720" source="oc" target="chon_nhanh"/>
+      <arc id="2865904605648" source="a_bo_qua_rpb" target="a_truoc_clear"/>
+      <arc id="2865904606032" source="chon_nhanh" target="b_ir"/>
+      <arc id="2865904606944" source="a_sau_ir" target="a_bo_qua_rpb"/>
+      <arc id="2865904609392" source="sau_pr" target="po"/>
+      <arc id="2865904609776" source="chon_nhanh" target="a_gr"/>
+      <arc id="2865904607472" source="a_sau_gr" target="a_ir"/>
+      <arc id="2865904611696" source="a_rpb" target="a_truoc_clear"/>
+      <arc id="2865904606320" source="a_clear" target="ket_thuc"/>
+      <arc id="2865904602096" source="b_rpb" target="b_truoc_clear"/>
+      <arc id="2865904605168" source="b_truoc_clear" target="b_clear"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="ket_thuc">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

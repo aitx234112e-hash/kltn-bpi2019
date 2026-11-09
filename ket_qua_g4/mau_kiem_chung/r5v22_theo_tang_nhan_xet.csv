@@ -1,0 +1,38 @@
+﻿case,nhom,nhanh,dien_bien,ket_luan
+4507002514_00010,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507006460_00120,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507010800_00010,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507020327_00130,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507020444_00040,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507020565_00020,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507025245_00030,3. có hủy và debit memo,R5a,"Hủy rồi 2 Clear; 1 Clear sau hủy 6,5 giờ do user_027",số Clear khớp hóa đơn NCC + memo; không phân biệt được bù trừ và trả memo
+4507032823_00030,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507033143_00020,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4508046626_00110,3. có hủy và debit memo,R5a,Hủy rồi 2 Clear; số Clear = hóa đơn NCC + memo,khớp chứng từ NCC; không phân biệt được bù trừ và trả memo
+4507007126_00020,"4. không hủy, không debit memo",R5b,"2 hóa đơn NCC, 1 IR, 2 Clear",đáng nghi cao
+4507008465_00020,"4. không hủy, không debit memo",R5b,2 Clear cách nhau 1 phút,"nghi do ghi trùng, không phải trả 2 lần"
+4507015100_00020,"4. không hủy, không debit memo",R5b,2 Clear cách nhau 1 phút,"nghi do ghi trùng, không phải trả 2 lần"
+4507015980_00010,"4. không hủy, không debit memo",R5b,"Có hóa đơn tiếp theo; 1 hóa đơn NCC, 1 IR, 2 Clear","chưa rõ, nhiều khả năng trả cho hóa đơn tiếp theo"
+4507029989_00060,"4. không hủy, không debit memo",R5b,"2 hóa đơn NCC, 1 IR, 2 Clear",đáng nghi cao
+4507030101_00030,"4. không hủy, không debit memo",R5b,Có hóa đơn tiếp theo,"chưa rõ, nhiều khả năng trả cho hóa đơn tiếp theo"
+4507034536_00010,"4. không hủy, không debit memo",R5b,"2 hóa đơn NCC, 1 IR, 2 Clear",đáng nghi cao
+4507038603_00010,"4. không hủy, không debit memo",R5b,Có hóa đơn tiếp theo,"chưa rõ, nhiều khả năng trả cho hóa đơn tiếp theo"
+4508049913_00020,"4. không hủy, không debit memo",R5b,"2 hóa đơn NCC, 1 IR, 2 Clear",đáng nghi cao
+4508051757_00010,"4. không hủy, không debit memo",R5b,"2 hóa đơn NCC, 1 IR, 2 Clear",đáng nghi cao
+4507000639_00010,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507004556_00020,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507006788_00010,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507007883_00010,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507013035_00010,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507020900_00010,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507021425_00090,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507032407_00010,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo; có 2 Clear cách nhau 1 phút,"khớp chứng từ NCC, không đáng nghi"
+4507033760_00030,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507033760_00080,"5. có debit memo, không hủy",R5b,Số Clear = hóa đơn NCC + memo,"khớp chứng từ NCC, không đáng nghi"
+4507000926_00010,"6. có hủy, không debit memo",R5a,"user_073 hủy cuối năm 20/12, Clear ngày 3/1/2019",không đáng nghi (bù trừ trễ qua kỳ nghỉ)
+4507001610_00010,"6. có hủy, không debit memo",R5a,Bù trừ trễ sau lần hủy batch_01,không đáng nghi (bù trừ trễ)
+4507001755_00310,"6. có hủy, không debit memo",R5a,Bù trừ trễ sau lần hủy batch_01,không đáng nghi (bù trừ trễ)
+4507007792_00020,"6. có hủy, không debit memo",R5a,"user_073 hủy cuối năm 20/12, Clear ngày 3/1/2019",không đáng nghi (bù trừ trễ qua kỳ nghỉ)
+4507019089_00070,"6. có hủy, không debit memo",R5a,Bù trừ trễ sau lần hủy batch_01,không đáng nghi (bù trừ trễ)
+4507024785_00130,"6. có hủy, không debit memo",R5a,Bù trừ trễ sau lần hủy batch_01,không đáng nghi (bù trừ trễ)
+4507027003_00010,"6. có hủy, không debit memo",R5b,Có hóa đơn tiếp theo,"chưa rõ, nhiều khả năng trả cho hóa đơn tiếp theo"

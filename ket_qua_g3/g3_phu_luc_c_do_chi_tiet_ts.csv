@@ -1,0 +1,29 @@
+﻿act,so_su_kien,gio_pho_bien,ty_le_gio_pho_bien,do_chi_tiet
+Record Goods Receipt,212458,15:31,0.0083,đến phút
+Create Purchase Order Item,210887,06:49,0.0038,đến phút
+Record Invoice Receipt,200593,10:17,0.003,đến phút
+Vendor creates invoice,195707,21:59,0.6351,đến phút
+Clear Invoice,173256,22:59,0.0409,đến phút
+Remove Payment Block,53217,09:32,0.0284,đến phút
+Create Purchase Requisition Item,41393,22:00,0.5207,đến phút
+Receive Order Confirmation,31273,09:33,0.0234,đến phút
+Change Quantity,16607,08:51,0.0072,đến phút
+Change Price,9845,12:32,0.0095,đến phút
+Delete Purchase Order Item,7598,09:36,0.0172,đến phút
+Cancel Invoice Receipt,5842,10:13,0.0296,đến phút
+Vendor creates debit memo,5170,21:59,0.7046,đến phút
+Change Approval for Purchase Order,3422,08:56,0.1257,đến phút
+Change Delivery Indicator,2507,09:21,0.0088,đến phút
+Cancel Goods Receipt,1908,18:50,0.0435,đến phút
+Release Purchase Order,1447,08:49,0.2965,đến phút
+Release Purchase Requisition,456,09:10,0.0132,đến phút
+Cancel Subsequent Invoice,451,10:57,0.0266,đến phút
+Block Purchase Order Item,385,12:07,0.1792,đến phút
+Reactivate Purchase Order Item,374,14:46,0.0561,đến phút
+Change Storage Location,373,07:05,0.1153,đến phút
+Update Order Confirmation,234,07:51,0.0385,đến phút
+Record Subsequent Invoice,155,08:46,0.0258,đến phút
+Set Payment Block,52,11:35,0.5,đến phút
+Change Currency,34,11:21,0.5294,đến phút
+Change payment term,5,17:22,0.2,đến phút
+Change Final Invoice Indicator,1,08:24,1.0,đến ngày

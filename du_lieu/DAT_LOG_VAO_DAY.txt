@@ -1,0 +1,1 @@
+Đặt file BPI_Challenge_2019.xes vào thư mục này.

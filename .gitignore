@@ -1,0 +1,5 @@
+du_lieu/*.xes
+du_lieu/*.xes.gz
+du_lieu/*.csv
+__pycache__/
+.ipynb_checkpoints/

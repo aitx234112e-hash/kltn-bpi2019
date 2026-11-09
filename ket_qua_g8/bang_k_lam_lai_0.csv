@@ -1,0 +1,7 @@
+﻿nhom_k,không làm lại,làm lại,tổng,tap
+0 < k < số debit memo,5,9,14,"G4: có debit memo, không hoạt động > 90 ngày"
+k < 0,7,49,56,"G4: có debit memo, không hoạt động > 90 ngày"
+k = 0,439,1025,1464,"G4: có debit memo, không hoạt động > 90 ngày"
+k = số debit memo,610,574,1184,"G4: có debit memo, không hoạt động > 90 ngày"
+k > số debit memo,213,97,310,"G4: có debit memo, không hoạt động > 90 ngày"
+tổng,1274,1754,3028,"G4: có debit memo, không hoạt động > 90 ngày"

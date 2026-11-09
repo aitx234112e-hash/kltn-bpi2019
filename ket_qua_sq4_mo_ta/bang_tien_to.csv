@@ -1,0 +1,181 @@
+﻿H,nhan,tap_du_lieu,tap,tien_to,n,n1,con_mo,bi_xoa,n1_R2a,n1_R3,n1_R6
+90,chinh,toàn bộ,huấn luyện,0,55476,1104,2088,2214,175.0,729,208.0
+90,chinh,toàn bộ,huấn luyện,2,54868,1057,1876,2196,175.0,729,161.0
+90,chinh,toàn bộ,huấn luyện,3,52279,980,1387,370,175.0,728,84.0
+90,chinh,toàn bộ,huấn luyện,4,49586,807,1160,69,52.0,712,47.0
+90,chinh,toàn bộ,huấn luyện,5,40319,387,1063,24,21.0,334,34.0
+90,chinh,toàn bộ,kiểm tra,0,62195,572,9423,2106,85.0,335,154.0
+90,chinh,toàn bộ,kiểm tra,2,61134,530,8466,2096,85.0,335,112.0
+90,chinh,toàn bộ,kiểm tra,3,58806,475,7382,937,85.0,335,57.0
+90,chinh,toàn bộ,kiểm tra,4,56768,396,6629,302,42.0,330,26.0
+90,chinh,toàn bộ,kiểm tra,5,47125,221,4714,46,34.0,179,10.0
+90,chinh,loại hai nhà cung cấp R6,huấn luyện,0,55399,1047,2088,2213,175.0,729,151.0
+90,chinh,loại hai nhà cung cấp R6,huấn luyện,2,54818,1024,1876,2195,175.0,729,128.0
+90,chinh,loại hai nhà cung cấp R6,huấn luyện,3,52255,970,1387,370,175.0,728,74.0
+90,chinh,loại hai nhà cung cấp R6,huấn luyện,4,49572,807,1160,69,52.0,712,47.0
+90,chinh,loại hai nhà cung cấp R6,huấn luyện,5,40306,387,1063,24,21.0,334,34.0
+90,chinh,loại hai nhà cung cấp R6,kiểm tra,0,62113,525,9379,2103,85.0,335,107.0
+90,chinh,loại hai nhà cung cấp R6,kiểm tra,2,61087,503,8441,2093,85.0,335,85.0
+90,chinh,loại hai nhà cung cấp R6,kiểm tra,3,58786,471,7369,937,85.0,335,53.0
+90,chinh,loại hai nhà cung cấp R6,kiểm tra,4,56753,396,6621,302,42.0,330,26.0
+90,chinh,loại hai nhà cung cấp R6,kiểm tra,5,47119,221,4710,46,34.0,179,10.0
+90,chinh,loại dòng có hủy,huấn luyện,0,53316,969,1661,2197,131.0,646,197.0
+90,chinh,loại dòng có hủy,huấn luyện,2,52729,928,1459,2180,131.0,646,156.0
+90,chinh,loại dòng có hủy,huấn luyện,3,50299,854,1114,355,131.0,645,82.0
+90,chinh,loại dòng có hủy,huấn luyện,4,47690,690,896,54,13.0,631,47.0
+90,chinh,loại dòng có hủy,huấn luyện,5,38569,322,813,17,4.0,285,34.0
+90,chinh,loại dòng có hủy,kiểm tra,0,60891,492,9248,2090,50.0,306,136.0
+90,chinh,loại dòng có hủy,kiểm tra,2,59836,453,8292,2081,50.0,306,97.0
+90,chinh,loại dòng có hủy,kiểm tra,3,57550,403,7244,922,50.0,306,47.0
+90,chinh,loại dòng có hủy,kiểm tra,4,55537,331,6495,287,12.0,301,18.0
+90,chinh,loại dòng có hủy,kiểm tra,5,45949,164,4611,37,6.0,150,8.0
+90,R3,toàn bộ,huấn luyện,0,55476,729,2088,2214,,729,
+90,R3,toàn bộ,huấn luyện,2,54915,729,1881,2196,,729,
+90,R3,toàn bộ,huấn luyện,3,52400,729,1390,370,,729,
+90,R3,toàn bộ,huấn luyện,4,49841,713,1166,69,,713,
+90,R3,toàn bộ,huấn luyện,5,40585,334,1078,26,,334,
+90,R3,toàn bộ,kiểm tra,0,62195,335,9423,2106,,335,
+90,R3,toàn bộ,kiểm tra,2,61176,335,8483,2097,,335,
+90,R3,toàn bộ,kiểm tra,3,58898,335,7413,937,,335,
+90,R3,toàn bộ,kiểm tra,4,56932,330,6664,302,,330,
+90,R3,toàn bộ,kiểm tra,5,47275,179,4737,46,,179,
+90,R3,loại hai nhà cung cấp R6,huấn luyện,0,55399,729,2088,2213,,729,
+90,R3,loại hai nhà cung cấp R6,huấn luyện,2,54841,729,1881,2195,,729,
+90,R3,loại hai nhà cung cấp R6,huấn luyện,3,52329,729,1390,370,,729,
+90,R3,loại hai nhà cung cấp R6,huấn luyện,4,49772,713,1166,69,,713,
+90,R3,loại hai nhà cung cấp R6,huấn luyện,5,40537,334,1078,26,,334,
+90,R3,loại hai nhà cung cấp R6,kiểm tra,0,62113,335,9379,2103,,335,
+90,R3,loại hai nhà cung cấp R6,kiểm tra,2,61109,335,8447,2094,,335,
+90,R3,loại hai nhà cung cấp R6,kiểm tra,3,58836,335,7379,937,,335,
+90,R3,loại hai nhà cung cấp R6,kiểm tra,4,56873,330,6633,302,,330,
+90,R3,loại hai nhà cung cấp R6,kiểm tra,5,47253,179,4718,46,,179,
+90,R3,loại dòng có hủy,huấn luyện,0,53316,646,1661,2197,,646,
+90,R3,loại dòng có hủy,huấn luyện,2,52770,646,1462,2180,,646,
+90,R3,loại dòng có hủy,huấn luyện,3,50411,646,1115,355,,646,
+90,R3,loại dòng có hủy,huấn luyện,4,47932,632,899,54,,632,
+90,R3,loại dòng có hủy,huấn luyện,5,38803,285,821,17,,285,
+90,R3,loại dòng có hủy,kiểm tra,0,60891,306,9248,2090,,306,
+90,R3,loại dòng có hủy,kiểm tra,2,59875,306,8308,2081,,306,
+90,R3,loại dòng có hủy,kiểm tra,3,57635,306,7274,922,,306,
+90,R3,loại dòng có hủy,kiểm tra,4,55687,301,6528,287,,301,
+90,R3,loại dòng có hủy,kiểm tra,5,46077,150,4630,37,,150,
+90,khong_R6,toàn bộ,huấn luyện,0,55476,898,2088,2214,175.0,729,
+90,khong_R6,toàn bộ,huấn luyện,2,54915,898,1881,2196,175.0,729,
+90,khong_R6,toàn bộ,huấn luyện,3,52400,898,1390,370,175.0,729,
+90,khong_R6,toàn bộ,huấn luyện,4,49720,761,1165,69,52.0,713,
+90,khong_R6,toàn bộ,huấn luyện,5,40437,353,1071,24,21.0,334,
+90,khong_R6,toàn bộ,kiểm tra,0,62195,420,9423,2106,85.0,335,
+90,khong_R6,toàn bộ,kiểm tra,2,61176,420,8483,2097,85.0,335,
+90,khong_R6,toàn bộ,kiểm tra,3,58898,420,7413,937,85.0,335,
+90,khong_R6,toàn bộ,kiểm tra,4,56889,372,6664,302,42.0,330,
+90,khong_R6,toàn bộ,kiểm tra,5,47224,213,4736,46,34.0,179,
+90,khong_R6,loại hai nhà cung cấp R6,huấn luyện,0,55399,898,2088,2213,175.0,729,
+90,khong_R6,loại hai nhà cung cấp R6,huấn luyện,2,54841,898,1881,2195,175.0,729,
+90,khong_R6,loại hai nhà cung cấp R6,huấn luyện,3,52329,898,1390,370,175.0,729,
+90,khong_R6,loại hai nhà cung cấp R6,huấn luyện,4,49651,761,1165,69,52.0,713,
+90,khong_R6,loại hai nhà cung cấp R6,huấn luyện,5,40389,353,1071,24,21.0,334,
+90,khong_R6,loại hai nhà cung cấp R6,kiểm tra,0,62113,420,9379,2103,85.0,335,
+90,khong_R6,loại hai nhà cung cấp R6,kiểm tra,2,61109,420,8447,2094,85.0,335,
+90,khong_R6,loại hai nhà cung cấp R6,kiểm tra,3,58836,420,7379,937,85.0,335,
+90,khong_R6,loại hai nhà cung cấp R6,kiểm tra,4,56830,372,6633,302,42.0,330,
+90,khong_R6,loại hai nhà cung cấp R6,kiểm tra,5,47202,213,4717,46,34.0,179,
+90,khong_R6,loại dòng có hủy,huấn luyện,0,53316,774,1661,2197,131.0,646,
+90,khong_R6,loại dòng có hủy,huấn luyện,2,52770,774,1462,2180,131.0,646,
+90,khong_R6,loại dòng có hủy,huấn luyện,3,50411,774,1115,355,131.0,646,
+90,khong_R6,loại dòng có hủy,huấn luyện,4,47816,644,898,54,13.0,632,
+90,khong_R6,loại dòng có hủy,huấn luyện,5,38680,288,818,17,4.0,285,
+90,khong_R6,loại dòng có hủy,kiểm tra,0,60891,356,9248,2090,50.0,306,
+90,khong_R6,loại dòng có hủy,kiểm tra,2,59875,356,8308,2081,50.0,306,
+90,khong_R6,loại dòng có hủy,kiểm tra,3,57635,356,7274,922,50.0,306,
+90,khong_R6,loại dòng có hủy,kiểm tra,4,55649,313,6528,287,12.0,301,
+90,khong_R6,loại dòng có hủy,kiểm tra,5,46033,156,4629,37,6.0,150,
+120,chinh,toàn bộ,huấn luyện,0,36589,754,1309,1440,78.0,516,166.0
+120,chinh,toàn bộ,huấn luyện,2,36355,717,1133,1433,78.0,516,129.0
+120,chinh,toàn bộ,huấn luyện,3,34783,657,849,231,78.0,516,69.0
+120,chinh,toàn bộ,huấn luyện,4,33817,590,762,49,41.0,506,46.0
+120,chinh,toàn bộ,huấn luyện,5,31007,289,709,12,17.0,239,35.0
+120,chinh,toàn bộ,kiểm tra,0,45837,486,3853,1548,66.0,307,115.0
+120,chinh,toàn bộ,kiểm tra,2,45124,459,3166,1546,66.0,307,88.0
+120,chinh,toàn bộ,kiểm tra,3,43233,417,2354,509,66.0,307,46.0
+120,chinh,toàn bộ,kiểm tra,4,42081,350,1838,128,26.0,303,23.0
+120,chinh,toàn bộ,kiểm tra,5,38815,168,1324,11,20.0,139,11.0
+120,chinh,loại hai nhà cung cấp R6,huấn luyện,0,36525,705,1309,1439,78.0,516,117.0
+120,chinh,loại hai nhà cung cấp R6,huấn luyện,2,36311,688,1133,1432,78.0,516,100.0
+120,chinh,loại hai nhà cung cấp R6,huấn luyện,3,34761,649,849,231,78.0,516,61.0
+120,chinh,loại hai nhà cung cấp R6,huấn luyện,4,33803,590,762,49,41.0,506,46.0
+120,chinh,loại hai nhà cung cấp R6,huấn luyện,5,30993,289,709,12,17.0,239,35.0
+120,chinh,loại hai nhà cung cấp R6,kiểm tra,0,45779,445,3833,1545,66.0,307,74.0
+120,chinh,loại hai nhà cung cấp R6,kiểm tra,2,45082,434,3150,1543,66.0,307,63.0
+120,chinh,loại hai nhà cung cấp R6,kiểm tra,3,43215,413,2343,509,66.0,307,42.0
+120,chinh,loại hai nhà cung cấp R6,kiểm tra,4,42069,350,1833,128,26.0,303,23.0
+120,chinh,loại hai nhà cung cấp R6,kiểm tra,5,38804,168,1320,11,20.0,139,11.0
+120,chinh,loại dòng có hủy,huấn luyện,0,35218,655,1048,1429,40.0,459,159.0
+120,chinh,loại dòng có hủy,huấn luyện,2,34995,621,879,1423,40.0,459,125.0
+120,chinh,loại dòng có hủy,huấn luyện,3,33495,563,660,221,40.0,459,67.0
+120,chinh,loại dòng có hủy,huấn luyện,4,32545,500,575,39,6.0,450,45.0
+120,chinh,loại dòng có hủy,huấn luyện,5,29806,239,530,10,2.0,204,34.0
+120,chinh,loại dòng có hủy,kiểm tra,0,44888,428,3747,1541,42.0,287,99.0
+120,chinh,loại dòng có hủy,kiểm tra,2,44176,402,3060,1540,42.0,287,73.0
+120,chinh,loại dòng có hủy,kiểm tra,3,42314,365,2272,503,42.0,287,36.0
+120,chinh,loại dòng có hủy,kiểm tra,4,41180,305,1759,122,7.0,283,15.0
+120,chinh,loại dòng có hủy,kiểm tra,5,37933,131,1252,8,3.0,119,9.0
+120,R3,toàn bộ,huấn luyện,0,36589,516,1309,1440,,516,
+120,R3,toàn bộ,huấn luyện,2,36392,516,1136,1433,,516,
+120,R3,toàn bộ,huấn luyện,3,34878,516,851,231,,516,
+120,R3,toàn bộ,huấn luyện,4,33967,506,765,49,,506,
+120,R3,toàn bộ,huấn luyện,5,31175,239,719,14,,239,
+120,R3,toàn bộ,kiểm tra,0,45837,307,3853,1548,,307,
+120,R3,toàn bộ,kiểm tra,2,45151,307,3172,1547,,307,
+120,R3,toàn bộ,kiểm tra,3,43298,307,2362,509,,307,
+120,R3,toàn bộ,kiểm tra,4,42207,303,1851,128,,303,
+120,R3,toàn bộ,kiểm tra,5,38939,139,1336,11,,139,
+120,R3,loại hai nhà cung cấp R6,huấn luyện,0,36525,516,1309,1439,,516,
+120,R3,loại hai nhà cung cấp R6,huấn luyện,2,36328,516,1136,1432,,516,
+120,R3,loại hai nhà cung cấp R6,huấn luyện,3,34815,516,851,231,,516,
+120,R3,loại hai nhà cung cấp R6,huấn luyện,4,33906,506,765,49,,506,
+120,R3,loại hai nhà cung cấp R6,huấn luyện,5,31128,239,719,14,,239,
+120,R3,loại hai nhà cung cấp R6,kiểm tra,0,45779,307,3833,1545,,307,
+120,R3,loại hai nhà cung cấp R6,kiểm tra,2,45093,307,3152,1544,,307,
+120,R3,loại hai nhà cung cấp R6,kiểm tra,3,43244,307,2343,509,,307,
+120,R3,loại hai nhà cung cấp R6,kiểm tra,4,42157,303,1834,128,,303,
+120,R3,loại hai nhà cung cấp R6,kiểm tra,5,38910,139,1323,11,,139,
+120,R3,loại dòng có hủy,huấn luyện,0,35218,459,1048,1429,,459,
+120,R3,loại dòng có hủy,huấn luyện,2,35029,459,881,1423,,459,
+120,R3,loại dòng có hủy,huấn luyện,3,33585,459,661,221,,459,
+120,R3,loại dòng có hủy,huấn luyện,4,32687,450,577,39,,450,
+120,R3,loại dòng có hủy,huấn luyện,5,29947,204,535,10,,204,
+120,R3,loại dòng có hủy,kiểm tra,0,44888,287,3747,1541,,287,
+120,R3,loại dòng có hủy,kiểm tra,2,44202,287,3066,1540,,287,
+120,R3,loại dòng có hủy,kiểm tra,3,42374,287,2280,503,,287,
+120,R3,loại dòng có hủy,kiểm tra,4,41294,283,1771,122,,283,
+120,R3,loại dòng có hủy,kiểm tra,5,38037,119,1261,8,,119,
+120,khong_R6,toàn bộ,huấn luyện,0,36589,590,1309,1440,78.0,516,
+120,khong_R6,toàn bộ,huấn luyện,2,36392,590,1136,1433,78.0,516,
+120,khong_R6,toàn bộ,huấn luyện,3,34878,590,851,231,78.0,516,
+120,khong_R6,toàn bộ,huấn luyện,4,33932,545,764,49,41.0,506,
+120,khong_R6,toàn bộ,huấn luyện,5,31117,255,713,12,17.0,239,
+120,khong_R6,toàn bộ,kiểm tra,0,45837,373,3853,1548,66.0,307,
+120,khong_R6,toàn bộ,kiểm tra,2,45151,373,3172,1547,66.0,307,
+120,khong_R6,toàn bộ,kiểm tra,3,43298,373,2362,509,66.0,307,
+120,khong_R6,toàn bộ,kiểm tra,4,42167,329,1851,128,26.0,303,
+120,khong_R6,toàn bộ,kiểm tra,5,38893,159,1336,11,20.0,139,
+120,khong_R6,loại hai nhà cung cấp R6,huấn luyện,0,36525,590,1309,1439,78.0,516,
+120,khong_R6,loại hai nhà cung cấp R6,huấn luyện,2,36328,590,1136,1432,78.0,516,
+120,khong_R6,loại hai nhà cung cấp R6,huấn luyện,3,34815,590,851,231,78.0,516,
+120,khong_R6,loại hai nhà cung cấp R6,huấn luyện,4,33871,545,764,49,41.0,506,
+120,khong_R6,loại hai nhà cung cấp R6,huấn luyện,5,31070,255,713,12,17.0,239,
+120,khong_R6,loại hai nhà cung cấp R6,kiểm tra,0,45779,373,3833,1545,66.0,307,
+120,khong_R6,loại hai nhà cung cấp R6,kiểm tra,2,45093,373,3152,1544,66.0,307,
+120,khong_R6,loại hai nhà cung cấp R6,kiểm tra,3,43244,373,2343,509,66.0,307,
+120,khong_R6,loại hai nhà cung cấp R6,kiểm tra,4,42117,329,1834,128,26.0,303,
+120,khong_R6,loại hai nhà cung cấp R6,kiểm tra,5,38864,159,1323,11,20.0,139,
+120,khong_R6,loại dòng có hủy,huấn luyện,0,35218,497,1048,1429,40.0,459,
+120,khong_R6,loại dòng có hủy,huấn luyện,2,35029,497,881,1423,40.0,459,
+120,khong_R6,loại dòng có hủy,huấn luyện,3,33585,497,661,221,40.0,459,
+120,khong_R6,loại dòng có hủy,huấn luyện,4,32655,456,576,39,6.0,450,
+120,khong_R6,loại dòng có hủy,huấn luyện,5,29911,206,533,10,2.0,204,
+120,khong_R6,loại dòng có hủy,kiểm tra,0,44888,329,3747,1541,42.0,287,
+120,khong_R6,loại dòng có hủy,kiểm tra,2,44202,329,3066,1540,42.0,287,
+120,khong_R6,loại dòng có hủy,kiểm tra,3,42374,329,2280,503,42.0,287,
+120,khong_R6,loại dòng có hủy,kiểm tra,4,41259,290,1771,122,7.0,283,
+120,khong_R6,loại dòng có hủy,kiểm tra,5,37998,122,1261,8,3.0,119,

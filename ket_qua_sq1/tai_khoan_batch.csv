@@ -1,0 +1,19 @@
+﻿tai_khoan,loai,so_su_kien,ty_le_su_kien,hoat_dong_nhieu_nhat,gio_dia_phuong_pho_bien,ty_le_su_kien_trong_gio_do,so_clear,ty_le_trong_clear
+batch_00,batch,16134,0.013723,"Record Invoice Receipt (6,754); Create Purchase Order Item (3,367); Receive Order Confirmation (3,365)",8,0.272,0,0.0
+batch_01,batch,1513,0.001287,Record Invoice Receipt (828); Cancel Invoice Receipt (685),2,1.0,0,0.0
+batch_02,batch,16630,0.014145,"Remove Payment Block (11,793); Record Goods Receipt (3,404); Receive Order Confirmation (1,326)",2,0.68,0,0.0
+batch_03,batch,15512,0.013194,"Create Purchase Order Item (7,958); Record Goods Receipt (7,506); Cancel Goods Receipt (48)",4,0.3549,0,0.0
+batch_04,batch,2480,0.002109,"Create Purchase Order Item (2,480)",5,0.5387,0,0.0
+batch_05,batch,4307,0.003664,"Record Goods Receipt (4,304); Cancel Goods Receipt (3)",9,0.1713,0,0.0
+batch_06,batch,5790,0.004925,"Record Goods Receipt (5,789); Cancel Goods Receipt (1)",9,0.1283,0,0.0
+batch_07,batch,567,0.000482,Record Goods Receipt (567),8,0.1905,0,0.0
+batch_08,batch,1338,0.001138,"Create Purchase Requisition Item (1,338)",0,1.0,0,0.0
+batch_09,batch,16,1.4e-05,Record Goods Receipt (16),14,0.25,0,0.0
+batch_11,batch,1578,0.001342,Create Purchase Requisition Item (991); Cancel Goods Receipt (344); Release Purchase Requisition (192),0,0.628,0,0.0
+batch_12,batch,5693,0.004842,"Record Goods Receipt (5,693)",16,0.1706,0,0.0
+batch_13,batch,342,0.000291,Record Goods Receipt (342),16,0.2251,0,0.0
+batch_14,batch,78,6.6e-05,Cancel Goods Receipt (78),20,1.0,0,0.0
+batch_16,batch,3152,0.002681,"Create Purchase Requisition Item (3,152)",0,1.0,0,0.0
+batch_17,batch,3708,0.003154,"Create Purchase Requisition Item (3,708)",0,1.0,0,0.0
+batch_19,batch,3,3e-06,Cancel Goods Receipt (3),21,1.0,0,0.0
+user_002,đối chiếu (giống thanh toán tự động),149418,0.127094,"Clear Invoice (149,418)",14,0.2449,149418,0.862412

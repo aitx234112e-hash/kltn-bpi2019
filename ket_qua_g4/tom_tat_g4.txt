@@ -1,0 +1,96 @@
+Log đang ở UTC (Vendor creates invoice lúc 21:59/22:59: 100.0%). Đổi sang Europe/Amsterdam cho phân tích theo giờ/thứ.
+  Sau khi đổi: Vendor creates invoice lúc 23:59 giờ địa phương: 100.0%
+  Thứ tự sự kiện và khoảng cách thời gian không đổi; mọi luật vẫn tính trên timestamp gốc.
+Phạm vi 210,887 case. Δ = 60 phút. Thời điểm trích xuất: 2019-01-18 13:34:00
+
+=== G4 Mục 2. Debit memo có được trả bằng Clear riêng không ===
+Dòng hàng có ≥ 1 debit memo và không có hoạt động trong 90 ngày trước thời điểm trích xuất: 3,028
+  Có debit memo, đếm sự kiện Clear (n = 3,028): k = số debit memo 1.184 (39,10%); k = 0 1.464 (48,35%); 0 < k < số debit memo 14 (0,46%); k > số debit memo 310 (10,24%); k < 0 56 (1,85%)
+  Có debit memo, đếm thời điểm thanh toán khác nhau (n = 3,028): k = số debit memo 1.190 (39,30%); k = 0 1.469 (48,51%); 0 < k < số debit memo 16 (0,53%); k > số debit memo 287 (9,48%); k < 0 66 (2,18%)
+  Đối chứng: dòng hàng không có debit memo, cũng đã nghỉ, có ≥ 1 IR (k kỳ vọng = 0 nếu mỗi hóa đơn một lần trả):
+  Không có debit memo, đếm sự kiện Clear (n = 116,408): k = 0 113.231 (97,27%); k > 0 362 (0,31%); k < 0 2.815 (2,42%)
+  Không có debit memo, đếm thời điểm thanh toán khác nhau (n = 116,408): k = 0 113.210 (97,25%); k > 0 296 (0,25%); k < 0 2.902 (2,49%)
+Bảng chéo k × số debit memo (đếm sự kiện Clear):
+so_memo            1 memo  2 memo  3+ memo
+k (cắt ở -2 và 5)                         
+-2                      3       0        0
+-1                     50       3        0
+ 0                   1459       5        0
+ 1                   1163      13        0
+ 2                    281      20        1
+ 3                     11       5        1
+ 4                     10       1        1
+ 5                      0       1        0
+Kết luận theo quy tắc của thầy: Không có nhóm nào chiếm quá nửa → chưa kết luận được, xem bảng chéo.
+
+Dòng hàng đổi Hoàn tất → Còn mở: 2,096. Nguyên nhân:
+  chỉ do phân loại lại Clear bù trừ: 346 (16,51%); trong đó không hoạt động > 90 ngày 142 (41,04%), > 180 ngày 59 (17,05%)
+  chỉ do cộng debit memo: 322 (15,36%); trong đó không hoạt động > 90 ngày 163 (50,62%), > 180 ngày 67 (20,81%)
+  cả hai, mỗi cái đều đủ: 30 (1,43%); trong đó không hoạt động > 90 ngày 22 (73,33%), > 180 ngày 12 (40,00%)
+  chỉ khi kết hợp cả hai: 1.398 (66,70%); trong đó không hoạt động > 90 ngày 957 (68,45%), > 180 ngày 549 (39,27%)
+
+=== G4 Mục 3. R4: ba con số và nhánh R5a/R5b ===
+R4 cách đếm thô (mọi Clear): 2.562 (1,21%); R4 v2 (chỉ Clear thanh toán): 1.566 (0,74%); R4 đúng nghĩa (lần Clear bị bắt đầu tiên là A3 hoặc B): 188 (0,09%); (có ít nhất một lần Clear bị bắt là A3 hoặc B): 515 (0,24%)
+
+=== G4 Mục 4. R5 v2.2 ===
+R5 v2.1: 879 (0,42%); đếm theo thời điểm: 744 (0,35%); R5 v2.2 (thêm: bỏ lần vượt có Record Invoice Receipt ghi sau): 681 (0,32%)
+  Kiểm tra: case đếm theo thời điểm mà v2.1 không bắt: 0 (kỳ vọng 0)
+  Chỉ báo riêng 'trả trước khi ghi nhận hóa đơn' (có lần vượt mà sau đó có Record Invoice Receipt): 126 (0,06%); trong đó vẫn còn lần vượt khác nên vẫn ở R5 v2.2: 63
+  Nhánh: R5a (vi phạm đầu tiên xảy ra sau ít nhất một lần hủy) 486 (71,37%); R5b 195 (28,63%)
+  R4 đúng nghĩa (lần đầu A3/B) nằm trong R5 v2.2: 157 (83,51%); trong R5a: 157 (83,51%)
+
+Đối chiếu: bảng phân loại G3 có 112 case 'chỉ vượt ở Clear cùng timestamp'; đếm theo thời điểm loại 135 case.
+  112 case loại thuộc nhóm 'chỉ vượt cùng timestamp'; 23 case còn lại có lần vượt ở một timestamp riêng, nhưng lần vượt đó chỉ xuất hiện vì có 2 Clear cùng timestamp ở TRƯỚC đó làm số lần trả bị đếm dư.
+  Xác nhận: 23/23 case có nhóm Clear cùng timestamp xảy ra trước lần vượt riêng đầu tiên.
+
+Phân loại R5 v2.1 theo thứ tự ưu tiên (loại trừ nhau; nhóm 3–6 cộng lại = R5 v2.2):
+                                         so_case   ty_le
+loai                                                    
+1. chỉ vượt do đếm Clear cùng timestamp      135  0.1536
+2. trả trước khi ghi nhận hóa đơn             63  0.0717
+3. có hủy và debit memo                      467  0.5313
+4. không hủy, không debit memo               150  0.1706
+5. có debit memo, không hủy                   44  0.0501
+6. có hủy, không debit memo                   20  0.0228
+Tổng (= R5 v2.1)                             879  1.0000
+  Nhóm 3–6 cộng lại: 681 (R5 v2.2 = 681)
+  Nhánh R5a/R5b theo nhóm:
+nhanh                           R5a  R5b
+loai                                    
+3. có hủy và debit memo         467    0
+4. không hủy, không debit memo    0  150
+5. có debit memo, không hủy       0   44
+6. có hủy, không debit memo      19    1
+
+Mẫu theo tầng (10 case mỗi nhóm), đã loại 122 case đọc trước đây:
+  3. có hủy và debit memo: 438 case đủ điều kiện, lấy 10
+  4. không hủy, không debit memo: 140 case đủ điều kiện, lấy 10
+  5. có debit memo, không hủy: 41 case đủ điều kiện, lấy 10
+  6. có hủy, không debit memo: 7 case đủ điều kiện, lấy 7
+
+Độ nhạy R5 v2.2:
+  Không tính debit memo: 2.556 (1,21%) (thêm 1,875, bớt 0)
+  Bù trừ mở rộng (thêm Clear trong 1,000 phút do chính người hủy): thêm 36 Clear bù trừ; R5 v2.2 còn 680 (0,32%) (bớt 1, thêm 0); R5a 485
+  R4 v2 với bù trừ mở rộng: 1.562 (0,74%)
+
+Khoảng tin cậy Wilson 95%, gộp hai mẫu R5 v2.1 (13/10 và 16/10):
+  đáng nghi cao: 11/40 = 27.5% (KTC 95%: 16%–43%)
+  đáng nghi cao + cần số tiền: 22/40 = 55.0% (KTC 95%: 40%–69%)
+
+=== G4 Mục 5. Hủy do tài khoản batch và chỉ báo làm lại ===
+Tổng số lần Cancel Invoice Receipt: 5,842; do tài khoản batch: 686 (11,74%)
+  hủy sau khi đã thanh toán: 672 lần, do batch 454 (67,56%)
+  hủy khác (chưa thanh toán đủ): 5,170 lần, do batch 232 (4,49%)
+  ghép được Clear bù trừ (Δ = 60 phút): 2,114 lần, do batch 0 (0,00%)
+  không ghép được: 3,728 lần, do batch 686 (18,40%)
+  Tài khoản batch hủy nhiều nhất: batch_01 685, batch_00 1
+  Giờ (địa phương) của lần hủy do batch: 2h 685, 9h 1
+  Thứ (địa phương) của lần hủy do batch: Wednesday 257, Tuesday 148, Thursday 99, Friday 96, Monday 86
+(iv) Làm lại (hủy rồi ghi lại hóa đơn): 2.984 (1,41%) dòng hàng tính mọi lần hủy; 2.982 (1,41%) dòng hàng chỉ tính lần hủy do người dùng thật
+Danh sách chỉ báo phụ: (i) hủy sau thanh toán 658 dòng hàng; (ii) #Cancel IR > #IR 818, #Cancel Sub > #Record Sub 417; (iii) trả trước khi ghi nhận hóa đơn 126; (iv) làm lại 2,982 (người dùng thật) / 2,984 (tất cả)
+
+Nhịp thanh toán theo giờ địa phương:
+  Clear thanh toán do user_002: 149.418 (87,31%); theo thứ: Thursday 124,901, Friday 17,613, Wednesday 5,339, Tuesday 1,460, Monday 105
+  Theo giờ (5 giờ nhiều nhất): 14h 36,592, 15h 28,204, 16h 27,265, 13h 19,848, 18h 9,613
+  user_002 làm Clear trong 93 ngày khác nhau; trung bình 1,607 Clear mỗi ngày có chạy
+  So sánh tất cả Clear thanh toán theo thứ: Thursday 130,861, Friday 32,522, Wednesday 5,493, Tuesday 1,832, Monday 283, Sunday 93, Saturday 56

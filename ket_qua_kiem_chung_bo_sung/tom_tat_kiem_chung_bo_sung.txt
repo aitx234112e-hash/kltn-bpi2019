@@ -1,0 +1,217 @@
+Đọc log xong sau 72 giây.
+Phạm vi 210.887 dòng hàng, 1.175.650 sự kiện. Δ = 60 phút. Thời điểm trích xuất: 2019-01-18 13:34:00
+Số dòng hàng theo luật khớp kiểm chứng cuối 18/10.
+
+=== 1. Mẫu kiểm chứng cuối ===
+  Rút lại bằng seed 2026, rng.choice không hoàn lại trên danh sách case đã sắp xếp, sau khi loại case đã đọc:
+luat              nhom  khung_mau  so_case_rut_lai  so_case_trong_file  trung
+  R1       bi_danh_dau        631               20                  20     20
+  R1 khong_bi_danh_dau     165950               20                  20     20
+ R2a       bi_danh_dau        487               20                  20     20
+ R2a khong_bi_danh_dau      51511               20                  20     20
+  R3       bi_danh_dau       1995               20                  20     20
+  R3 khong_bi_danh_dau       6992               20                  20     20
+  R6       bi_danh_dau        650               20                  20     20
+  R6 khong_bi_danh_dau     157438               20                  20     20
+  R7       bi_danh_dau          0                0                   0      0
+  R7 khong_bi_danh_dau     191144               20                  20     20
+ R7b       bi_danh_dau       2414               20                  20     20
+ R7b khong_bi_danh_dau     188177               20                  20     20
+  Mọi mẫu rút lại trùng hoàn toàn với file đã đọc tay.
+
+  R6: 650 dòng hàng, cùng phút (|GR − PO| ≤ 1 phút, cùng người dùng thật, xét mọi cặp) 67 (10,3%).
+  Mẫu kiểm chứng R6: 8/20 case cùng phút theo code.
+  Theo nhận xét đọc tay: 8/20; khớp từng case giữa code và đọc tay: 20/20.
+    cùng phút: đúng 8/8
+    khác thời điểm: đúng 12/12
+  Nếu rút ngẫu nhiên 20 từ 650 dòng, xác suất có từ 8 case cùng phút trở lên: 0,0390%; kỳ vọng 2,06 case.
+  Mẫu bổ sung R6 khác thời điểm: 0 case chưa đọc, lấy 0 (mau_r6_khac_thoi_diem.csv).
+
+=== 2. Giá trị dòng hàng (đã ẩn danh) ===
+  Dòng hàng có giá trị: 210.887 (100,00%); bằng 0: 1.428; âm: 0; nhỏ nhất 0,00; lớn nhất 4.650.187,00.
+  Trên mọi sự kiện có giá trị: 1.175.650 sự kiện; bằng 0: 2.552; âm: 0.
+  A = P(giá trị dòng có dấu hiệu > dòng không có dấu hiệu) + 0,5·P(bằng nhau); A = 0,5 là không khác biệt.
+      luat  n_co_dau_hieu      A ktc95_duoi ktc95_tren    p_holm  trung_vi_co  trung_vi_khong
+        R1            654 0.3063     0.2892     0.3235  3.41e-65        130.0           599.0
+       R2a            508 0.4706     0.4460     0.4952  2.17e-02        431.5           597.0
+        R3           2008 0.7051     0.6922     0.7179 2.09e-219       3348.5           591.0
+        R5            681 0.5660     0.5436     0.5884  5.26e-09        984.0           596.0
+        R6            650 0.7213     0.6989     0.7436  4.32e-84       5182.0           594.0
+       R7b           2430 0.4595     0.4483     0.4707  1.82e-11        496.5           602.0
+nhan_chinh           5453 0.5828     0.5748     0.5908  2.90e-96        779.0           593.0
+
+=== 3. Cơ chế của R3 ===
+  2.008 dòng hàng R3; 2.138 lần Change Price sau Record Invoice Receipt đầu tiên.
+  Người thực hiện Change Price sau hóa đơn (theo lần sửa / theo dòng hàng có ít nhất một lần):
+    người dùng thật: 2.138 (100,00%) lần; 2.008 (100,00%) dòng hàng
+    tài khoản batch: 0 (0,00%) lần; 0 (0,00%) dòng hàng
+    user_002: 0 (0,00%) lần; 0 (0,00%) dòng hàng
+    NONE: 0 (0,00%) lần; 0 (0,00%) dòng hàng
+  Dòng R3 có Remove Payment Block: 1.818 (90,54%).
+  Gỡ khóa trong 1 phút sau lần sửa giá: 911 (45,4%) dòng R3; người gỡ: tài khoản batch 904; người dùng thật 7; user_002 0
+  Gỡ khóa trong 1 giờ sau lần sửa giá: 1.057 (52,6%) dòng R3; người gỡ: tài khoản batch 999; người dùng thật 58; user_002 0
+  Gỡ khóa trong 1 ngày sau lần sửa giá: 1.518 (75,6%) dòng R3; người gỡ: tài khoản batch 1.164; người dùng thật 354; user_002 0
+  Gỡ khóa sau hơn 1 ngày: 200 (10,0%); không có gỡ khóa nào sau lần sửa giá: 290 (14,4%).
+  Đối chứng: 7.005 dòng có Change Price nhưng không bị R3 đánh dấu; gỡ khóa trong 1 giờ sau lần sửa giá: 0 (0,0%); trong 1 phút: 0 (0,0%).
+
+=== 4a. Nhánh (b) không có Remove Payment Block ===
+  471 dòng hàng nhánh (b) không có gỡ khóa; đã có Clear Invoice "thanh toán": 248 (52,7%).
+  Trạng thái: Hoàn tất 246; Còn mở 225
+  Trong số đã thanh toán: thanh toán trước lần nhận hàng đầu tiên 0; có R1 0; trung vị từ nhận hàng đầu tiên đến thanh toán đầu tiên 43,1 ngày.
+
+=== 4b. R2a trên dòng hàng không có hủy (khám phá sau đóng băng, chỉ đếm) ===
+  R2a: 508 dòng; trên dòng không hủy: 325 (64,0%) số dòng R2a (0,159% số dòng không hủy).
+  Trong 325 dòng R2a không hủy: chưa từng nhận hàng 62; trùng R1 69. Trên dòng có hủy: R2a 183, trong đó chưa từng nhận hàng 145, trùng R1 153.
+
+=== 4c. Độ nhạy của Δ ===
+                                cach_phan_loai  clear_bu_tru  R1  R5_v22  hoan_tat  con_mo trung_vi_ngay p90_ngay trung_vi_km_ngay
+                           Δ = 60 phút (chính)          2116 654     681    163619   39988          77.4    127.2             84.6
+                                    Δ = 1 ngày          2397 651     651    163566   40041          77.3    127.2             84.6
+Δ = 60 phút, mở rộng 1.000 phút cùng người hủy          2152 654     680    163600   40007          77.4    127.2             84.6
+
+=== 4d. Cận trên tỷ lệ bỏ sót ===
+  0/20 case bỏ sót: cận trên KTC 95% Clopper-Pearson hai phía 16,8%; một phía 13,9%.
+
+=== 5. Alignment và IMf trên 100% biến thể ===
+
+  [Bảng 4.6 và 4.15: alignment với mô hình chuẩn]
+  Đọc mô hình chuẩn từ ket_qua_sq1\QuyTrinhChuan_P2P_2nhanh.pnml.
+  Mô hình đạt 8 vết giả lập của SQ1.
+  Tính alignment cho 1519 biến thể (5 giây).
+  Dòng hàng hoàn tất (định nghĩa G5): 163.619 (77,59%). Dòng hàng còn mở thiếu các bước cuối so với mô hình chỉ vì chưa đi hết quy trình tại thời điểm trích xuất.
+
+  [toàn bộ phạm vi] 210,887 dòng hàng; 1519 biến thể phủ 210.887 (100,00%).
+    Fitness trung bình (theo dòng hàng): 0.9292; dòng hàng khớp hoàn toàn mô hình: 73.57%; precision: 1.0000 (5 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+      loai_buoc_lech                  hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình              Clear Invoice         43908   43908            20.82
+thiếu so với mô hình     Record Invoice Receipt         19347   19347             9.17
+thiếu so với mô hình       Record Goods Receipt         13725   13725             6.51
+      thừa trong log     Record Invoice Receipt          7838    9053             3.72
+      thừa trong log       Record Goods Receipt          7190   15296             3.41
+      thừa trong log              Clear Invoice          5432    6277             2.58
+      thừa trong log       Remove Payment Block          1029    1085             0.49
+thiếu so với mô hình       Remove Payment Block           235     235             0.11
+      thừa trong log Receive Order Confirmation            57      57             0.03
+thiếu so với mô hình Create Purchase Order Item            19      19             0.01
+      thừa trong log Create Purchase Order Item            19      19             0.01
+
+  [chỉ 1 lần nhận hàng và 1 lần ghi nhận hóa đơn] 180,222 dòng hàng; 92 biến thể phủ 180.222 (100,00%).
+    Fitness trung bình (theo dòng hàng): 0.9823; dòng hàng khớp hoàn toàn mô hình: 86.09%; precision: 1.0000 (1 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+      loai_buoc_lech                  hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình              Clear Invoice         24030   24030            13.33
+      thừa trong log              Clear Invoice           727     799             0.40
+thiếu so với mô hình       Record Goods Receipt           245     245             0.14
+      thừa trong log       Record Goods Receipt           245     245             0.14
+thiếu so với mô hình       Remove Payment Block           222     222             0.12
+      thừa trong log Receive Order Confirmation            54      54             0.03
+      thừa trong log       Remove Payment Block            25      25             0.01
+thiếu so với mô hình Create Purchase Order Item            18      18             0.01
+      thừa trong log Create Purchase Order Item            18      18             0.01
+thiếu so với mô hình     Record Invoice Receipt             3       3             0.00
+      thừa trong log     Record Invoice Receipt             3       3             0.00
+
+  [dòng hàng hoàn tất] 163,619 dòng hàng; 863 biến thể phủ 163.619 (100,00%).
+    Fitness trung bình (theo dòng hàng): 0.9891; dòng hàng khớp hoàn toàn mô hình: 94.82%; precision: 1.0000 (3 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+      loai_buoc_lech                  hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+      thừa trong log              Clear Invoice          4727    5450             2.89
+      thừa trong log       Record Goods Receipt          4273   10505             2.61
+      thừa trong log     Record Invoice Receipt          4128    4531             2.52
+thiếu so với mô hình       Record Goods Receipt           777     777             0.47
+      thừa trong log       Remove Payment Block           698     721             0.43
+thiếu so với mô hình     Record Invoice Receipt           382     382             0.23
+      thừa trong log Receive Order Confirmation            42      42             0.03
+thiếu so với mô hình Create Purchase Order Item            16      16             0.01
+      thừa trong log Create Purchase Order Item            16      16             0.01
+thiếu so với mô hình       Remove Payment Block            14      14             0.01
+
+  [hoàn tất, 1 lần nhận hàng và 1 lần ghi nhận hóa đơn] 156,177 dòng hàng; 67 biến thể phủ 156.177 (100,00%).
+    Fitness trung bình (theo dòng hàng): 0.9991; dòng hàng khớp hoàn toàn mô hình: 99.34%; precision: 1.0000 (1 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+      loai_buoc_lech                  hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+      thừa trong log              Clear Invoice           727     799             0.47
+thiếu so với mô hình       Record Goods Receipt           241     241             0.15
+      thừa trong log       Record Goods Receipt           241     241             0.15
+      thừa trong log Receive Order Confirmation            40      40             0.03
+      thừa trong log       Remove Payment Block            23      23             0.01
+thiếu so với mô hình Create Purchase Order Item            16      16             0.01
+      thừa trong log Create Purchase Order Item            16      16             0.01
+thiếu so với mô hình       Remove Payment Block             7       7             0.00
+
+  Dấu hiệu theo luật và khớp mô hình (chỉ dòng hàng có alignment; cột _hoan_tat: chỉ dòng hàng hoàn tất):
+              luat  so_dong_hang_co_alignment  ty_le_khong_khop_mo_hinh  so_dong_hang_co_alignment_hoan_tat  ty_le_khong_khop_mo_hinh_hoan_tat
+                R1                        654                     94.50                                 640                              94.38
+               R2a                        508                    100.00                                 464                             100.00
+                R3                       2008                     18.77                                1883                              13.44
+                R5                        681                     98.53                                 681                              98.53
+                R6                        650                     42.00                                 488                              22.75
+                R7                          0                       NaN                                   0                                NaN
+               R7b                       2430                     10.45                                2337                               6.93
+        nhan_chinh                       5453                     24.46                                5034                              18.22
+không dấu hiệu nào                     204447                     26.15                              157601                               4.20
+  (ty_le tính bằng %)
+  (23 giây)
+
+  [Bảng 4.3: IMf so với mô hình chuẩn]
+  Phạm vi 210,887 dòng hàng. Thời điểm trích xuất: 2019-01-18 13:34:00. Ngưỡng nhiễu IMf: 0.2
+  Dòng hàng hoàn tất (định nghĩa G5): 163.619 (77,59%)
+  
+=== IMf khám phá từ toàn bộ phạm vi (1 giây) ===
+    Cây quy trình: ->( X( tau, 'Create Purchase Requisition Item' ), +( *( 'Record Goods Receipt', tau ), ->( 'Create Purchase Order Item', +( *( 'Record Invoice Receipt', tau ), X( tau, *( 'Remove Payment Block', tau ) ), ->( X( tau, *( 'Receive Order Confirmation', tau ) ), *( 'Clear Invoice', tau ) ) ) ) ) )
+    Petri net: 18 place, 22 transition (15 chuyển tiếp ẩn); nhãn: Clear Invoice, Create Purchase Order Item, Create Purchase Requisition Item, Receive Order Confirmation, Record Goods Receipt, Record Invoice Receipt, Remove Payment Block
+    Không vẽ được hình cây (ExecutableNotFound); thường do chưa cài Graphviz. File .pnml và _cay.txt vẫn được ghi.
+  
+=== IMf khám phá từ dòng hàng hoàn tất (1 giây) ===
+    Cây quy trình: ->( X( tau, 'Create Purchase Requisition Item' ), +( *( 'Record Goods Receipt', tau ), ->( 'Create Purchase Order Item', +( *( 'Record Invoice Receipt', tau ), X( tau, *( 'Remove Payment Block', tau ) ), ->( X( tau, *( 'Receive Order Confirmation', tau ) ), *( 'Clear Invoice', tau ) ) ) ) ) )
+    Petri net: 18 place, 22 transition (15 chuyển tiếp ẩn); nhãn: Clear Invoice, Create Purchase Order Item, Create Purchase Requisition Item, Receive Order Confirmation, Record Goods Receipt, Record Invoice Receipt, Remove Payment Block
+    Không vẽ được hình cây (ExecutableNotFound); thường do chưa cài Graphviz. File .pnml và _cay.txt vẫn được ghi.
+  
+[Mô hình chuẩn hai nhánh | đánh giá trên toàn bộ phạm vi] 1519 biến thể phủ 210.887 (100,00%); fitness 0.9292; khớp hoàn toàn 73.57%; precision 1.0000 (12 giây)
+    Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+        loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình          Clear Invoice         43908   43908            20.82
+thiếu so với mô hình Record Invoice Receipt         19347   19347             9.17
+thiếu so với mô hình   Record Goods Receipt         13720   13720             6.51
+      thừa trong log Record Invoice Receipt          7838    9053             3.72
+      thừa trong log   Record Goods Receipt          7185   15291             3.41
+      thừa trong log          Clear Invoice          5432    6277             2.58
+  
+[Mô hình chuẩn hai nhánh | đánh giá trên dòng hàng hoàn tất] 863 biến thể phủ 163.619 (100,00%); fitness 0.9891; khớp hoàn toàn 94.82%; precision 1.0000 (7 giây)
+    Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+        loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+      thừa trong log          Clear Invoice          4727    5450             2.89
+      thừa trong log   Record Goods Receipt          4282   10514             2.62
+      thừa trong log Record Invoice Receipt          4128    4531             2.52
+thiếu so với mô hình   Record Goods Receipt           786     786             0.48
+      thừa trong log   Remove Payment Block           700     723             0.43
+thiếu so với mô hình Record Invoice Receipt           382     382             0.23
+  
+[IMf khám phá từ toàn bộ phạm vi | đánh giá trên toàn bộ phạm vi] 1519 biến thể phủ 210.887 (100,00%); fitness 0.9412; khớp hoàn toàn 78.91%; precision 0.8508 (55 giây)
+    Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+        loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình          Clear Invoice         43907   43907            20.82
+thiếu so với mô hình Record Invoice Receipt         19336   19336             9.17
+thiếu so với mô hình   Record Goods Receipt         13471   13471             6.39
+  
+[IMf khám phá từ toàn bộ phạm vi | đánh giá trên dòng hàng hoàn tất] 863 biến thể phủ 163.619 (100,00%); fitness 0.9991; khớp hoàn toàn 99.67%; precision 0.8639 (30 giây)
+    Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+        loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình   Record Goods Receipt           531     531             0.32
+thiếu so với mô hình Record Invoice Receipt           382     382             0.23
+  
+[IMf khám phá từ dòng hàng hoàn tất | đánh giá trên dòng hàng hoàn tất] 863 biến thể phủ 163.619 (100,00%); fitness 0.9991; khớp hoàn toàn 99.67%; precision 0.8639 (31 giây)
+    Bước lệch phổ biến (tỷ lệ % trên số dòng hàng được tính):
+        loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình   Record Goods Receipt           531     531             0.32
+thiếu so với mô hình Record Invoice Receipt           382     382             0.23
+  
+=== Bảng so sánh ===
+                             mo_hinh       tap_danh_gia  so_dong_hang  so_bien_the  fitness  ty_le_khop_hoan_toan  precision
+           Mô hình chuẩn hai nhánh    toàn bộ phạm vi        210887         1519   0.9292                0.7357     1.0000
+           Mô hình chuẩn hai nhánh dòng hàng hoàn tất        163619          863   0.9891                0.9482     1.0000
+   IMf khám phá từ toàn bộ phạm vi    toàn bộ phạm vi        210887         1519   0.9412                0.7891     0.8508
+   IMf khám phá từ toàn bộ phạm vi dòng hàng hoàn tất        163619          863   0.9991                0.9967     0.8639
+IMf khám phá từ dòng hàng hoàn tất dòng hàng hoàn tất        163619          863   0.9991                0.9967     0.8639
+  (161 giây)

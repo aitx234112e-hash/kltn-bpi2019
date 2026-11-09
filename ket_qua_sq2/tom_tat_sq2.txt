@@ -1,0 +1,157 @@
+Phạm vi 210,887 dòng hàng, 1,175,650 sự kiện. Δ = 60 phút. Thời điểm trích xuất: 2019-01-18 13:34:00
+
+=== 1. Tỷ lệ dấu hiệu theo luật ===
+  R1                   654 (0,31%)  Thanh toán khi chưa nhận hàng (không vào nhãn chính)
+  R2a                  508 (0,24%)  Gỡ khóa trước khi nhận hàng
+  R3                 2.008 (0,95%)  Sửa giá sau hóa đơn
+  R5                   681 (0,32%)  Thanh toán vượt số chứng từ phải trả, v2.2 (không vào nhãn chính)
+  R6                   650 (0,31%)  Cùng người tạo đơn hàng và nhận hàng
+  R7                     0 (0,00%)  Ghi nhận hóa đơn trước khi tạo đơn hàng
+  R7b                2.430 (1,15%)  Biến thể phụ R7: ngày hóa đơn nhà cung cấp trước ngày tạo đơn hàng
+  nhan_chinh         5.453 (2,59%)  Nhãn chính: R2a, R3, R6, R7b
+  nhan_do_nhay       6.440 (3,05%)  Nhãn độ nhạy: nhãn chính + R1, R5
+  Số liệu khớp kiểm chứng cuối 18/10.
+  R2a: trong đó chưa từng nhận hàng 207 (40,75%).
+  R5 dạng khoảng: 681 (0,32%) (tính debit memo, số chính) đến 2.556 (1,21%) (không tính debit memo). Nhánh R5a 486, R5b 195. Chỉ báo trả trước khi ghi nhận hóa đơn: 126.
+  R2b (chỉ báo): Remove Payment Block do người dùng thật 37.968 (72,74%) số dòng hàng có gỡ khóa.
+  Số luật của nhãn chính trên một dòng hàng:
+so_luat_nhan_chinh
+0    205434
+1      5310
+2       143
+  Chồng lấn giữa các luật (số dòng hàng có cả hai dấu hiệu; đường chéo = số dòng hàng của luật):
+      R1  R2a    R3   R5   R6  R7   R7b
+R1   654  222     6   76    2   0    42
+R2a  222  508    11   49    5   0    42
+R3     6   11  2008   33    7   0     9
+R5    76   49    33  681    2   0    14
+R6     2    5     7    2  650   0    69
+R7     0    0     0    0    0   0     0
+R7b   42   42     9   14   69   0  2430
+
+=== 2. Phân bố theo hạng mục chi tiêu và nhà cung cấp ===
+
+  Hạng mục chi tiêu: 19 nhóm.
+  Mức tập trung (top10 = 10 nhóm có nhiều dòng hàng bị đánh dấu nhất):
+        luat  so_nhom_co_dau_hieu  phan_dau_hieu_top10  phan_dong_hang_top10  so_nhom_chua_nua_dau_hieu
+          R1                   13               0.9939                0.9684                        2.0
+         R2a                   14               0.9862                0.9768                        2.0
+          R3                   14               0.9811                0.9773                        2.0
+          R5                   15               0.9721                0.9661                        2.0
+          R6                   13               0.9908                0.9638                        2.0
+          R7                    0                  NaN                   NaN                        NaN
+         R7b                   15               0.9938                0.9638                        1.0
+  nhan_chinh                   16               0.9672                0.9759                        2.0
+nhan_do_nhay                   16               0.9658                0.9780                        2.0
+  15 hạng mục nhiều dòng hàng nhất (tỷ lệ tính bằng %):
+                        so_dong_hang  ty_le_R2a  ty_le_R3  ty_le_R6  ty_le_R7b  ty_le_nhan_chinh  he_so_nhan_chinh
+spend_area                                                                                                        
+Packaging                      96265       0.25      0.78      0.21       0.33              1.55              0.60
+Sales                          60920       0.17      0.58      0.05       0.61              1.40              0.54
+Trading & End Products         15714       0.18      0.80      1.18       8.11             10.14              3.92
+Additives                      15492       0.24      1.93      0.39       0.45              2.97              1.15
+CAPEX & SOCS                    5085       1.12      0.45      0.88       2.69              4.07              1.57
+Latex & Monomers                3436       0.38      4.42      0.41       0.58              5.73              2.22
+                                2911       0.27      1.27      0.55       1.24              3.19              1.24
+Pigments & Colorants            2304       0.17      2.78      0.00       0.26              3.21              1.24
+Solvents                        2123       0.09      4.66      0.05       0.19              4.99              1.93
+Others                          2004       0.25      0.40      2.94       7.24              9.98              3.86
+Specialty Resins                1859       0.38      3.71      0.00       0.05              4.14              1.60
+Marketing                       1318       0.08      0.00      1.06       1.06              2.20              0.85
+Titanium Dioxides                845       0.00      1.54      0.00       0.12              1.66              0.64
+Commodity Resins                 386       0.26      4.15      0.78       0.78              4.92              1.90
+Logistics                         99       0.00      0.00     18.18      29.29             37.37             14.45
+
+  Nhà cung cấp: 1,293 nhóm.
+  Mức tập trung (top10 = 10 nhóm có nhiều dòng hàng bị đánh dấu nhất):
+        luat  so_nhom_co_dau_hieu  phan_dau_hieu_top10  phan_dong_hang_top10  so_nhom_chua_nua_dau_hieu
+          R1                  112               0.6804                0.1966                        4.0
+         R2a                  114               0.5866                0.2100                        6.0
+          R3                  315               0.2694                0.2042                       34.0
+          R5                  187               0.3568                0.1802                       19.0
+          R6                  102               0.5754                0.0208                        7.0
+          R7                    0                  NaN                   NaN                        NaN
+         R7b                  183               0.7527                0.0822                        1.0
+  nhan_chinh                  473               0.4414                0.1858                       17.0
+nhan_do_nhay                  548               0.4210                0.1965                       20.0
+  384 nhà cung cấp có ≥ 50 dòng hàng. 15 nhà cung cấp có cận dưới KTC 95% của tỷ lệ nhãn chính cao nhất (tỷ lệ tính bằng %):
+               so_dong_hang  nhan_chinh  ty_le_nhan_chinh  ktc95_duoi_nhan_chinh  R2a  R3   R6   R7b
+vendor                                                                                              
+vendorID_0550          1263        1215             96.20                  95.00    0   0    0  1215
+vendorID_0741           173         128             73.99                  66.98    0   0  128     0
+vendorID_0660           157         116             73.89                  66.50   42   0    7   110
+vendorID_0572           116          65             56.03                  46.95    0   0   65     0
+vendorID_0766            51          19             37.25                  25.32    0  19    0     0
+vendorID_0675            70          23             32.86                  23.00    0  23    0     0
+vendorID_0771            58          19             32.76                  22.08    0  19    0     0
+vendorID_0411           208          54             25.96                  20.48    0   0    0    54
+vendorID_0505            61          18             29.51                  19.55    0   5    0    13
+vendorID_1466           142          37             26.06                  19.54    4   0   29     7
+vendorID_0421           203          49             24.14                  18.77    1  11   16    34
+vendorID_0199           166          33             19.88                  14.52    3  15    0    15
+vendorID_0818            85          18             21.18                  13.84    0  17    0     1
+vendorID_0998           233          39             16.74                  12.49    0  32    0     7
+vendorID_0160           169          28             16.57                  11.72    0  12   14     4
+
+=== 3. Tỷ trọng giá trị (giá trị đã ẩn danh, chỉ so sánh tương đối) ===
+  Dòng hàng có giá trị: 210.887 (100,00%); giá trị = 0: 1,428.
+        luat  so_dong_hang  ty_trong_so_dong_hang  ty_trong_gia_tri  trung_vi_gia_tri_co_dau_hieu  trung_vi_gia_tri_khong_dau_hieu  ti_so_gia_tri_tren_so_dong
+          R1           654                 0.0031            0.0014                         130.0                            599.0                      0.4394
+         R2a           508                 0.0024            0.0027                         431.5                            597.0                      1.1267
+          R3          2008                 0.0095            0.0259                        3348.5                            591.0                      2.7190
+          R5           681                 0.0032            0.0067                         984.0                            596.0                      2.0672
+          R6           650                 0.0031            0.0060                        5182.0                            594.0                      1.9608
+          R7             0                 0.0000            0.0000                           NaN                            597.0                         NaN
+         R7b          2430                 0.0115            0.0051                         496.5                            602.0                      0.4469
+  nhan_chinh          5453                 0.0259            0.0392                         779.0                            593.0                      1.5150
+nhan_do_nhay          6440                 0.0305            0.0457                         753.5                            593.0                      1.4980
+  ti_so_gia_tri_tren_so_dong > 1: dòng hàng bị đánh dấu có giá trị lớn hơn trung bình.
+
+=== 4. Alignment với mô hình chuẩn ===
+  Đọc mô hình chuẩn từ ket_qua_sq1\QuyTrinhChuan_P2P_2nhanh.pnml.
+  Mô hình đạt 8 vết giả lập của SQ1.
+  Tính alignment cho 34 biến thể (0 giây).
+  Dòng hàng hoàn tất (định nghĩa G5): 163.619 (77,59%). Dòng hàng còn mở thiếu các bước cuối so với mô hình chỉ vì chưa đi hết quy trình tại thời điểm trích xuất.
+
+  [toàn bộ phạm vi] 210,887 dòng hàng; 34 biến thể phủ 200.460 (95,06%).
+    Fitness trung bình (theo dòng hàng): 0.9375; dòng hàng khớp hoàn toàn mô hình: 77.39%; precision: 0.9950 (1 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+      loai_buoc_lech              hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình          Clear Invoice         42095   42095            21.00
+thiếu so với mô hình Record Invoice Receipt         18914   18914             9.44
+thiếu so với mô hình   Record Goods Receipt         13118   13118             6.54
+      thừa trong log   Record Goods Receipt          1705    1705             0.85
+      thừa trong log Record Invoice Receipt          1539    1539             0.77
+      thừa trong log          Clear Invoice          1198    1198             0.60
+
+  [chỉ 1 lần nhận hàng và 1 lần ghi nhận hóa đơn] 180,222 dòng hàng; 13 biến thể phủ 172.254 (95,58%).
+    Fitness trung bình (theo dòng hàng): 0.9858; dòng hàng khớp hoàn toàn mô hình: 88.98%; precision: 0.9816 (0 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+      loai_buoc_lech     hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thiếu so với mô hình Clear Invoice         18974   18974            11.02
+
+  [dòng hàng hoàn tất] 163,619 dòng hàng; 11 biến thể phủ 155.520 (95,05%).
+    Fitness trung bình (theo dòng hàng): 0.9993; dòng hàng khớp hoàn toàn mô hình: 99.33%; precision: 0.9844 (0 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+loai_buoc_lech            hoat_dong  so_dong_hang  so_lan  ty_le_dong_hang
+thừa trong log Record Goods Receipt          1045    1045             0.67
+
+  [hoàn tất, 1 lần nhận hàng và 1 lần ghi nhận hóa đơn] 156,177 dòng hàng; 7 biến thể phủ 149.668 (95,83%).
+    Fitness trung bình (theo dòng hàng): 1.0000; dòng hàng khớp hoàn toàn mô hình: 100.00%; precision: 0.9636 (0 giây)
+    Các bước lệch phổ biến (tỷ lệ trên số dòng hàng được tính alignment):
+Empty DataFrame
+Columns: [loai_buoc_lech, hoat_dong, so_dong_hang, so_lan, ty_le_dong_hang]
+Index: []
+
+  Dấu hiệu theo luật và khớp mô hình (chỉ dòng hàng có alignment; cột _hoan_tat: chỉ dòng hàng hoàn tất):
+              luat  so_dong_hang_co_alignment  ty_le_khong_khop_mo_hinh  so_dong_hang_co_alignment_hoan_tat  ty_le_khong_khop_mo_hinh_hoan_tat
+                R1                        375                     90.40                                 375                              90.40
+               R2a                          0                       NaN                                   0                                NaN
+                R3                       1734                      6.00                                1696                               3.95
+                R5                         11                      9.09                                  11                               9.09
+                R6                        515                     26.80                                 402                               6.22
+                R7                          0                       NaN                                   0                                NaN
+               R7b                       2247                      3.29                                2190                               0.82
+        nhan_chinh                       4427                      7.05                                4221                               2.56
+không dấu hiệu nào                     195648                     22.84                              153246                               1.49
+  (ty_le tính bằng %)
