@@ -12,7 +12,7 @@ BPI Challenge 2019 event log (van Dongen, 2019), DOI [10.4121/uuid:d06aff4b-79f0
 pip install -r requirements.txt
 ```
 
-Library versions used for the reported results are listed in `requirements_da_chay.txt`. Graphviz is optional (only for PNG process maps).
+Library versions used for the reported results are listed in `requirements_da_chay.txt`; lifelines was version 0.30.3. Graphviz is optional (only for PNG process maps).
 
 ## Running
 
@@ -40,7 +40,7 @@ Run every command from this folder, in the order below; some scripts reuse funct
 | 18 | `python src/g8_kiem_tra.py` | Sensitivity analyses: vendor-stratified Cox, R6 without two vendors, R7b from a common time origin, creation-time covariates | §4.3, Fig. 3 |
 | 19–21 | `src/sq4_mo_ta.py`, `src/sq4_mo_hinh.py`, `src/sq4_phan_tich_sau.py` | Early prediction of deviations (thesis only, not in the paper) | – |
 
-Steps 10–11 need PM4Py, step 13 also SciPy, and steps 15–18 lifelines. Step 13 is the slowest because it aligns every variant (`--bo-alignment` skips this part).
+Steps 10–11 need PM4Py, step 13 also SciPy, and steps 15–18 lifelines. Step 13 is the slowest because it aligns every variant (`--bo-alignment` skips this part). XGBoost results in steps 19–21 depend slightly on the number of CPU threads; the reported results used all 16 logical processors of the machine (use `--so-luong 16` to run with the same number of threads).
 
 ## Results included
 

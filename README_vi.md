@@ -21,7 +21,7 @@ Nếu để log ở chỗ khác, có hai cách:
 pip install -r requirements.txt
 ```
 
-Graphviz (lệnh `dot` có trong PATH) chỉ cần để vẽ hình PNG; thiếu Graphviz thì các script vẫn chạy và ghi file `.dot`. Phiên bản thư viện đã dùng khi chạy được ghi trong `requirements_da_chay.txt`.
+Graphviz (lệnh `dot` có trong PATH) chỉ cần để vẽ hình PNG; thiếu Graphviz thì các script vẫn chạy và ghi file `.dot`. Phiên bản thư viện đã dùng khi chạy được ghi trong `requirements_da_chay.txt`. Riêng lifelines là bản 0.30.3.
 
 ## 3. Cách chạy
 
@@ -57,7 +57,7 @@ Các script dùng chung hàm của nhau, nên chạy theo đúng thứ tự dư�
 
 Bước 10 và 11 cần pm4py; bước 13 cần thêm scipy; bước 15 đến 18 cần lifelines. Bước 13 lâu nhất vì tính alignment cho mọi biến thể; thêm `--bo-alignment` để bỏ phần này. Bước 15 có `--tu-kiem` (kiểm thử bằng log giả lập, gồm mô phỏng thiên lệch thời gian bất tử) ; trên máy đã dùng, bước 15 chạy khoảng 50 phút và notebook ở bước 17 lâu hơn một chút vì làm cả bước 16.
 
-Bước 20 cần thêm scikit-learn và xgboost (shap tùy chọn, chỉ để vẽ hình beeswarm). Script dùng lại các hàm nhãn, chia tập và tiền tố của `sq4_mo_ta.py`, nên số dòng hàng và nhãn 1 khớp Bảng 4.24–4.27. Trên máy đã dùng, `--chi-chinh` chạy khoảng 25 phút và bản đủ 36 cấu hình khoảng 2,5 giờ. File tóm tắt được ghi sau mỗi tiền tố, và dòng đầu file ghi ngày giờ chạy và lệnh đã dùng. Nếu lần chạy bị ngắt, chạy lại phần còn thiếu bằng `--ma <mã cấu hình> --tien-to <độ dài> --bo-tu-kiem --ra <thư mục mới>`. Không dùng `--so-luong` khi cần lặp lại đúng kết quả: đổi số luồng CPU làm XGBoost cho điểm hơi khác và có thể chọn bộ tham số khác.
+Bước 20 cần thêm scikit-learn và xgboost (shap tùy chọn, chỉ để vẽ hình beeswarm). Script dùng lại các hàm nhãn, chia tập và tiền tố của `sq4_mo_ta.py`, nên số dòng hàng và nhãn 1 khớp Bảng 4.24–4.27. Trên máy đã dùng, `--chi-chinh` chạy khoảng 25 phút và bản đủ 36 cấu hình khoảng 2,5 giờ. File tóm tắt được ghi sau mỗi tiền tố, và dòng đầu file ghi ngày giờ chạy và lệnh đã dùng. Nếu lần chạy bị ngắt, chạy lại phần còn thiếu bằng `--ma <mã cấu hình> --tien-to <độ dài> --bo-tu-kiem --ra <thư mục mới>`. Không dùng `--so-luong` khi cần lặp lại đúng kết quả: đổi số luồng CPU làm XGBoost cho điểm hơi khác và có thể chọn bộ tham số khác. Mặc định (`SO_LUONG = -1`) XGBoost dùng mọi luồng của máy; kết quả kèm theo được chạy trên máy Windows có 16 bộ xử lý logic (`NUMBER_OF_PROCESSORS = 16`). Trên máy khác, chạy với `--so-luong 16` để dùng cùng số luồng.
 
 Bước 21 đọc file điểm dự báo `diem_kiem_tra_*.csv` do bước 20 ghi. Các file này lớn nên không kèm theo; cần chạy bước 20 (`--chi-chinh --ra ket_qua_sq4_mo_hinh_boot_don`) trước.
 
